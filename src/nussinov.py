@@ -1,3 +1,6 @@
+from utils import es_par_valido
+
+
 def inicializar_matriz(n):
     return [[0 for _ in range(n)] for _ in range(n)]
 
@@ -10,7 +13,12 @@ def nussinov(secuencia):
         for i in range(n - longitud):
             j = i + longitud
 
-            # de momento no calculamos nada todavía
-            matriz[i][j] = 0
+            emparejan = 1 if es_par_valido(secuencia[i], secuencia[j]) else 0
+
+            abajo = matriz[i + 1][j]
+            izquierda = matriz[i][j - 1]
+            diagonal = matriz[i + 1][j - 1] + emparejan
+
+            matriz[i][j] = max(abajo, izquierda, diagonal)
 
     return matriz

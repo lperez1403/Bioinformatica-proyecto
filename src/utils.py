@@ -1,7 +1,7 @@
 
 
 # Comprueba si dos caracteres forman un par válido 
-def is_valid_pair(a, b):
+def es_par_valido(a, b):
     pairs = {
         ("A", "U"),
         ("U", "A"),
