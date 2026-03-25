@@ -19,6 +19,11 @@ def nussinov(secuencia):
             izquierda = matriz[i][j - 1]
             diagonal = matriz[i + 1][j - 1] + emparejan
 
-            matriz[i][j] = max(abajo, izquierda, diagonal)
+            mejor = max(abajo, izquierda, diagonal)
+
+            for k in range(i + 1, j):
+                mejor = max(mejor, matriz[i][k] + matriz[k + 1][j])
+
+            matriz[i][j] = mejor
 
     return matriz
