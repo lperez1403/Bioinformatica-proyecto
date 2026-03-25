@@ -12,4 +12,7 @@ if __name__ == "__main__":
     print("Secuencia: ", secuencia)
     print("Estructura:", estructura)
     print("Pares encontrados:", pares)
+    print("\nDetalle de pares:")
+    for i, j in pares:
+        print(f"{i}-{j}: {secuencia[i]}-{secuencia[j]}")
     print("Número máximo de pares:", matriz[0][len(secuencia) - 1])
