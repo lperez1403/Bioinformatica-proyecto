@@ -9,3 +9,12 @@ def es_par_valido(a, b):
         ("C", "G")
     }
     return (a, b) in pairs
+
+def pares_a_dot_bracket(longitud, pares):
+    estructura = ["." for _ in range(longitud)]
+
+    for i, j in pares:
+        estructura[i] = "("
+        estructura[j] = ")"
+
+    return "".join(estructura)
