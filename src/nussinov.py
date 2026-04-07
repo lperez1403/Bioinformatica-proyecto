@@ -13,7 +13,15 @@ def nussinov(secuencia):
         for i in range(n - longitud):
             j = i + longitud
 
-            emparejan = 1 if es_par_valido(secuencia[i], secuencia[j]) else 0
+            # Se incluye la regla de penalización, tienen que estar mínimo a una 
+            # distancia de 3 posiciones para que al doblarse no se "rompa"
+            if (j - i) > 3 and es_par_valido(secuencia[i], secuencia[j]):
+                emparejan = 1
+            else:
+                emparejan = 0
+            
+
+                    
 
             abajo = matriz[i + 1][j]
             izquierda = matriz[i][j - 1]
