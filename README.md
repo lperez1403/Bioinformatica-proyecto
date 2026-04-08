@@ -27,3 +27,10 @@ python src/main.py
 	•	Gloria Díaz Jiménez
 	•	Isabel Roldán Barros
 
+https://www.tbi.univie.ac.at/RNA/#download
+
+tar -xzf ViennaRNA-*.tar.gz
+cd ViennaRNA-*
+./configure
+make
+sudo make install
