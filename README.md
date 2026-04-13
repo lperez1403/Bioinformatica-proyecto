@@ -78,14 +78,24 @@ source .venv/bin/activate
 ### 2. Ejecutar el programa principal
 
 ```bash
-python src/main.py
+python -m src.main
 ```
 
 ### 3. Ejecutar los experimentos
 
 ```bash
-python src/experiments.py
+python -m src.experiments
 ```
+
+### 4. Ejecutar los tests
+
+```bash
+pytest
+```
+
+⚠️ No se recomienda ejecutar los archivos directamente (por ejemplo python src/main.py), 
+ya que esto puede provocar errores en los imports.
+
 
 ##  Instalación de dependencias
 

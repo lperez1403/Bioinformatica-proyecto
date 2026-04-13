@@ -1,6 +1,6 @@
-from fasta_parser import leer_fasta
-from nussinov import nussinov
-from scoring import evaluar_algoritmo
+from src.fasta_parser import leer_fasta
+from src.nussinov import nussinov
+from src.scoring import evaluar_algoritmo
 import RNA
 import csv
 

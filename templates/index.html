@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción RNA - Nussinov vs ViennaRNA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7fb;
+            color: #222;
+        }
+
+        h1, h2 {
+            color: #1f3c88;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        textarea, input[type="file"] {
+            width: 100%;
+            margin-top: 8px;
+            margin-bottom: 16px;
+        }
+
+        textarea {
+            min-height: 100px;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        button {
+            background: #1f3c88;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #162d66;
+        }
+
+        .error {
+            color: #b00020;
+            font-weight: bold;
+        }
+
+        .mono {
+            font-family: monospace;
+            word-break: break-all;
+            background: #f0f3ff;
+            padding: 8px;
+            border-radius: 6px;
+        }
+
+        ul {
+            margin-top: 8px;
+        }
+
+        .compare {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        @media (max-width: 700px) {
+            .compare {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Predicción de estructura secundaria de RNA</h1>
+        <p>Comparación entre el algoritmo de Nussinov y ViennaRNA.</p>
+
+        <div class="card">
+            <form method="POST" enctype="multipart/form-data">
+                <label for="secuencia"><strong>Introduce una secuencia de RNA</strong></label>
+                <textarea name="secuencia" placeholder="Ejemplo: GGGAAAUCC"></textarea>
+
+                <p><strong>o sube un archivo FASTA</strong></p>
+                <input type="file" name="fasta" accept=".fasta,.fa,.txt">
+
+                <button type="submit">Ejecutar comparación</button>
+            </form>
+        </div>
+
+        {% if error %}
+            <div class="card">
+                <p class="error">{{ error }}</p>
+            </div>
+        {% endif %}
+        <h2>Total de secuencias procesadas: {{ resultados|length }}</h2>
+        {% for r in resultados %}
+            <div class="card">
+                <h2>Resultado</h2>
+
+                <p><strong>Secuencia</strong></p>
+                <div class="mono">{{ r.secuencia }}</div>
+
+                <div class="compare">
+                    <div>
+                        <p><strong>Nussinov</strong></p>
+                        <div class="mono">{{ r.estructura_nussinov }}</div>
+                        <p><strong>Número máximo de pares:</strong> {{ r.num_pares }}</p>
+                    </div>
+
+                    <div>
+                        <p><strong>ViennaRNA</strong></p>
+                        <div class="mono">{{ r.estructura_vienna }}</div>
+                        <p><strong>Energía:</strong> {{ r.energia }}</p>
+                    </div>
+                </div>
+
+                <p><strong>Pares encontrados</strong></p>
+                <ul>
+                    {% for i, j in r.pares %}
+                        <li>{{ i }} - {{ j }} : {{ r.secuencia[i] }} - {{ r.secuencia[j] }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
