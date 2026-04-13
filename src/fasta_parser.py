@@ -1,11 +1,19 @@
 def leer_fasta(ruta):
+    secuencias = []
+    secuencia_actual = ""
+
     with open(ruta, "r") as f:
-        lineas = f.readlines()
+        for linea in f:
+            linea = linea.strip()
 
-    secuencia = "".join(
-        linea.strip()
-        for linea in lineas
-        if not linea.startswith(">")
-    )
+            if linea.startswith(">"):
+                if secuencia_actual:
+                    secuencias.append(secuencia_actual)
+                    secuencia_actual = ""
+            else:
+                secuencia_actual += linea
 
-    return secuencia
+        if secuencia_actual:
+            secuencias.append(secuencia_actual)
+
+    return secuencias
