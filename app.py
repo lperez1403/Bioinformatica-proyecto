@@ -5,6 +5,7 @@ from src.nussinov import nussinov
 from src.traceback_nussinov import traceback
 from src.utils import pares_a_dot_bracket
 from src.fasta_parser import leer_fasta
+from src.bruteforce import max_pares_fuerza_bruta
 
 app = Flask(__name__)
 
@@ -27,8 +28,22 @@ def procesar_secuencia(secuencia):
     matriz = nussinov(secuencia)
     pares = traceback(matriz, secuencia, 0, len(secuencia) - 1, [])
     estructura_nussinov = pares_a_dot_bracket(len(secuencia), pares)
+    num_pares = matriz[0][len(secuencia) - 1] if secuencia else 0
 
     estructura_vienna, energia = ejecutar_viennarna(secuencia)
+
+    # Validación exacta por fuerza bruta solo para secuencias cortas
+    resultado_bruteforce = None
+    if len(secuencia) <= 14:
+        max_bruto, pares_bruto = max_pares_fuerza_bruta(secuencia)
+        estructura_bruta = pares_a_dot_bracket(len(secuencia), pares_bruto)
+
+        resultado_bruteforce = {
+            "max_pares": max_bruto,
+            "pares": pares_bruto,
+            "estructura": estructura_bruta,
+            "coincide": max_bruto == num_pares
+        }
 
     return {
         "secuencia": secuencia,
@@ -36,7 +51,8 @@ def procesar_secuencia(secuencia):
         "estructura_vienna": estructura_vienna,
         "energia": energia,
         "pares": pares,
-        "num_pares": matriz[0][len(secuencia) - 1] if secuencia else 0,
+        "num_pares": num_pares,
+        "bruteforce": resultado_bruteforce,
     }
 
 
