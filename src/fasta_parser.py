@@ -1,6 +1,6 @@
 def leer_fasta(ruta):
-    with open(ruta, "r", encoding="utf-8") as archivo:
-        lineas = archivo.readlines()
+    with open(ruta, "r") as f:
+        lineas = f.readlines()
 
     secuencia = "".join(
         linea.strip()

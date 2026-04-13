@@ -10,3 +10,8 @@ def test_pares_a_dot_bracket():
     pares = [(0, 5), (1, 4)]
     estructura = pares_a_dot_bracket(6, pares)
     assert estructura == "((..))"
+
+def test_dot_bracket():
+    pares = [(0, 5), (1, 4)]
+    estructura = pares_a_dot_bracket(6, pares)
+    assert estructura == "((..))"
