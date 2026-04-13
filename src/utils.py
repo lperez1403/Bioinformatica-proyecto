@@ -8,6 +8,8 @@ def es_par_valido(a, b):
         ("U", "A"),
         ("G", "C"),
         ("C", "G")
+        # pares wobble no se consideran en este caso
+        # ("G", "U"), ("U", "G")
     }
     return (a, b) in pairs
 

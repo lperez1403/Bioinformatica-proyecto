@@ -1,7 +1,7 @@
 from fasta_parser import leer_fasta
-from nussinov import nussinov
 from traceback_nussinov import traceback
-from utils import pares_a_dot_bracket
+from src.utils import pares_a_dot_bracket
+from src.nussinov import nussinov
 import RNA
 
 

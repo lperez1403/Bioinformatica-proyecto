@@ -1,4 +1,4 @@
-from utils import es_par_valido
+from src.utils import es_par_valido
 
 def traceback(matriz, secuencia, i, j, pares):
     if i >= j:

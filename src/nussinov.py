@@ -1,5 +1,4 @@
-from utils import es_par_valido
-
+from src.utils import es_par_valido
 
 def inicializar_matriz(n):
     return [[0 for _ in range(n)] for _ in range(n)]
@@ -12,6 +11,9 @@ def nussinov(secuencia):
     for longitud in range(1, n):
         for i in range(n - longitud):
             j = i + longitud
+            if j - i < 4:
+                matriz[i][j] = 0
+                continue
 
             # Se incluye la regla de penalización, tienen que estar mínimo a una 
             # distancia de 3 posiciones para que al doblarse no se "rompa"

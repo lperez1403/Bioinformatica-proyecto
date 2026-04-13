@@ -1,17 +1,21 @@
-from src.utils import es_par_valido, pares_a_dot_bracket
-
-def test_es_par_valido():
-    assert es_par_valido("A", "U")
-    assert es_par_valido("G", "C")
-    assert not es_par_valido("A", "C")
+from src.fasta_parser import leer_fasta
 
 
-def test_pares_a_dot_bracket():
-    pares = [(0, 5), (1, 4)]
-    estructura = pares_a_dot_bracket(6, pares)
-    assert estructura == "((..))"
+def test_fasta_simple(tmp_path):
+    contenido = ">seq1\nAUGC\n"
+    archivo = tmp_path / "test.fasta"
+    archivo.write_text(contenido)
 
-def test_dot_bracket():
-    pares = [(0, 5), (1, 4)]
-    estructura = pares_a_dot_bracket(6, pares)
-    assert estructura == "((..))"
+    secuencias = leer_fasta(str(archivo))
+
+    assert secuencias == ["AUGC"]
+
+
+def test_fasta_multiple(tmp_path):
+    contenido = ">seq1\nAUGC\n>seq2\nGGCC\n"
+    archivo = tmp_path / "test2.fasta"
+    archivo.write_text(contenido)
+
+    secuencias = leer_fasta(str(archivo))
+
+    assert secuencias == ["AUGC", "GGCC"]

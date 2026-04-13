@@ -2,12 +2,19 @@ from fasta_parser import leer_fasta
 from nussinov import nussinov
 from scoring import evaluar_algoritmo
 import RNA
+import csv
 
+def guardar_resultados(resultados):
+    with open("results/resultados.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Secuencia", "Longitud", "Pares", "Vienna", "Energia"])
+
+        for r in resultados:
+            writer.writerow(r)
 
 def ejecutar_viennarna(secuencia):
     estructura, energia = RNA.fold(secuencia)
     return estructura, energia
-
 
 def ejecutar_experimento(ruta_fasta):
     secuencia = leer_fasta(ruta_fasta)
