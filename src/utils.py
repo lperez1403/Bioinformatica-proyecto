@@ -1,4 +1,5 @@
 
+import RNA
 
 # Comprueba si dos caracteres forman un par válido 
 def es_par_valido(a, b):
@@ -18,3 +19,8 @@ def pares_a_dot_bracket(longitud, pares):
         estructura[j] = ")"
 
     return "".join(estructura)
+
+
+def ejecutar_viennarna(secuencia):
+    estructura, energia = RNA.fold(secuencia)
+    return estructura, energia
