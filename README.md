@@ -196,6 +196,7 @@ Esto se debe a que para cada subproblema se evalúan todas las posibles particio
 
 La validación exacta alternativa implementada mediante recursión con memoización reutiliza subproblemas ya resueltos, por lo que resulta mucho más eficiente que una fuerza bruta pura.
 
+
 ## Limitaciones
 
 El algoritmo de Nussinov tiene complejidad O(n³), por lo que su uso práctico se limita a secuencias de tamaño moderado.
@@ -214,3 +215,24 @@ No se espera coincidencia exacta entre ambas estructuras, ya que:
 Por ello, ViennaRNA puede devolver estructuras con menos emparejamientos pero más estables biológicamente.
 
 Esta diferencia refleja la limitación del modelo de Nussinov, que no considera aspectos termodinámicos.
+
+## Benchmark reproducible
+
+Los experimentos pueden reproducirse ejecutando:
+
+python -m src.experiments
+
+Se utilizan secuencias de distinta longitud para medir el tiempo de ejecución.
+
+## Dataset
+
+Se ha utilizado un conjunto de secuencias de RNA de distintas longitudes
+para evaluar el rendimiento del algoritmo.
+
+El dataset se encuentra en:
+
+data/ejemplo.fasta
+
+Incluye secuencias de longitud variable para analizar el comportamiento
+del algoritmo en distintos tamaños de entrada.
+

@@ -1,0 +1,1400 @@
+===================================
+Secuencia: bpRNA_CRW_52605
+Longitud: 72
+
+Nussinov → 28 pares
+DBN → 22 pares
+Error DBN: 6
+
+BruteForce → 28
+Coincide óptimo: True
+
+Tiempo: 0.01041 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_24251
+Longitud: 100
+
+Nussinov → 45 pares
+DBN → 2 pares
+Error DBN: 43
+
+BruteForce → 45
+Coincide óptimo: True
+
+Tiempo: 0.02689 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_34580
+Longitud: 26
+
+Nussinov → 8 pares
+DBN → 3 pares
+Error DBN: 5
+
+BruteForce → 8
+Coincide óptimo: True
+
+Tiempo: 0.00061 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_4664
+Longitud: 95
+
+Nussinov → 40 pares
+DBN → 19 pares
+Error DBN: 21
+
+BruteForce → 40
+Coincide óptimo: True
+
+Tiempo: 0.02314 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_45379
+Longitud: 35
+
+Nussinov → 11 pares
+DBN → 4 pares
+Error DBN: 7
+
+BruteForce → 11
+Coincide óptimo: True
+
+Tiempo: 0.00135 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_14392
+Longitud: 112
+
+Nussinov → 44 pares
+DBN → 20 pares
+Error DBN: 24
+
+BruteForce → 44
+Coincide óptimo: True
+
+Tiempo: 0.03701 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_42416
+Longitud: 37
+
+Nussinov → 16 pares
+DBN → 4 pares
+Error DBN: 12
+
+BruteForce → 16
+Coincide óptimo: True
+
+Tiempo: 0.00159 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_35846
+Longitud: 41
+
+Nussinov → 14 pares
+DBN → 5 pares
+Error DBN: 9
+
+BruteForce → 14
+Coincide óptimo: True
+
+Tiempo: 0.00212 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_24793
+Longitud: 73
+
+Nussinov → 30 pares
+DBN → 22 pares
+Error DBN: 8
+
+BruteForce → 30
+Coincide óptimo: True
+
+Tiempo: 0.01085 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_34042
+Longitud: 132
+
+Nussinov → 58 pares
+DBN → 22 pares
+Error DBN: 36
+
+BruteForce → 58
+Coincide óptimo: True
+
+Tiempo: 0.06147 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_22620
+Longitud: 85
+
+Nussinov → 29 pares
+DBN → 19 pares
+Error DBN: 10
+
+BruteForce → 29
+Coincide óptimo: True
+
+Tiempo: 0.01687 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_43708
+Longitud: 75
+
+Nussinov → 32 pares
+DBN → 22 pares
+Error DBN: 10
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.01177 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_2215
+Longitud: 81
+
+Nussinov → 34 pares
+DBN → 14 pares
+Error DBN: 20
+
+BruteForce → 34
+Coincide óptimo: True
+
+Tiempo: 0.01478 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_54274
+Longitud: 74
+
+Nussinov → 34 pares
+DBN → 22 pares
+Error DBN: 12
+
+BruteForce → 34
+Coincide óptimo: True
+
+Tiempo: 0.01130 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_32433
+Longitud: 51
+
+Nussinov → 21 pares
+DBN → 10 pares
+Error DBN: 11
+
+BruteForce → 21
+Coincide óptimo: True
+
+Tiempo: 0.00402 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_44067
+Longitud: 77
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01260 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_678
+Longitud: 120
+
+Nussinov → 54 pares
+DBN → 33 pares
+Error DBN: 21
+
+BruteForce → 54
+Coincide óptimo: True
+
+Tiempo: 0.04589 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_26446
+Longitud: 120
+
+Nussinov → 49 pares
+DBN → 20 pares
+Error DBN: 29
+
+BruteForce → 49
+Coincide óptimo: True
+
+Tiempo: 0.04584 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_36397
+Longitud: 74
+
+Nussinov → 32 pares
+DBN → 22 pares
+Error DBN: 10
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.01193 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_6073
+Longitud: 81
+
+Nussinov → 36 pares
+DBN → 3 pares
+Error DBN: 33
+
+BruteForce → 36
+Coincide óptimo: True
+
+Tiempo: 0.02032 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_19374
+Longitud: 99
+
+Nussinov → 40 pares
+DBN → 20 pares
+Error DBN: 20
+
+BruteForce → 40
+Coincide óptimo: True
+
+Tiempo: 0.03367 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_16047
+Longitud: 57
+
+Nussinov → 22 pares
+DBN → 7 pares
+Error DBN: 15
+
+BruteForce → 22
+Coincide óptimo: True
+
+Tiempo: 0.00544 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_17843
+Longitud: 91
+
+Nussinov → 40 pares
+DBN → 6 pares
+Error DBN: 34
+
+BruteForce → 40
+Coincide óptimo: True
+
+Tiempo: 0.02063 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_50012
+Longitud: 24
+
+Nussinov → 7 pares
+DBN → 3 pares
+Error DBN: 4
+
+BruteForce → 7
+Coincide óptimo: True
+
+Tiempo: 0.00049 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_29775
+Longitud: 76
+
+Nussinov → 30 pares
+DBN → 19 pares
+Error DBN: 11
+
+BruteForce → 30
+Coincide óptimo: True
+
+Tiempo: 0.01219 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_26184
+Longitud: 76
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01202 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_36655
+Longitud: 87
+
+Nussinov → 36 pares
+DBN → 32 pares
+Error DBN: 4
+
+BruteForce → 36
+Coincide óptimo: True
+
+Tiempo: 0.01783 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_27980
+Longitud: 54
+
+Nussinov → 21 pares
+DBN → 8 pares
+Error DBN: 13
+
+BruteForce → 21
+Coincide óptimo: True
+
+Tiempo: 0.00460 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_16585
+Longitud: 136
+
+Nussinov → 59 pares
+DBN → 41 pares
+Error DBN: 18
+
+BruteForce → 59
+Coincide óptimo: True
+
+Tiempo: 0.06568 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_39566
+Longitud: 142
+
+Nussinov → 57 pares
+DBN → 39 pares
+Error DBN: 18
+
+BruteForce → 57
+Coincide óptimo: True
+
+Tiempo: 0.07639 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_40201
+Longitud: 74
+
+Nussinov → 32 pares
+DBN → 22 pares
+Error DBN: 10
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.01120 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_21329
+Longitud: 107
+
+Nussinov → 44 pares
+DBN → 37 pares
+Error DBN: 7
+
+BruteForce → 44
+Coincide óptimo: True
+
+Tiempo: 0.03265 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_48885
+Longitud: 18
+
+Nussinov → 7 pares
+DBN → 0 pares
+Error DBN: 7
+
+BruteForce → 7
+Coincide óptimo: True
+
+Tiempo: 0.00024 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_20037
+Longitud: 73
+
+Nussinov → 32 pares
+DBN → 15 pares
+Error DBN: 17
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.01072 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_38678
+Longitud: 148
+
+Nussinov → 64 pares
+DBN → 38 pares
+Error DBN: 26
+
+BruteForce → 64
+Coincide óptimo: True
+
+Tiempo: 0.08450 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_21833
+Longitud: 75
+
+Nussinov → 33 pares
+DBN → 21 pares
+Error DBN: 12
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01161 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_46670
+Longitud: 38
+
+Nussinov → 13 pares
+DBN → 6 pares
+Error DBN: 7
+
+BruteForce → 13
+Coincide óptimo: True
+
+Tiempo: 0.00170 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_37089
+Longitud: 77
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01264 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_30224
+Longitud: 89
+
+Nussinov → 39 pares
+DBN → 20 pares
+Error DBN: 19
+
+BruteForce → 39
+Coincide óptimo: True
+
+Tiempo: 0.01943 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_49543
+Longitud: 21
+
+Nussinov → 7 pares
+DBN → 1 pares
+Error DBN: 6
+
+BruteForce → 7
+Coincide óptimo: True
+
+Tiempo: 0.00038 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_46116
+Longitud: 40
+
+Nussinov → 14 pares
+DBN → 6 pares
+Error DBN: 8
+
+BruteForce → 14
+Coincide óptimo: True
+
+Tiempo: 0.00197 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_10692
+Longitud: 78
+
+Nussinov → 30 pares
+DBN → 23 pares
+Error DBN: 7
+
+BruteForce → 30
+Coincide óptimo: True
+
+Tiempo: 0.01310 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_49225
+Longitud: 46
+
+Nussinov → 17 pares
+DBN → 10 pares
+Error DBN: 7
+
+BruteForce → 17
+Coincide óptimo: True
+
+Tiempo: 0.00293 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_8738
+Longitud: 94
+
+Nussinov → 40 pares
+DBN → 33 pares
+Error DBN: 7
+
+BruteForce → 40
+Coincide óptimo: True
+
+Tiempo: 0.02253 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_30542
+Longitud: 101
+
+Nussinov → 44 pares
+DBN → 13 pares
+Error DBN: 31
+
+BruteForce → 44
+Coincide óptimo: True
+
+Tiempo: 0.02735 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_20751
+Longitud: 78
+
+Nussinov → 36 pares
+DBN → 25 pares
+Error DBN: 11
+
+BruteForce → 36
+Coincide óptimo: True
+
+Tiempo: 0.01318 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_31884
+Longitud: 76
+
+Nussinov → 30 pares
+DBN → 10 pares
+Error DBN: 20
+
+BruteForce → 30
+Coincide óptimo: True
+
+Tiempo: 0.01200 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_41679
+Longitud: 76
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01207 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_30080
+Longitud: 72
+
+Nussinov → 31 pares
+DBN → 22 pares
+Error DBN: 9
+
+BruteForce → 31
+Coincide óptimo: True
+
+Tiempo: 0.01037 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_37937
+Longitud: 77
+
+Nussinov → 32 pares
+DBN → 22 pares
+Error DBN: 10
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.01266 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_36133
+Longitud: 104
+
+Nussinov → 45 pares
+DBN → 28 pares
+Error DBN: 17
+
+BruteForce → 45
+Coincide óptimo: True
+
+Tiempo: 0.02972 s
+===================================
+
+===================================
+Secuencia: bpRNA_SPR_280
+Longitud: 76
+
+Nussinov → 34 pares
+DBN → 21 pares
+Error DBN: 13
+
+BruteForce → 34
+Coincide óptimo: True
+
+Tiempo: 0.01208 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_40567
+Longitud: 77
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01257 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_26320
+Longitud: 81
+
+Nussinov → 35 pares
+DBN → 3 pares
+Error DBN: 32
+
+BruteForce → 35
+Coincide óptimo: True
+
+Tiempo: 0.01446 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_47208
+Longitud: 57
+
+Nussinov → 22 pares
+DBN → 10 pares
+Error DBN: 12
+
+BruteForce → 22
+Coincide óptimo: True
+
+Tiempo: 0.00529 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_19412
+Longitud: 122
+
+Nussinov → 54 pares
+DBN → 29 pares
+Error DBN: 25
+
+BruteForce → 54
+Coincide óptimo: True
+
+Tiempo: 0.04723 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_28817
+Longitud: 76
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01208 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_16721
+Longitud: 115
+
+Nussinov → 50 pares
+DBN → 37 pares
+Error DBN: 13
+
+BruteForce → 50
+Coincide óptimo: True
+
+Tiempo: 0.03974 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_9426
+Longitud: 39
+
+Nussinov → 13 pares
+DBN → 11 pares
+Error DBN: 2
+
+BruteForce → 13
+Coincide óptimo: True
+
+Tiempo: 0.00183 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_20989
+Longitud: 91
+
+Nussinov → 37 pares
+DBN → 29 pares
+Error DBN: 8
+
+BruteForce → 37
+Coincide óptimo: True
+
+Tiempo: 0.02016 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_29013
+Longitud: 74
+
+Nussinov → 28 pares
+DBN → 14 pares
+Error DBN: 14
+
+BruteForce → 28
+Coincide óptimo: True
+
+Tiempo: 0.01118 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_50774
+Longitud: 76
+
+Nussinov → 32 pares
+DBN → 22 pares
+Error DBN: 10
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.01208 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_22484
+Longitud: 73
+
+Nussinov → 31 pares
+DBN → 22 pares
+Error DBN: 9
+
+BruteForce → 31
+Coincide óptimo: True
+
+Tiempo: 0.01085 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_32355
+Longitud: 52
+
+Nussinov → 20 pares
+DBN → 10 pares
+Error DBN: 10
+
+BruteForce → 20
+Coincide óptimo: True
+
+Tiempo: 0.00408 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_44701
+Longitud: 12
+
+Nussinov → 3 pares
+DBN → 0 pares
+Error DBN: 3
+
+BruteForce → 3
+Coincide óptimo: True
+
+Tiempo: 0.00008 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_12085
+Longitud: 90
+
+Nussinov → 39 pares
+DBN → 9 pares
+Error DBN: 30
+
+BruteForce → 39
+Coincide óptimo: True
+
+Tiempo: 0.01962 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_25629
+Longitud: 77
+
+Nussinov → 33 pares
+DBN → 17 pares
+Error DBN: 16
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01243 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_22146
+Longitud: 88
+
+Nussinov → 37 pares
+DBN → 28 pares
+Error DBN: 9
+
+BruteForce → 37
+Coincide óptimo: True
+
+Tiempo: 0.01834 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_23942
+Longitud: 76
+
+Nussinov → 34 pares
+DBN → 22 pares
+Error DBN: 12
+
+BruteForce → 34
+Coincide óptimo: True
+
+Tiempo: 0.01244 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_32697
+Longitud: 71
+
+Nussinov → 32 pares
+DBN → 22 pares
+Error DBN: 10
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.00992 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_54512
+Longitud: 77
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01254 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_33589
+Longitud: 72
+
+Nussinov → 29 pares
+DBN → 22 pares
+Error DBN: 7
+
+BruteForce → 29
+Coincide óptimo: True
+
+Tiempo: 0.01027 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_42370
+Longitud: 35
+
+Nussinov → 15 pares
+DBN → 5 pares
+Error DBN: 10
+
+BruteForce → 15
+Coincide óptimo: True
+
+Tiempo: 0.00136 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_23258
+Longitud: 126
+
+Nussinov → 48 pares
+DBN → 27 pares
+Error DBN: 21
+
+BruteForce → 48
+Coincide óptimo: True
+
+Tiempo: 0.05215 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_34724
+Longitud: 68
+
+Nussinov → 29 pares
+DBN → 21 pares
+Error DBN: 8
+
+BruteForce → 29
+Coincide óptimo: True
+
+Tiempo: 0.00876 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_15932
+Longitud: 79
+
+Nussinov → 27 pares
+DBN → 13 pares
+Error DBN: 14
+
+BruteForce → 27
+Coincide óptimo: True
+
+Tiempo: 0.01351 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_52163
+Longitud: 72
+
+Nussinov → 27 pares
+DBN → 22 pares
+Error DBN: 5
+
+BruteForce → 27
+Coincide óptimo: True
+
+Tiempo: 0.01035 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_24537
+Longitud: 138
+
+Nussinov → 60 pares
+DBN → 31 pares
+Error DBN: 29
+
+BruteForce → 60
+Coincide óptimo: True
+
+Tiempo: 0.06817 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_32341
+Longitud: 51
+
+Nussinov → 20 pares
+DBN → 10 pares
+Error DBN: 10
+
+BruteForce → 20
+Coincide óptimo: True
+
+Tiempo: 0.00385 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_53269
+Longitud: 77
+
+Nussinov → 32 pares
+DBN → 22 pares
+Error DBN: 10
+
+BruteForce → 32
+Coincide óptimo: True
+
+Tiempo: 0.01261 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_22490
+Longitud: 73
+
+Nussinov → 30 pares
+DBN → 22 pares
+Error DBN: 8
+
+BruteForce → 30
+Coincide óptimo: True
+
+Tiempo: 0.01072 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_12091
+Longitud: 97
+
+Nussinov → 39 pares
+DBN → 16 pares
+Error DBN: 23
+
+BruteForce → 39
+Coincide óptimo: True
+
+Tiempo: 0.02447 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_44715
+Longitud: 19
+
+Nussinov → 7 pares
+DBN → 0 pares
+Error DBN: 7
+
+BruteForce → 7
+Coincide óptimo: True
+
+Tiempo: 0.00026 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_32683
+Longitud: 72
+
+Nussinov → 31 pares
+DBN → 22 pares
+Error DBN: 9
+
+BruteForce → 31
+Coincide óptimo: True
+
+Tiempo: 0.01034 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_23956
+Longitud: 76
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01205 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_22152
+Longitud: 95
+
+Nussinov → 39 pares
+DBN → 26 pares
+Error DBN: 13
+
+BruteForce → 39
+Coincide óptimo: True
+
+Tiempo: 0.02284 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_54506
+Longitud: 76
+
+Nussinov → 33 pares
+DBN → 22 pares
+Error DBN: 11
+
+BruteForce → 33
+Coincide óptimo: True
+
+Tiempo: 0.01208 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_42364
+Longitud: 35
+
+Nussinov → 15 pares
+DBN → 5 pares
+Error DBN: 10
+
+BruteForce → 15
+Coincide óptimo: True
+
+Tiempo: 0.00135 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_3679
+Longitud: 124
+
+Nussinov → 54 pares
+DBN → 30 pares
+Error DBN: 24
+
+BruteForce → 54
+Coincide óptimo: True
+
+Tiempo: 0.04954 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_34730
+Longitud: 68
+
+Nussinov → 31 pares
+DBN → 21 pares
+Error DBN: 10
+
+BruteForce → 31
+Coincide óptimo: True
+
+Tiempo: 0.00877 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_52177
+Longitud: 72
+
+Nussinov → 26 pares
+DBN → 22 pares
+Error DBN: 4
+
+BruteForce → 26
+Coincide óptimo: True
+
+Tiempo: 0.01065 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_15926
+Longitud: 71
+
+Nussinov → 27 pares
+DBN → 11 pares
+Error DBN: 16
+
+BruteForce → 27
+Coincide óptimo: True
+
+Tiempo: 0.00998 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_24523
+Longitud: 135
+
+Nussinov → 59 pares
+DBN → 28 pares
+Error DBN: 31
+
+BruteForce → 59
+Coincide óptimo: True
+
+Tiempo: 0.06400 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_10686
+Longitud: 79
+
+Nussinov → 34 pares
+DBN → 23 pares
+Error DBN: 11
+
+BruteForce → 34
+Coincide óptimo: True
+
+Tiempo: 0.01351 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_46102
+Longitud: 42
+
+Nussinov → 14 pares
+DBN → 6 pares
+Error DBN: 8
+
+BruteForce → 14
+Coincide óptimo: True
+
+Tiempo: 0.00227 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_18718
+Longitud: 120
+
+Nussinov → 53 pares
+DBN → 37 pares
+Error DBN: 16
+
+BruteForce → 53
+Coincide óptimo: True
+
+Tiempo: 0.04663 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_30556
+Longitud: 99
+
+Nussinov → 43 pares
+DBN → 13 pares
+Error DBN: 30
+
+BruteForce → 43
+Coincide óptimo: True
+
+Tiempo: 0.02609 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_49231
+Longitud: 19
+
+Nussinov → 7 pares
+DBN → 0 pares
+Error DBN: 7
+
+BruteForce → 7
+Coincide óptimo: True
+
+Tiempo: 0.00026 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_28319
+Longitud: 86
+
+Nussinov → 37 pares
+DBN → 26 pares
+Error DBN: 11
+
+BruteForce → 37
+Coincide óptimo: True
+
+Tiempo: 0.01729 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_37239
+Longitud: 112
+
+Nussinov → 50 pares
+DBN → 21 pares
+Error DBN: 29
+
+BruteForce → 50
+Coincide óptimo: True
+
+Tiempo: 0.03741 s
+===================================
+
