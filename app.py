@@ -21,6 +21,9 @@ def procesar_secuencia(secuencia):
     if not secuencia:
         return {"error": "La secuencia está vacía."}
 
+    if len(secuencia) > 300:
+        return "Secuencia demasiado larga (máx 300 nucleótidos)"
+
     caracteres_validos = {"A", "U", "G", "C"}
     if any(base not in caracteres_validos for base in secuencia):
         return {"error": "La secuencia contiene caracteres no válidos. Usa solo A, U, G y C."}
@@ -31,10 +34,11 @@ def procesar_secuencia(secuencia):
     num_pares = matriz[0][len(secuencia) - 1] if secuencia else 0
 
     estructura_vienna, energia = ejecutar_viennarna(secuencia)
+    num_pares_vienna = estructura_vienna.count("(")
 
     # Validación exacta por fuerza bruta solo para secuencias cortas
     resultado_bruteforce = None
-    if len(secuencia) <= 14:
+    if len(secuencia) <= 200:
         max_bruto, pares_bruto = max_pares_fuerza_bruta(secuencia)
         estructura_bruta = pares_a_dot_bracket(len(secuencia), pares_bruto)
 
@@ -53,6 +57,7 @@ def procesar_secuencia(secuencia):
         "pares": pares,
         "num_pares": num_pares,
         "bruteforce": resultado_bruteforce,
+        "num_pares_vienna": num_pares_vienna,
     }
 
 
