@@ -30,6 +30,39 @@ h1 {
     margin-bottom: 30px;
 }
 
+.estructura-container {
+    overflow-x: visible;
+    overflow-y: visible;
+    white-space: normal;
+    word-break: break-word;
+    padding-bottom: 10px;
+}
+
+.estructura-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.estructura-container::-webkit-scrollbar-thumb {
+    background: #1e7f5c;
+    border-radius: 4px;
+}
+
+.canvas-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 14px;
+    margin: 10px 0 26px 0;
+}
+
+.canvas-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.canvas-container::-webkit-scrollbar-thumb {
+    background: #1e7f5c;
+    border-radius: 4px;
+}
+
 .container {
     max-width: 1000px;
     margin: auto;
@@ -92,8 +125,9 @@ button:hover {
 
 .estructura {
     font-family: monospace;
-    font-size: 24px;
-    letter-spacing: 3px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.6;
 }
 
 .compare {
@@ -169,15 +203,17 @@ hr {
 <div class="mono">{{ r.secuencia }}</div>
 
 <!-- CANVAS RNA -->
-<canvas id="canvas_{{ loop.index }}" width="800" height="180"></canvas>
+<div class="canvas-container">
+    <canvas id="canvas_{{ loop.index }}" width="{{ r.secuencia|length * 28 + 40 }}" height="300"></canvas>
+</div>
 
 <div class="compare">
 
 <div>
 <p class="section-title">Nussinov</p>
 
-<div class="estructura">
-{% set pares_map = {} %}
+<div class="estructura-container">
+    <div class="estructura">{% set pares_map = {} %}
 {% for i, j in r.pares %}
     {% set _ = pares_map.update({i: loop.index0, j: loop.index0}) %}
 {% endfor %}
@@ -192,6 +228,7 @@ hr {
     {% endif %}
 {% endfor %}
 </div>
+</div>
 
 <p><strong>Número máximo de pares:</strong> {{ r.num_pares }}</p></div>
 
@@ -199,8 +236,9 @@ hr {
 <div>
 <p class="section-title">Referencia (ViennaRNA)</p>
 
-<div class="estructura">
-{% for c in r.estructura_vienna %}
+<div class="estructura-container">
+    <div class="estructura">
+    {% for c in r.estructura_vienna %}
     {% if c == "(" %}
         <span style="color:#2ecc71">(</span>
     {% elif c == ")" %}
@@ -209,6 +247,7 @@ hr {
         <span class="dot">.</span>
     {% endif %}
 {% endfor %}
+</div>
 </div>
 
 <p><strong>Energía:</strong> {{ r.energia }}</p>
@@ -302,7 +341,7 @@ ViennaRNA optimiza energía, Nussinov maximiza pares → no se espera coincidenc
         const ctx = canvas.getContext("2d");
 
         const spacing = 28;
-        const baseY = 120;
+        const baseY = 210;
 
         ctx.font = "16px monospace";
 
@@ -321,14 +360,14 @@ ViennaRNA optimiza energía, Nussinov maximiza pares → no se espera coincidenc
             const x1 = 20 + i * spacing;
             const x2 = 20 + j * spacing;
             const mid = (x1 + x2) / 2;
-            const height = Math.abs(x2 - x1) * 0.6;
+            const height = Math.min(Math.abs(x2 - x1) * 0.6, 170);
 
             ctx.beginPath();
             ctx.strokeStyle = colors[idx % colors.length];
             ctx.lineWidth = 2;
 
-            ctx.moveTo(x1, baseY - 5);
-            ctx.quadraticCurveTo(mid, baseY - height, x2, baseY - 5);
+            ctx.moveTo(x1, baseY - 8);
+            ctx.quadraticCurveTo(mid, baseY - height, x2, baseY - 8);
 
             ctx.stroke();
         });

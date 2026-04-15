@@ -9,7 +9,7 @@ Error DBN: 6
 BruteForce → 28
 Coincide óptimo: True
 
-Tiempo: 0.01041 s
+Tiempo: 0.01045 s
 ===================================
 
 ===================================
@@ -23,7 +23,7 @@ Error DBN: 43
 BruteForce → 45
 Coincide óptimo: True
 
-Tiempo: 0.02689 s
+Tiempo: 0.02676 s
 ===================================
 
 ===================================
@@ -37,7 +37,7 @@ Error DBN: 5
 BruteForce → 8
 Coincide óptimo: True
 
-Tiempo: 0.00061 s
+Tiempo: 0.00062 s
 ===================================
 
 ===================================
@@ -51,7 +51,7 @@ Error DBN: 21
 BruteForce → 40
 Coincide óptimo: True
 
-Tiempo: 0.02314 s
+Tiempo: 0.02325 s
 ===================================
 
 ===================================
@@ -65,7 +65,7 @@ Error DBN: 7
 BruteForce → 11
 Coincide óptimo: True
 
-Tiempo: 0.00135 s
+Tiempo: 0.00136 s
 ===================================
 
 ===================================
@@ -79,7 +79,7 @@ Error DBN: 24
 BruteForce → 44
 Coincide óptimo: True
 
-Tiempo: 0.03701 s
+Tiempo: 0.03727 s
 ===================================
 
 ===================================
@@ -93,7 +93,7 @@ Error DBN: 12
 BruteForce → 16
 Coincide óptimo: True
 
-Tiempo: 0.00159 s
+Tiempo: 0.00161 s
 ===================================
 
 ===================================
@@ -107,7 +107,7 @@ Error DBN: 9
 BruteForce → 14
 Coincide óptimo: True
 
-Tiempo: 0.00212 s
+Tiempo: 0.00211 s
 ===================================
 
 ===================================
@@ -121,7 +121,7 @@ Error DBN: 8
 BruteForce → 30
 Coincide óptimo: True
 
-Tiempo: 0.01085 s
+Tiempo: 0.01081 s
 ===================================
 
 ===================================
@@ -132,10 +132,10 @@ Nussinov → 58 pares
 DBN → 22 pares
 Error DBN: 36
 
-BruteForce → 58
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.06147 s
+Tiempo: 0.06024 s
 ===================================
 
 ===================================
@@ -149,7 +149,7 @@ Error DBN: 10
 BruteForce → 29
 Coincide óptimo: True
 
-Tiempo: 0.01687 s
+Tiempo: 0.01670 s
 ===================================
 
 ===================================
@@ -163,7 +163,7 @@ Error DBN: 10
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.01177 s
+Tiempo: 0.01163 s
 ===================================
 
 ===================================
@@ -177,7 +177,7 @@ Error DBN: 20
 BruteForce → 34
 Coincide óptimo: True
 
-Tiempo: 0.01478 s
+Tiempo: 0.01460 s
 ===================================
 
 ===================================
@@ -191,7 +191,7 @@ Error DBN: 12
 BruteForce → 34
 Coincide óptimo: True
 
-Tiempo: 0.01130 s
+Tiempo: 0.01123 s
 ===================================
 
 ===================================
@@ -205,7 +205,7 @@ Error DBN: 11
 BruteForce → 21
 Coincide óptimo: True
 
-Tiempo: 0.00402 s
+Tiempo: 0.00395 s
 ===================================
 
 ===================================
@@ -219,7 +219,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01260 s
+Tiempo: 0.01254 s
 ===================================
 
 ===================================
@@ -233,7 +233,7 @@ Error DBN: 21
 BruteForce → 54
 Coincide óptimo: True
 
-Tiempo: 0.04589 s
+Tiempo: 0.04526 s
 ===================================
 
 ===================================
@@ -247,7 +247,7 @@ Error DBN: 29
 BruteForce → 49
 Coincide óptimo: True
 
-Tiempo: 0.04584 s
+Tiempo: 0.04540 s
 ===================================
 
 ===================================
@@ -261,7 +261,7 @@ Error DBN: 10
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.01193 s
+Tiempo: 0.01110 s
 ===================================
 
 ===================================
@@ -275,7 +275,7 @@ Error DBN: 33
 BruteForce → 36
 Coincide óptimo: True
 
-Tiempo: 0.02032 s
+Tiempo: 0.01443 s
 ===================================
 
 ===================================
@@ -289,7 +289,7 @@ Error DBN: 20
 BruteForce → 40
 Coincide óptimo: True
 
-Tiempo: 0.03367 s
+Tiempo: 0.02579 s
 ===================================
 
 ===================================
@@ -303,7 +303,7 @@ Error DBN: 15
 BruteForce → 22
 Coincide óptimo: True
 
-Tiempo: 0.00544 s
+Tiempo: 0.00532 s
 ===================================
 
 ===================================
@@ -317,7 +317,7 @@ Error DBN: 34
 BruteForce → 40
 Coincide óptimo: True
 
-Tiempo: 0.02063 s
+Tiempo: 0.02020 s
 ===================================
 
 ===================================
@@ -345,7 +345,7 @@ Error DBN: 11
 BruteForce → 30
 Coincide óptimo: True
 
-Tiempo: 0.01219 s
+Tiempo: 0.01218 s
 ===================================
 
 ===================================
@@ -359,7 +359,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01202 s
+Tiempo: 0.01206 s
 ===================================
 
 ===================================
@@ -373,7 +373,7 @@ Error DBN: 4
 BruteForce → 36
 Coincide óptimo: True
 
-Tiempo: 0.01783 s
+Tiempo: 0.01777 s
 ===================================
 
 ===================================
@@ -387,7 +387,7 @@ Error DBN: 13
 BruteForce → 21
 Coincide óptimo: True
 
-Tiempo: 0.00460 s
+Tiempo: 0.00453 s
 ===================================
 
 ===================================
@@ -398,10 +398,10 @@ Nussinov → 59 pares
 DBN → 41 pares
 Error DBN: 18
 
-BruteForce → 59
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.06568 s
+Tiempo: 0.06570 s
 ===================================
 
 ===================================
@@ -412,10 +412,10 @@ Nussinov → 57 pares
 DBN → 39 pares
 Error DBN: 18
 
-BruteForce → 57
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.07639 s
+Tiempo: 0.07535 s
 ===================================
 
 ===================================
@@ -429,7 +429,7 @@ Error DBN: 10
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.01120 s
+Tiempo: 0.01122 s
 ===================================
 
 ===================================
@@ -443,7 +443,7 @@ Error DBN: 7
 BruteForce → 44
 Coincide óptimo: True
 
-Tiempo: 0.03265 s
+Tiempo: 0.03242 s
 ===================================
 
 ===================================
@@ -471,7 +471,7 @@ Error DBN: 17
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.01072 s
+Tiempo: 0.01083 s
 ===================================
 
 ===================================
@@ -482,10 +482,10 @@ Nussinov → 64 pares
 DBN → 38 pares
 Error DBN: 26
 
-BruteForce → 64
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.08450 s
+Tiempo: 0.08539 s
 ===================================
 
 ===================================
@@ -499,7 +499,7 @@ Error DBN: 12
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01161 s
+Tiempo: 0.01160 s
 ===================================
 
 ===================================
@@ -513,7 +513,7 @@ Error DBN: 7
 BruteForce → 13
 Coincide óptimo: True
 
-Tiempo: 0.00170 s
+Tiempo: 0.00169 s
 ===================================
 
 ===================================
@@ -527,7 +527,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01264 s
+Tiempo: 0.01245 s
 ===================================
 
 ===================================
@@ -541,7 +541,7 @@ Error DBN: 19
 BruteForce → 39
 Coincide óptimo: True
 
-Tiempo: 0.01943 s
+Tiempo: 0.01893 s
 ===================================
 
 ===================================
@@ -555,7 +555,7 @@ Error DBN: 6
 BruteForce → 7
 Coincide óptimo: True
 
-Tiempo: 0.00038 s
+Tiempo: 0.00035 s
 ===================================
 
 ===================================
@@ -583,7 +583,7 @@ Error DBN: 7
 BruteForce → 30
 Coincide óptimo: True
 
-Tiempo: 0.01310 s
+Tiempo: 0.01300 s
 ===================================
 
 ===================================
@@ -597,7 +597,7 @@ Error DBN: 7
 BruteForce → 17
 Coincide óptimo: True
 
-Tiempo: 0.00293 s
+Tiempo: 0.00289 s
 ===================================
 
 ===================================
@@ -611,7 +611,7 @@ Error DBN: 7
 BruteForce → 40
 Coincide óptimo: True
 
-Tiempo: 0.02253 s
+Tiempo: 0.02231 s
 ===================================
 
 ===================================
@@ -625,7 +625,7 @@ Error DBN: 31
 BruteForce → 44
 Coincide óptimo: True
 
-Tiempo: 0.02735 s
+Tiempo: 0.02778 s
 ===================================
 
 ===================================
@@ -639,7 +639,7 @@ Error DBN: 11
 BruteForce → 36
 Coincide óptimo: True
 
-Tiempo: 0.01318 s
+Tiempo: 0.01309 s
 ===================================
 
 ===================================
@@ -653,7 +653,7 @@ Error DBN: 20
 BruteForce → 30
 Coincide óptimo: True
 
-Tiempo: 0.01200 s
+Tiempo: 0.01215 s
 ===================================
 
 ===================================
@@ -681,7 +681,7 @@ Error DBN: 9
 BruteForce → 31
 Coincide óptimo: True
 
-Tiempo: 0.01037 s
+Tiempo: 0.01051 s
 ===================================
 
 ===================================
@@ -695,7 +695,7 @@ Error DBN: 10
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.01266 s
+Tiempo: 0.01254 s
 ===================================
 
 ===================================
@@ -709,7 +709,7 @@ Error DBN: 17
 BruteForce → 45
 Coincide óptimo: True
 
-Tiempo: 0.02972 s
+Tiempo: 0.02982 s
 ===================================
 
 ===================================
@@ -723,7 +723,7 @@ Error DBN: 13
 BruteForce → 34
 Coincide óptimo: True
 
-Tiempo: 0.01208 s
+Tiempo: 0.01203 s
 ===================================
 
 ===================================
@@ -737,7 +737,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01257 s
+Tiempo: 0.01254 s
 ===================================
 
 ===================================
@@ -751,7 +751,7 @@ Error DBN: 32
 BruteForce → 35
 Coincide óptimo: True
 
-Tiempo: 0.01446 s
+Tiempo: 0.01462 s
 ===================================
 
 ===================================
@@ -765,7 +765,7 @@ Error DBN: 12
 BruteForce → 22
 Coincide óptimo: True
 
-Tiempo: 0.00529 s
+Tiempo: 0.00532 s
 ===================================
 
 ===================================
@@ -776,10 +776,10 @@ Nussinov → 54 pares
 DBN → 29 pares
 Error DBN: 25
 
-BruteForce → 54
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.04723 s
+Tiempo: 0.04762 s
 ===================================
 
 ===================================
@@ -793,7 +793,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01208 s
+Tiempo: 0.01210 s
 ===================================
 
 ===================================
@@ -807,7 +807,7 @@ Error DBN: 13
 BruteForce → 50
 Coincide óptimo: True
 
-Tiempo: 0.03974 s
+Tiempo: 0.04003 s
 ===================================
 
 ===================================
@@ -821,7 +821,7 @@ Error DBN: 2
 BruteForce → 13
 Coincide óptimo: True
 
-Tiempo: 0.00183 s
+Tiempo: 0.00181 s
 ===================================
 
 ===================================
@@ -835,7 +835,7 @@ Error DBN: 8
 BruteForce → 37
 Coincide óptimo: True
 
-Tiempo: 0.02016 s
+Tiempo: 0.02023 s
 ===================================
 
 ===================================
@@ -849,7 +849,7 @@ Error DBN: 14
 BruteForce → 28
 Coincide óptimo: True
 
-Tiempo: 0.01118 s
+Tiempo: 0.01116 s
 ===================================
 
 ===================================
@@ -863,7 +863,7 @@ Error DBN: 10
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.01208 s
+Tiempo: 0.01209 s
 ===================================
 
 ===================================
@@ -877,7 +877,7 @@ Error DBN: 9
 BruteForce → 31
 Coincide óptimo: True
 
-Tiempo: 0.01085 s
+Tiempo: 0.01084 s
 ===================================
 
 ===================================
@@ -891,7 +891,7 @@ Error DBN: 10
 BruteForce → 20
 Coincide óptimo: True
 
-Tiempo: 0.00408 s
+Tiempo: 0.00419 s
 ===================================
 
 ===================================
@@ -919,7 +919,7 @@ Error DBN: 30
 BruteForce → 39
 Coincide óptimo: True
 
-Tiempo: 0.01962 s
+Tiempo: 0.01971 s
 ===================================
 
 ===================================
@@ -933,7 +933,7 @@ Error DBN: 16
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01243 s
+Tiempo: 0.01254 s
 ===================================
 
 ===================================
@@ -947,7 +947,7 @@ Error DBN: 9
 BruteForce → 37
 Coincide óptimo: True
 
-Tiempo: 0.01834 s
+Tiempo: 0.01844 s
 ===================================
 
 ===================================
@@ -961,7 +961,7 @@ Error DBN: 12
 BruteForce → 34
 Coincide óptimo: True
 
-Tiempo: 0.01244 s
+Tiempo: 0.01216 s
 ===================================
 
 ===================================
@@ -975,7 +975,7 @@ Error DBN: 10
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.00992 s
+Tiempo: 0.01009 s
 ===================================
 
 ===================================
@@ -989,7 +989,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01254 s
+Tiempo: 0.01300 s
 ===================================
 
 ===================================
@@ -1003,7 +1003,7 @@ Error DBN: 7
 BruteForce → 29
 Coincide óptimo: True
 
-Tiempo: 0.01027 s
+Tiempo: 0.01500 s
 ===================================
 
 ===================================
@@ -1028,10 +1028,10 @@ Nussinov → 48 pares
 DBN → 27 pares
 Error DBN: 21
 
-BruteForce → 48
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.05215 s
+Tiempo: 0.05290 s
 ===================================
 
 ===================================
@@ -1045,7 +1045,7 @@ Error DBN: 8
 BruteForce → 29
 Coincide óptimo: True
 
-Tiempo: 0.00876 s
+Tiempo: 0.00874 s
 ===================================
 
 ===================================
@@ -1059,7 +1059,7 @@ Error DBN: 14
 BruteForce → 27
 Coincide óptimo: True
 
-Tiempo: 0.01351 s
+Tiempo: 0.01349 s
 ===================================
 
 ===================================
@@ -1073,7 +1073,7 @@ Error DBN: 5
 BruteForce → 27
 Coincide óptimo: True
 
-Tiempo: 0.01035 s
+Tiempo: 0.01031 s
 ===================================
 
 ===================================
@@ -1084,10 +1084,10 @@ Nussinov → 60 pares
 DBN → 31 pares
 Error DBN: 29
 
-BruteForce → 60
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.06817 s
+Tiempo: 0.06842 s
 ===================================
 
 ===================================
@@ -1101,7 +1101,7 @@ Error DBN: 10
 BruteForce → 20
 Coincide óptimo: True
 
-Tiempo: 0.00385 s
+Tiempo: 0.00387 s
 ===================================
 
 ===================================
@@ -1115,7 +1115,7 @@ Error DBN: 10
 BruteForce → 32
 Coincide óptimo: True
 
-Tiempo: 0.01261 s
+Tiempo: 0.01260 s
 ===================================
 
 ===================================
@@ -1129,7 +1129,7 @@ Error DBN: 8
 BruteForce → 30
 Coincide óptimo: True
 
-Tiempo: 0.01072 s
+Tiempo: 0.01085 s
 ===================================
 
 ===================================
@@ -1143,7 +1143,7 @@ Error DBN: 23
 BruteForce → 39
 Coincide óptimo: True
 
-Tiempo: 0.02447 s
+Tiempo: 0.02454 s
 ===================================
 
 ===================================
@@ -1157,7 +1157,7 @@ Error DBN: 7
 BruteForce → 7
 Coincide óptimo: True
 
-Tiempo: 0.00026 s
+Tiempo: 0.00027 s
 ===================================
 
 ===================================
@@ -1171,7 +1171,7 @@ Error DBN: 9
 BruteForce → 31
 Coincide óptimo: True
 
-Tiempo: 0.01034 s
+Tiempo: 0.01045 s
 ===================================
 
 ===================================
@@ -1185,7 +1185,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01205 s
+Tiempo: 0.01222 s
 ===================================
 
 ===================================
@@ -1199,7 +1199,7 @@ Error DBN: 13
 BruteForce → 39
 Coincide óptimo: True
 
-Tiempo: 0.02284 s
+Tiempo: 0.02344 s
 ===================================
 
 ===================================
@@ -1213,7 +1213,7 @@ Error DBN: 11
 BruteForce → 33
 Coincide óptimo: True
 
-Tiempo: 0.01208 s
+Tiempo: 0.01233 s
 ===================================
 
 ===================================
@@ -1227,7 +1227,7 @@ Error DBN: 10
 BruteForce → 15
 Coincide óptimo: True
 
-Tiempo: 0.00135 s
+Tiempo: 0.00136 s
 ===================================
 
 ===================================
@@ -1238,10 +1238,10 @@ Nussinov → 54 pares
 DBN → 30 pares
 Error DBN: 24
 
-BruteForce → 54
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.04954 s
+Tiempo: 0.05046 s
 ===================================
 
 ===================================
@@ -1255,7 +1255,7 @@ Error DBN: 10
 BruteForce → 31
 Coincide óptimo: True
 
-Tiempo: 0.00877 s
+Tiempo: 0.00897 s
 ===================================
 
 ===================================
@@ -1283,7 +1283,7 @@ Error DBN: 16
 BruteForce → 27
 Coincide óptimo: True
 
-Tiempo: 0.00998 s
+Tiempo: 0.01007 s
 ===================================
 
 ===================================
@@ -1294,10 +1294,10 @@ Nussinov → 59 pares
 DBN → 28 pares
 Error DBN: 31
 
-BruteForce → 59
-Coincide óptimo: True
+BruteForce → None
+Coincide óptimo: None
 
-Tiempo: 0.06400 s
+Tiempo: 0.06498 s
 ===================================
 
 ===================================
@@ -1311,7 +1311,7 @@ Error DBN: 11
 BruteForce → 34
 Coincide óptimo: True
 
-Tiempo: 0.01351 s
+Tiempo: 0.01370 s
 ===================================
 
 ===================================
@@ -1325,7 +1325,7 @@ Error DBN: 8
 BruteForce → 14
 Coincide óptimo: True
 
-Tiempo: 0.00227 s
+Tiempo: 0.00228 s
 ===================================
 
 ===================================
@@ -1339,7 +1339,7 @@ Error DBN: 16
 BruteForce → 53
 Coincide óptimo: True
 
-Tiempo: 0.04663 s
+Tiempo: 0.04555 s
 ===================================
 
 ===================================
@@ -1353,7 +1353,7 @@ Error DBN: 30
 BruteForce → 43
 Coincide óptimo: True
 
-Tiempo: 0.02609 s
+Tiempo: 0.02606 s
 ===================================
 
 ===================================
@@ -1367,7 +1367,7 @@ Error DBN: 7
 BruteForce → 7
 Coincide óptimo: True
 
-Tiempo: 0.00026 s
+Tiempo: 0.00027 s
 ===================================
 
 ===================================
@@ -1381,7 +1381,7 @@ Error DBN: 11
 BruteForce → 37
 Coincide óptimo: True
 
-Tiempo: 0.01729 s
+Tiempo: 0.01743 s
 ===================================
 
 ===================================
@@ -1395,6 +1395,6 @@ Error DBN: 29
 BruteForce → 50
 Coincide óptimo: True
 
-Tiempo: 0.03741 s
+Tiempo: 0.03735 s
 ===================================
 

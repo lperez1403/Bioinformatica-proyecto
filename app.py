@@ -11,8 +11,11 @@ app = Flask(__name__)
 
 
 def ejecutar_viennarna(secuencia):
-    estructura, energia = RNA.fold(secuencia)
-    return estructura, energia
+    try:
+        estructura, energia = RNA.fold(secuencia)
+        return estructura, energia
+    except:
+        return None, None
 
 
 def procesar_secuencia(secuencia):
@@ -22,23 +25,24 @@ def procesar_secuencia(secuencia):
         return {"error": "La secuencia está vacía."}
 
     if len(secuencia) > 300:
-        return "Secuencia demasiado larga (máx 300 nucleótidos)"
+        return {"error": "Secuencia demasiado larga (máx 300 nucleótidos)"}
 
-    caracteres_validos = {"A", "U", "G", "C"}
-    if any(base not in caracteres_validos for base in secuencia):
-        return {"error": "La secuencia contiene caracteres no válidos. Usa solo A, U, G y C."}
+    if any(base not in {"A", "U", "G", "C"} for base in secuencia):
+        return {"error": "Solo se permiten A, U, G, C"}
 
+    #  NUSSINOV
     matriz = nussinov(secuencia)
     pares = traceback(matriz, secuencia, 0, len(secuencia) - 1, [])
     estructura_nussinov = pares_a_dot_bracket(len(secuencia), pares)
-    num_pares = matriz[0][len(secuencia) - 1] if secuencia else 0
+    num_pares = matriz[0][len(secuencia) - 1]
 
+    #  VIENNA (solo referencia)
     estructura_vienna, energia = ejecutar_viennarna(secuencia)
-    num_pares_vienna = estructura_vienna.count("(")
+    num_pares_vienna = estructura_vienna.count("(") if estructura_vienna else None
 
-    # Validación exacta por fuerza bruta solo para secuencias cortas
+    #  BRUTE FORCE (solo corto)
     resultado_bruteforce = None
-    if len(secuencia) <= 200:
+    if len(secuencia) <= 120:
         max_bruto, pares_bruto = max_pares_fuerza_bruta(secuencia)
         estructura_bruta = pares_a_dot_bracket(len(secuencia), pares_bruto)
 
@@ -70,6 +74,7 @@ def index():
         secuencia_manual = request.form.get("secuencia", "").strip()
         archivo = request.files.get("fasta")
 
+        #  CASO 1 → input manual
         if secuencia_manual:
             resultado = procesar_secuencia(secuencia_manual)
             if "error" in resultado:
@@ -77,23 +82,28 @@ def index():
             else:
                 resultados.append(resultado)
 
+        #  CASO 2 → archivo FASTA
         elif archivo and archivo.filename:
             ruta_temp = "temp_input.fasta"
             archivo.save(ruta_temp)
 
             try:
                 secuencias = leer_fasta(ruta_temp)
-                for secuencia in secuencias:
+
+                for nombre, secuencia in secuencias:   # 🔥 IMPORTANTE
                     resultado = procesar_secuencia(secuencia)
+
                     if "error" in resultado:
                         error = resultado["error"]
                         break
+
                     resultados.append(resultado)
+
             except Exception as e:
-                error = f"Error al leer el archivo FASTA: {e}"
+                error = f"Error leyendo FASTA: {e}"
 
         else:
-            error = "Introduce una secuencia o sube un archivo FASTA."
+            error = "Introduce una secuencia o sube un FASTA."
 
     return render_template("index.html", resultados=resultados, error=error)
 
