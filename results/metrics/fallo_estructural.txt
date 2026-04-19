@@ -1,0 +1,5 @@
+Secuencia de test: GGGAAAUCC
+Pares Nussinov: [(1, 8), (2, 7)]
+Estructura ViennaRNA: .........
+Energia ViennaRNA: 0.0
+Interpretacion: este test ilustra que maximizar pares no garantiza capturar la estructura termodinamicamente mas plausible.

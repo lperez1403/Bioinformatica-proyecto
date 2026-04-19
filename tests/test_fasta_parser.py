@@ -8,7 +8,7 @@ def test_leer_fasta_contenido(tmp_path):
 
     resultado = leer_fasta(str(archivo))
 
-    assert resultado == ["GCUACG"]
+    assert resultado == [("seq1", "GCUACG")]
 
 
 def test_leer_fasta_multilinea(tmp_path):
@@ -18,4 +18,4 @@ def test_leer_fasta_multilinea(tmp_path):
 
     resultado = leer_fasta(str(archivo))
 
-    assert resultado == ["GGGGAAAA"]
+    assert resultado == [("seq1", "GGGGAAAA")]

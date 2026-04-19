@@ -44,6 +44,8 @@ def procesar_dbn_file(path, max_len):
 
 def filtrar_todos_dbn(input_folder, output_path, max_len=120):
     todos = []
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    os.makedirs("data/processed/dbnFiles", exist_ok=True)
 
     for file in os.listdir(input_folder):
         if file.endswith(".dbn"):
@@ -70,7 +72,7 @@ def filtrar_todos_dbn(input_folder, output_path, max_len=120):
 
 if __name__ == "__main__":
     filtrar_todos_dbn(
-        input_folder="data/raw/dbnFiles",
+        input_folder="data/raw/dataset_download/dbnFiles",
         output_path="data/processed/dbnFiles/dataset.dbn",
-        max_len=150
+        max_len=120
     )

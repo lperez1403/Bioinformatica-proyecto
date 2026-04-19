@@ -1,21 +1,26 @@
 from flask import Flask, render_template, request
-import RNA
+from pathlib import Path
+from uuid import uuid4
 
 from src.nussinov import nussinov
 from src.traceback_nussinov import traceback
-from src.utils import pares_a_dot_bracket
+from src.utils import ejecutar_viennarna, pares_a_dot_bracket
 from src.fasta_parser import leer_fasta
 from src.bruteforce import max_pares_fuerza_bruta
 
 app = Flask(__name__)
 
+UPLOAD_DIR = Path("data/raw/web_inputs/uploads")
 
-def ejecutar_viennarna(secuencia):
-    try:
-        estructura, energia = RNA.fold(secuencia)
-        return estructura, energia
-    except:
-        return None, None
+
+def guardar_fasta_subido(archivo):
+    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+
+    nombre_original = Path(archivo.filename or "input.fasta").name
+    nombre_limpio = nombre_original.replace(" ", "_")
+    destino = UPLOAD_DIR / f"{uuid4().hex[:8]}_{nombre_limpio}"
+    archivo.save(destino)
+    return str(destino)
 
 
 def procesar_secuencia(secuencia):
@@ -34,7 +39,8 @@ def procesar_secuencia(secuencia):
     matriz = nussinov(secuencia)
     pares = traceback(matriz, secuencia, 0, len(secuencia) - 1, [])
     estructura_nussinov = pares_a_dot_bracket(len(secuencia), pares)
-    num_pares = matriz[0][len(secuencia) - 1]
+    score_nussinov = matriz[0][len(secuencia) - 1]
+    num_pares = len(pares)
 
     #  VIENNA (solo referencia)
     estructura_vienna, energia = ejecutar_viennarna(secuencia)
@@ -43,14 +49,15 @@ def procesar_secuencia(secuencia):
     #  BRUTE FORCE (solo corto)
     resultado_bruteforce = None
     if len(secuencia) <= 120:
-        max_bruto, pares_bruto = max_pares_fuerza_bruta(secuencia)
+        score_bruto, pares_bruto = max_pares_fuerza_bruta(secuencia)
         estructura_bruta = pares_a_dot_bracket(len(secuencia), pares_bruto)
 
         resultado_bruteforce = {
-            "max_pares": max_bruto,
+            "score": score_bruto,
+            "max_pares": len(pares_bruto),
             "pares": pares_bruto,
             "estructura": estructura_bruta,
-            "coincide": max_bruto == num_pares
+            "coincide": abs(score_bruto - score_nussinov) <= 1e-9
         }
 
     return {
@@ -60,6 +67,7 @@ def procesar_secuencia(secuencia):
         "energia": energia,
         "pares": pares,
         "num_pares": num_pares,
+        "score_nussinov": score_nussinov,
         "bruteforce": resultado_bruteforce,
         "num_pares_vienna": num_pares_vienna,
     }
@@ -84,8 +92,7 @@ def index():
 
         #  CASO 2 → archivo FASTA
         elif archivo and archivo.filename:
-            ruta_temp = "temp_input.fasta"
-            archivo.save(ruta_temp)
+            ruta_temp = guardar_fasta_subido(archivo)
 
             try:
                 secuencias = leer_fasta(ruta_temp)

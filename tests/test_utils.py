@@ -8,7 +8,7 @@ def test_fasta_simple(tmp_path):
 
     secuencias = leer_fasta(str(archivo))
 
-    assert secuencias == ["AUGC"]
+    assert secuencias == [("seq1", "AUGC")]
 
 
 def test_fasta_multiple(tmp_path):
@@ -18,4 +18,4 @@ def test_fasta_multiple(tmp_path):
 
     secuencias = leer_fasta(str(archivo))
 
-    assert secuencias == ["AUGC", "GGCC"]
+    assert secuencias == [("seq1", "AUGC"), ("seq2", "GGCC")]

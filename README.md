@@ -1,369 +1,198 @@
-# 🧬 Bioinformatica-proyecto
+# Bioinformatica-proyecto
 
-## Predicción de estructura secundaria de RNA con el algoritmo de Nussinov
+## Predicción de estructura secundaria de RNA con Nussinov
 
-------------------------------------------------------------------------
+Este proyecto implementa el algoritmo de **Nussinov** para predecir estructura secundaria de RNA mediante programación dinámica. La implementación mantiene el esquema clásico **O(n^3)** y añade dos restricciones sencillas para acercarse algo más al comportamiento estructural real:
 
-## Objetivo
+- **longitud mínima de loop** (`min_loop_length = 3`)
+- **penalización de loops largos** (`long_loop_penalty = 0.25` a partir de `long_loop_threshold = 30`)
 
-Implementar el algoritmo de Nussinov para la predicción de estructura
-secundaria de RNA y evaluarlo mediante:
+Además del cálculo de la matriz óptima, el proyecto incluye:
 
--   Validación exacta en secuencias cortas
--   Comparación con estructuras reales (dataset bpRNA)
--   Análisis de rendimiento y complejidad
+- reconstrucción por `traceback`
+- conversión a formato dot-bracket
+- visualización web sencilla con Flask
+- validación exacta alternativa en secuencias cortas mediante búsqueda recursiva con memoización
+- comparación experimental con estructuras reales de **bpRNA**
+- comparación de referencia con **ViennaRNA / RNAfold**
 
-------------------------------------------------------------------------
+## Estructura
 
-## Descripción del proyecto
-
-Este proyecto implementa el algoritmo clásico de **Nussinov**, basado en programación dinámica, cuyo objetivo es predecir la estructura secundaria de una secuencia de RNA maximizando el número de emparejamientos válidos entre bases (A-U, G-C y G-U).
-
-El algoritmo construye una matriz de subproblemas en la que cada celda representa el número máximo de pares posibles en un subsecuencia, resolviendo el problema de forma eficiente mediante un enfoque **bottom-up**. Posteriormente, se aplica un proceso de **traceback** para reconstruir la estructura óptima en formato dot-bracket.
-
----
-
-## Metodología de evaluación
-
-El algoritmo se evalúa en dos niveles complementarios:
-
-### Validación teórica (correctitud algorítmica)
-
-Se implementa una validación exacta alternativa basada en recursión con memoización (denominada "brute force"), que calcula el número máximo de emparejamientos posibles.
-
-- Se aplica únicamente sobre secuencias cortas debido a su coste computacional.
-- Permite verificar que el algoritmo de Nussinov alcanza el óptimo global.
-- La validación se basa en comparar el número de pares, ya que pueden existir múltiples estructuras óptimas equivalentes.
-
-Esto garantiza la **correctitud de la implementación** desde el punto de vista algorítmico.
-
----
-
-### Validación empírica (comportamiento en datos reales)
-
-Se utiliza el dataset **bpRNA**, que contiene estructuras secundarias reales de RNA en formato dot-bracket.
-
-- Se compara el número de emparejamientos predicho por Nussinov con el del dataset.
-- Se calcula el error en número de pares.
-- Se analiza el comportamiento del algoritmo en función de la longitud de la secuencia.
-
-Este análisis permite evaluar hasta qué punto el modelo simplificado de Nussinov se aproxima a estructuras biológicamente reales.
-
----
-
-## Referencia adicional: ViennaRNA
-
-Como comparación adicional, se utiliza la librería **ViennaRNA**, que predice estructuras secundarias mediante la minimización de la energía libre (modelo termodinámico).
-
-⚠️ Es importante destacar que:
-
-- ViennaRNA **no se utiliza para validar la correctitud del algoritmo**.
-- Su objetivo es servir como referencia biológica más realista.
-- No se espera coincidencia exacta con Nussinov, ya que ambos optimizan criterios distintos.
-
----
-
-## Conclusión metodológica
-
-La combinación de validación teórica y empírica permite:
-
-- Garantizar que la implementación es correcta (brute force)
-- Evaluar su comportamiento en datos reales (bpRNA)
-- Compararlo con un modelo biológico más avanzado (ViennaRNA)
-
-Este enfoque proporciona un análisis completo tanto desde el punto de vista algorítmico como aplicado.
-
-------------------------------------------------------------------------
-
-## Funcionalidades
-
-- Lectura de secuencias en formato FASTA
-- Implementación propia del algoritmo de Nussinov
-- Reconstrucción de la estructura secundaria mediante traceback
-- Representación de la estructura en formato dot-bracket
-- Validación exacta en secuencias cortas mediante brute force con memoización
-- Comparación con estructuras reales del dataset bpRNA
-- Benchmark reproducible y cálculo de métricas cuantitativas
-- Generación automática de resultados, figuras y matrices
-- Interfaz web interactiva desarrollada con Flask
-
-------------------------------------------------------------------------
-
-##  Estructura del proyecto
-
-    Bioinformatica-proyecto/
-    ├── src/
-    │   ├── bruteforce.py
-    │   ├── experiments.py
-    │   ├── fasta_parser.py
-    │   ├── main.py (Script sencillo para pruebas rápidas del algoritmo. NO PARA EXPERIMENTOS PRINCIPAL)
-    │   ├── nussinov.py
-    │   ├── scoring.py
-    │   ├── traceback_nussinov.py
-    │   └── utils.py
-    │
-    ├── scripts/
-    │   └── filtrar_dbn.py
-    │
-    ├── data/
-    │   ├── raw/
-    │   │   ├── dbnFiles/
-    │   │   ├── fastaFiles/
-    │   │   └── ejemplo.fasta
-    │   │
-    │   └── processed/
-    │       └── dbnFiles/
-    │           ├── dataset.dbn
-    │           └── dataset.fasta
-    │
-    ├── results/
-    │   ├── resultados.csv
-    │   ├── figures/
-    │   ├── matrices/
-    │   └── metrics/
-    │       └── log.txt
-    │
-    ├── docs/
-    │   └── analysis.ipynb
-    │
-    ├── templates/
-    │   └── index.html
-    │
-    ├── static/
-    │
-    ├── tests/
-    │   ├── test_fasta_parser.py
-    │   ├── test_nussinov.py
-    │   ├── test_scoring.py
-    │   ├── test_traceback.py
-    │   └── test_utils.py
-    │
-    ├── app.py
-    ├── requirements.txt
-    ├── README.md
-    ├── README_final.md
-    ├── pytest.ini
-    └── LICENSE
-
-------------------------------------------------------------------------
-
-## Ejecución
-
-A continuación se describen los pasos necesarios para ejecutar completamente el proyecto de forma reproducible.
-
----
-
-### 1. Instalar dependencias
-
-Instalar todas las librerías necesarias:
-
-```bash
-pip install -r requirements.txt
+```text
+Bioinformatica-proyecto/
+├── app.py
+├── requirements.txt
+├── README.md
+├── scripts/
+│   └── filtrar_dbn.py
+├── src/
+│   ├── bruteforce.py
+│   ├── experiments.py
+│   ├── fasta_parser.py
+│   ├── main.py
+│   ├── nussinov.py
+│   ├── scoring.py
+│   ├── traceback_nussinov.py
+│   └── utils.py
+├── templates/
+│   └── index.html
+├── tests/
+│   ├── test_fasta_parser.py
+│   ├── test_nussinov.py
+│   ├── test_scoring.py
+│   ├── test_traceback.py
+│   └── test_utils.py
+└── results/
 ```
 
-En caso de no tener ViennaRNA instalado:
+## Dataset
+
+El dataset **no está subido al repositorio** porque su tamaño es demasiado grande para incluirlo de forma razonable. 
+
+Fuente recomendada:
+
+- [bpRNA download](https://bprna.cgrb.oregonstate.edu/download.php)
+
+### Ubicación esperada
+
+Para que el origen de cada archivo quede claro, la organización recomendada es esta:
+
+- `data/raw/dataset_download/`: datos descargados externamente de bpRNA
+- `data/raw/web_inputs/`: ejemplos manuales y FASTA subidos desde la app web
+
+Descarga los archivos `.dbn` y colócalos en:
 
 ```bash
-pip install ViennaRNA
+data/raw/dataset_download/dbnFiles
 ```
 
-### 2. Descargar y preparar el dataset
-
-Este proyecto utiliza datos reales del dataset bpRNA.
-
-- **Descargar dataset**
-
-Descargar los archivos en formato .dbn desde:
-
-https://bprna.cgrb.oregonstate.edu/download.php
-
-- **Colocar archivos**
-
-Mover todos los archivos descargados a:  
+Si también conservas FASTA descargados del dataset, guárdalos en:
 
 ```bash
-data/raw/dbnFiles
+data/raw/dataset_download/fastaFiles
 ```
 
-### 3. Generar dataset procesado
-
-Ejecutar el script de filtrado:
+Los FASTA de ejemplo para probar la app o la demo por terminal pueden ir en:
 
 ```bash
-    python scripts/filtrar_dbn.py
+data/raw/web_inputs/examples
 ```
 
-Este script:
+Los FASTA subidos desde la interfaz web se guardan automáticamente en:
 
-•	filtra secuencias con longitud ≤ 120 nucleótidos
+```bash
+data/raw/web_inputs/uploads
+```
 
-•	elimina estructuras con pseudonudos
+Después ejecuta:
 
-•	genera:
+```bash
+python3 scripts/filtrar_dbn.py
+```
+
+Ese script:
+
+- filtra secuencias de longitud `<= 120`
+- elimina entradas con pseudonudos simples (`[` y `]`)
+- genera:
 
 ```bash
 data/processed/dbnFiles/dataset.dbn
 data/processed/dbnFiles/dataset.fasta
 ```
 
-### 4. Ejecutar experimentos
-
-Ejecutar el benchmark completo:
+## Instalación
 
 ```bash
-    python -m src.experiments
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Este proceso:
+Si no quieres usar la comparación con ViennaRNA, el núcleo algorítmico sigue funcionando aunque esa librería no esté disponible. La comparación con `RNA.fold` pasará a mostrarse como no disponible.
 
-•	aplica Nussinov a todas las secuencias
+## Ejecución rápida
 
-•	compara con estructuras reales (DBN)
-
-•	valida con brute force en secuencias cortas
-
-•	mide tiempos de ejecución
-
-Resultados generados en:
+### Demo por terminal
 
 ```bash
-results/resultados.csv
-results/metrics/log.txt
+python3 -m src.main
 ```
 
-### 5. Análisis de resultados
+Ese script lee por defecto:
 
-Abrir:
+```bash
+data/raw/web_inputs/examples/ejemplo.fasta
+```
 
-    docs/analysis.ipynb
+### Interfaz web
 
-Incluye:
+```bash
+python3 app.py
+```
 
-•	métricas cuantitativas  
-•	visualización de resultados  
-•	interpretación  
-    
-### 6. Web
+Abre [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
-Ejecutar: 
+### Experimentos
 
-    python app.py
+Con el dataset procesado ya generado:
 
-Abrir en navegador:
+```bash
+python3 -m src.experiments
+```
 
-    http://127.0.0.1:5000
+Se generan automáticamente:
 
-Permite:  
-•	introducir secuencias  
-•	visualizar estructuras  
-•	comparar resultados  
+- `results/resultados.csv`
+- `results/metrics/log.txt`
+- `results/metrics/fallo_estructural.txt`
+- `results/figures/tiempo_vs_longitud.png`
+- `results/figures/error_vs_longitud.png`
+- `results/figures/comparacion_pares.png`
+- `results/figures/comparacion_viennarna.png` si ViennaRNA está disponible
 
----
-⚠️ Notas importantes
+## Qué hace exactamente el modelo
 
-- Usar ejecución como módulo:
+La recurrencia sigue la idea clásica de Nussinov: para cada subsecuencia `(i, j)` se evalúan estas opciones:
 
-    python -m src.experiments
+1. dejar `i` sin emparejar
+2. dejar `j` sin emparejar
+3. emparejar `i` con `j` si el par es válido
+4. dividir el problema en dos subproblemas
 
-- El proyecto es completamente reproducible siguiendo estos pasos
+La complejidad temporal es **O(n^3)** por el recorrido de diagonales y el barrido de particiones `k`. El espacio es **O(n^2)** por la matriz dinámica.
 
-------------------------------------------------------------------------
-## Benchmark
+En esta versión, un par solo se admite si:
 
-Se evalúa el comportamiento del algoritmo mediante:
+- es válido (`A-U`, `U-A`, `G-C`, `C-G`)
+- respeta una longitud mínima de loop
 
-- Tiempo de ejecución en función de la longitud
-- Error absoluto respecto a estructuras reales (DBN)
-- Error relativo en número de emparejamientos
-- Validación exacta con brute force en secuencias cortas
+Además, si el loop inducido es demasiado largo, se reduce ligeramente su score. El objetivo deja de ser “maximizar solo el número bruto de pares” y pasa a ser “maximizar una puntuación estructural simple”.
 
-Resultados disponibles en:
+## Validación y benchmarks
 
-    results/resultados.csv
+El proyecto evalúa el algoritmo en tres niveles:
 
-------------------------------------------------------------------------
+- **correctitud interna**: comparación con un resolvedor exacto alternativo en secuencias cortas
+- **comparación con bpRNA**: número de pares predichos frente a la estructura anotada real
+- **comparación con ViennaRNA / RNAfold**: referencia termodinámica externa
 
-## Resultados clave
+También se incluye un pequeño **test de fallo estructural** en `results/metrics/fallo_estructural.txt` para dejar documentado que maximizar pares no equivale a modelar bien la estructura biológica real.
 
-- Nussinov es correcto desde el punto de vista algorítmico (validación exacta)
-- Tiende a sobreestimar el número de emparejamientos
-- El error aumenta con la longitud de la secuencia
-- El tiempo de ejecución crece de forma coherente con O(n³)
+## Tests
 
-------------------------------------------------------------------------
-
-## ⚠️ Limitaciones
-
-- Nussinov no considera energía ni estabilidad termodinámica
-- No soporta pseudonudos []
-- Sobreestima emparejamientos frente a estructuras reales
-- Complejidad cúbica (O(n³))
-- Validación exacta limitada a secuencias cortas
-
-------------------------------------------------------------------------
-
-## Conclusión
-
-El algoritmo de Nussinov es correcto y eficiente desde el punto de vista computacional, pero presenta limitaciones importantes como modelo biológico, ya que no reproduce fielmente las estructuras reales del RNA.
-
-Esto demuestra que maximizar el número de emparejamientos no es suficiente para modelar la estructura secundaria en contextos reales.
-
-------------------------------------------------------------------------
+```bash
+python3 -m pytest -q
+```
 
 ## Reproducibilidad
 
-El experimento completo puede reproducirse ejecutando:
+Para reproducir el proyecto hace falta:
 
-```bash
-python scripts/filtrar_dbn.py
-python -m src.experiments
-```
-------------------------------------------------------------------------
+- clonar el repositorio
+- instalar dependencias
+- descargar bpRNA manualmente
+- ejecutar `scripts/filtrar_dbn.py`
+- lanzar `src.experiments`
 
-## 📥 Formato de entrada
-
-
-Ejemplo de archivo FASTA:
-
-```bash
->secuencia_1
-GGGAAAUCC
->secuencia_2
-GGGGAAAACCCC
-```
-
----
-
-
-## 📤 Ejemplo de salida log
-
-```bash
-===================================
-Secuencia: bpRNA_RFAM_14392
-Longitud: 112
-
-Nussinov → 44 pares
-DBN → 20 pares
-Error DBN: 24
-
-BruteForce → 44
-Coincide óptimo: True
-
-Tiempo: 0.03701 s
-===================================
-```
-
----
-
-## Diferencias entre modelos
-
-- **Nussinov**: maximiza el número de emparejamientos mediante programación dinámica  
-- **Brute force (con memoización)**: calcula la solución óptima exacta (solo en secuencias cortas)  
-- **ViennaRNA**: minimiza la energía libre (modelo termodinámico)
-
-Por ello:
-
-- Nussinov y brute force deben coincidir en el número máximo de pares → validación de correctitud  
-- ViennaRNA puede producir estructuras distintas → referencia biológica, no validación  
-
-Esto refleja que maximizar emparejamientos no es equivalente a obtener estructuras biológicamente realistas.
+La descarga manual del dataset es el único paso externo importante, y se mantiene fuera del repositorio por tamaño.

@@ -21,3 +21,17 @@ def test_secuencia_sin_pares():
     matriz = nussinov(secuencia)
 
     assert matriz[0][-1] == 0
+
+
+def test_respeta_longitud_minima_de_loop():
+    secuencia = "AUAU"
+    matriz = nussinov(secuencia)
+
+    assert matriz[0][-1] == 0
+
+
+def test_permite_pares_si_hay_bucle_suficiente():
+    secuencia = "AGGCU"
+    matriz = nussinov(secuencia)
+
+    assert matriz[0][-1] > 0

@@ -230,7 +230,9 @@ hr {
 </div>
 </div>
 
-<p><strong>Número máximo de pares:</strong> {{ r.num_pares }}</p></div>
+<p><strong>Número máximo de pares:</strong> {{ r.num_pares }}</p>
+<p><strong>Score penalizado:</strong> {{ "%.2f"|format(r.score_nussinov) }}</p>
+</div>
 
 
 <div>
@@ -238,6 +240,7 @@ hr {
 
 <div class="estructura-container">
     <div class="estructura">
+    {% if r.estructura_vienna %}
     {% for c in r.estructura_vienna %}
     {% if c == "(" %}
         <span style="color:#2ecc71">(</span>
@@ -247,6 +250,9 @@ hr {
         <span class="dot">.</span>
     {% endif %}
 {% endfor %}
+    {% else %}
+        <span class="dot">No disponible</span>
+    {% endif %}
 </div>
 </div>
 
@@ -264,6 +270,7 @@ ViennaRNA optimiza energía, Nussinov maximiza pares → no se espera coincidenc
 <hr>
 
 <!-- VALIDACIÓN -->
+{% if r.bruteforce %}
 <div style="
     background:{% if r.bruteforce.coincide %}#f0fdf4{% else %}#fef2f2{% endif %};
     padding:20px;
@@ -292,6 +299,9 @@ ViennaRNA optimiza energía, Nussinov maximiza pares → no se espera coincidenc
             <div style="font-size:28px; font-weight:bold; line-height:1;">
                 {{ r.bruteforce.max_pares if r.bruteforce.max_pares is not none else '-' }}
             </div>
+            <p class="note" style="margin-top:8px;">
+                Score óptimo: {{ "%.2f"|format(r.bruteforce.score) if r.bruteforce.score is not none else '-' }}
+            </p>
         </div>
 
         <div>
@@ -316,6 +326,7 @@ ViennaRNA optimiza energía, Nussinov maximiza pares → no se espera coincidenc
         Esta validación utiliza recursión con memoización, por lo que no corresponde a una fuerza bruta pura.
     </p>
 </div>
+{% endif %}
 
 <!-- PARES -->
 <div style="margin-top:15px;">

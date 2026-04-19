@@ -2,1399 +2,1699 @@
 Secuencia: bpRNA_CRW_52605
 Longitud: 72
 
-Nussinov → 28 pares
+Nussinov → 25 pares | score 23.25
 DBN → 22 pares
-Error DBN: 6
+Error DBN: 3
+ViennaRNA → 21 pares | energía -26.600000381469727
+Error ViennaRNA: 4
 
-BruteForce → 28
+BruteForce score → 23.25
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01045 s
+Tiempo: 0.01098 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_24251
 Longitud: 100
 
-Nussinov → 45 pares
+Nussinov → 35 pares | score 33.75
 DBN → 2 pares
-Error DBN: 43
+Error DBN: 33
+ViennaRNA → 23 pares | energía -11.5
+Error ViennaRNA: 12
 
-BruteForce → 45
+BruteForce score → 33.75
+BruteForce pares → 35
 Coincide óptimo: True
 
-Tiempo: 0.02676 s
+Tiempo: 0.02810 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_34580
 Longitud: 26
 
-Nussinov → 8 pares
+Nussinov → 6 pares | score 6.00
 DBN → 3 pares
-Error DBN: 5
+Error DBN: 3
+ViennaRNA → 3 pares | energía -4.699999809265137
+Error ViennaRNA: 3
 
-BruteForce → 8
+BruteForce score → 6.0
+BruteForce pares → 6
 Coincide óptimo: True
 
-Tiempo: 0.00062 s
+Tiempo: 0.00065 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_4664
 Longitud: 95
 
-Nussinov → 40 pares
+Nussinov → 32 pares | score 30.75
 DBN → 19 pares
-Error DBN: 21
+Error DBN: 13
+ViennaRNA → 34 pares | energía -44.0
+Error ViennaRNA: -2
 
-BruteForce → 40
+BruteForce score → 30.75
+BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02325 s
+Tiempo: 0.02426 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_45379
 Longitud: 35
 
-Nussinov → 11 pares
+Nussinov → 9 pares | score 9.00
 DBN → 4 pares
-Error DBN: 7
+Error DBN: 5
+ViennaRNA → 9 pares | energía -7.599999904632568
+Error ViennaRNA: 0
 
-BruteForce → 11
+BruteForce score → 9.0
+BruteForce pares → 9
 Coincide óptimo: True
 
-Tiempo: 0.00136 s
+Tiempo: 0.00152 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_14392
 Longitud: 112
 
-Nussinov → 44 pares
+Nussinov → 36 pares | score 35.25
 DBN → 20 pares
-Error DBN: 24
+Error DBN: 16
+ViennaRNA → 35 pares | energía -48.70000076293945
+Error ViennaRNA: 1
 
-BruteForce → 44
+BruteForce score → 35.25
+BruteForce pares → 36
 Coincide óptimo: True
 
-Tiempo: 0.03727 s
+Tiempo: 0.03999 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_42416
 Longitud: 37
 
-Nussinov → 16 pares
+Nussinov → 11 pares | score 11.00
 DBN → 4 pares
-Error DBN: 12
+Error DBN: 7
+ViennaRNA → 9 pares | energía -6.199999809265137
+Error ViennaRNA: 2
 
-BruteForce → 16
+BruteForce score → 11.0
+BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00161 s
+Tiempo: 0.00171 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_35846
 Longitud: 41
 
-Nussinov → 14 pares
+Nussinov → 11 pares | score 11.00
 DBN → 5 pares
-Error DBN: 9
+Error DBN: 6
+ViennaRNA → 6 pares | energía -4.800000190734863
+Error ViennaRNA: 5
 
-BruteForce → 14
+BruteForce score → 11.0
+BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00211 s
+Tiempo: 0.00225 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_24793
 Longitud: 73
 
-Nussinov → 30 pares
+Nussinov → 26 pares | score 24.50
 DBN → 22 pares
-Error DBN: 8
-
-BruteForce → 30
-Coincide óptimo: True
-
-Tiempo: 0.01081 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_34042
-Longitud: 132
-
-Nussinov → 58 pares
-DBN → 22 pares
-Error DBN: 36
-
-BruteForce → None
-Coincide óptimo: None
-
-Tiempo: 0.06024 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_22620
-Longitud: 85
-
-Nussinov → 29 pares
-DBN → 19 pares
-Error DBN: 10
-
-BruteForce → 29
-Coincide óptimo: True
-
-Tiempo: 0.01670 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_43708
-Longitud: 75
-
-Nussinov → 32 pares
-DBN → 22 pares
-Error DBN: 10
-
-BruteForce → 32
-Coincide óptimo: True
-
-Tiempo: 0.01163 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_2215
-Longitud: 81
-
-Nussinov → 34 pares
-DBN → 14 pares
-Error DBN: 20
-
-BruteForce → 34
-Coincide óptimo: True
-
-Tiempo: 0.01460 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_54274
-Longitud: 74
-
-Nussinov → 34 pares
-DBN → 22 pares
-Error DBN: 12
-
-BruteForce → 34
-Coincide óptimo: True
-
-Tiempo: 0.01123 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_32433
-Longitud: 51
-
-Nussinov → 21 pares
-DBN → 10 pares
-Error DBN: 11
-
-BruteForce → 21
-Coincide óptimo: True
-
-Tiempo: 0.00395 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_44067
-Longitud: 77
-
-Nussinov → 33 pares
-DBN → 22 pares
-Error DBN: 11
-
-BruteForce → 33
-Coincide óptimo: True
-
-Tiempo: 0.01254 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_678
-Longitud: 120
-
-Nussinov → 54 pares
-DBN → 33 pares
-Error DBN: 21
-
-BruteForce → 54
-Coincide óptimo: True
-
-Tiempo: 0.04526 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_26446
-Longitud: 120
-
-Nussinov → 49 pares
-DBN → 20 pares
-Error DBN: 29
-
-BruteForce → 49
-Coincide óptimo: True
-
-Tiempo: 0.04540 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_36397
-Longitud: 74
-
-Nussinov → 32 pares
-DBN → 22 pares
-Error DBN: 10
-
-BruteForce → 32
-Coincide óptimo: True
-
-Tiempo: 0.01110 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_6073
-Longitud: 81
-
-Nussinov → 36 pares
-DBN → 3 pares
-Error DBN: 33
-
-BruteForce → 36
-Coincide óptimo: True
-
-Tiempo: 0.01443 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_19374
-Longitud: 99
-
-Nussinov → 40 pares
-DBN → 20 pares
-Error DBN: 20
-
-BruteForce → 40
-Coincide óptimo: True
-
-Tiempo: 0.02579 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_16047
-Longitud: 57
-
-Nussinov → 22 pares
-DBN → 7 pares
-Error DBN: 15
-
-BruteForce → 22
-Coincide óptimo: True
-
-Tiempo: 0.00532 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_17843
-Longitud: 91
-
-Nussinov → 40 pares
-DBN → 6 pares
-Error DBN: 34
-
-BruteForce → 40
-Coincide óptimo: True
-
-Tiempo: 0.02020 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_50012
-Longitud: 24
-
-Nussinov → 7 pares
-DBN → 3 pares
 Error DBN: 4
+ViennaRNA → 23 pares | energía -28.600000381469727
+Error ViennaRNA: 3
 
-BruteForce → 7
-Coincide óptimo: True
-
-Tiempo: 0.00049 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_29775
-Longitud: 76
-
-Nussinov → 30 pares
-DBN → 19 pares
-Error DBN: 11
-
-BruteForce → 30
-Coincide óptimo: True
-
-Tiempo: 0.01218 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_26184
-Longitud: 76
-
-Nussinov → 33 pares
-DBN → 22 pares
-Error DBN: 11
-
-BruteForce → 33
-Coincide óptimo: True
-
-Tiempo: 0.01206 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_36655
-Longitud: 87
-
-Nussinov → 36 pares
-DBN → 32 pares
-Error DBN: 4
-
-BruteForce → 36
-Coincide óptimo: True
-
-Tiempo: 0.01777 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_27980
-Longitud: 54
-
-Nussinov → 21 pares
-DBN → 8 pares
-Error DBN: 13
-
-BruteForce → 21
-Coincide óptimo: True
-
-Tiempo: 0.00453 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_16585
-Longitud: 136
-
-Nussinov → 59 pares
-DBN → 41 pares
-Error DBN: 18
-
-BruteForce → None
-Coincide óptimo: None
-
-Tiempo: 0.06570 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_39566
-Longitud: 142
-
-Nussinov → 57 pares
-DBN → 39 pares
-Error DBN: 18
-
-BruteForce → None
-Coincide óptimo: None
-
-Tiempo: 0.07535 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_40201
-Longitud: 74
-
-Nussinov → 32 pares
-DBN → 22 pares
-Error DBN: 10
-
-BruteForce → 32
-Coincide óptimo: True
-
-Tiempo: 0.01122 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_21329
-Longitud: 107
-
-Nussinov → 44 pares
-DBN → 37 pares
-Error DBN: 7
-
-BruteForce → 44
-Coincide óptimo: True
-
-Tiempo: 0.03242 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_48885
-Longitud: 18
-
-Nussinov → 7 pares
-DBN → 0 pares
-Error DBN: 7
-
-BruteForce → 7
-Coincide óptimo: True
-
-Tiempo: 0.00024 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_20037
-Longitud: 73
-
-Nussinov → 32 pares
-DBN → 15 pares
-Error DBN: 17
-
-BruteForce → 32
-Coincide óptimo: True
-
-Tiempo: 0.01083 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_38678
-Longitud: 148
-
-Nussinov → 64 pares
-DBN → 38 pares
-Error DBN: 26
-
-BruteForce → None
-Coincide óptimo: None
-
-Tiempo: 0.08539 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_21833
-Longitud: 75
-
-Nussinov → 33 pares
-DBN → 21 pares
-Error DBN: 12
-
-BruteForce → 33
+BruteForce score → 24.5
+BruteForce pares → 26
 Coincide óptimo: True
 
 Tiempo: 0.01160 s
 ===================================
 
 ===================================
+Secuencia: bpRNA_RFAM_34042
+Longitud: 132
+
+Nussinov → 45 pares | score 43.75
+DBN → 22 pares
+Error DBN: 23
+ViennaRNA → 36 pares | energía -39.900001525878906
+Error ViennaRNA: 9
+
+BruteForce score → None
+BruteForce pares → None
+Coincide óptimo: None
+
+Tiempo: 0.06345 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_22620
+Longitud: 85
+
+Nussinov → 27 pares | score 25.00
+DBN → 19 pares
+Error DBN: 8
+ViennaRNA → 19 pares | energía -18.100000381469727
+Error ViennaRNA: 8
+
+BruteForce score → 25.0
+BruteForce pares → 27
+Coincide óptimo: True
+
+Tiempo: 0.01784 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_43708
+Longitud: 75
+
+Nussinov → 25 pares | score 24.50
+DBN → 22 pares
+Error DBN: 3
+ViennaRNA → 21 pares | energía -26.700000762939453
+Error ViennaRNA: 4
+
+BruteForce score → 24.5
+BruteForce pares → 25
+Coincide óptimo: True
+
+Tiempo: 0.01247 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_2215
+Longitud: 81
+
+Nussinov → 28 pares | score 25.75
+DBN → 14 pares
+Error DBN: 14
+ViennaRNA → 27 pares | energía -27.399999618530273
+Error ViennaRNA: 1
+
+BruteForce score → 25.75
+BruteForce pares → 28
+Coincide óptimo: True
+
+Tiempo: 0.01550 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_54274
+Longitud: 74
+
+Nussinov → 27 pares | score 26.00
+DBN → 22 pares
+Error DBN: 5
+ViennaRNA → 24 pares | energía -34.70000076293945
+Error ViennaRNA: 3
+
+BruteForce score → 26.0
+BruteForce pares → 27
+Coincide óptimo: True
+
+Tiempo: 0.01193 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_32433
+Longitud: 51
+
+Nussinov → 15 pares | score 15.00
+DBN → 10 pares
+Error DBN: 5
+ViennaRNA → 12 pares | energía -10.800000190734863
+Error ViennaRNA: 3
+
+BruteForce score → 15.0
+BruteForce pares → 15
+Coincide óptimo: True
+
+Tiempo: 0.00421 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_44067
+Longitud: 77
+
+Nussinov → 26 pares | score 25.50
+DBN → 22 pares
+Error DBN: 4
+ViennaRNA → 23 pares | energía -26.899999618530273
+Error ViennaRNA: 3
+
+BruteForce score → 25.5
+BruteForce pares → 26
+Coincide óptimo: True
+
+Tiempo: 0.01335 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_678
+Longitud: 120
+
+Nussinov → 42 pares | score 39.25
+DBN → 33 pares
+Error DBN: 9
+ViennaRNA → 35 pares | energía -36.20000076293945
+Error ViennaRNA: 7
+
+BruteForce score → 39.25
+BruteForce pares → 42
+Coincide óptimo: True
+
+Tiempo: 0.04774 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_26446
+Longitud: 120
+
+Nussinov → 40 pares | score 38.25
+DBN → 20 pares
+Error DBN: 20
+ViennaRNA → 23 pares | energía -19.5
+Error ViennaRNA: 17
+
+BruteForce score → 38.25
+BruteForce pares → 40
+Coincide óptimo: True
+
+Tiempo: 0.04763 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_36397
+Longitud: 74
+
+Nussinov → 26 pares | score 24.50
+DBN → 22 pares
+Error DBN: 4
+ViennaRNA → 25 pares | energía -32.099998474121094
+Error ViennaRNA: 1
+
+BruteForce score → 24.5
+BruteForce pares → 25
+Coincide óptimo: True
+
+Tiempo: 0.01183 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_6073
+Longitud: 81
+
+Nussinov → 29 pares | score 27.25
+DBN → 3 pares
+Error DBN: 26
+ViennaRNA → 22 pares | energía -7.900000095367432
+Error ViennaRNA: 7
+
+BruteForce score → 27.25
+BruteForce pares → 29
+Coincide óptimo: True
+
+Tiempo: 0.01534 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_19374
+Longitud: 99
+
+Nussinov → 32 pares | score 31.50
+DBN → 20 pares
+Error DBN: 12
+ViennaRNA → 34 pares | energía -35.400001525878906
+Error ViennaRNA: -2
+
+BruteForce score → 31.5
+BruteForce pares → 32
+Coincide óptimo: True
+
+Tiempo: 0.02726 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_16047
+Longitud: 57
+
+Nussinov → 18 pares | score 17.50
+DBN → 7 pares
+Error DBN: 11
+ViennaRNA → 16 pares | energía -11.699999809265137
+Error ViennaRNA: 2
+
+BruteForce score → 17.5
+BruteForce pares → 18
+Coincide óptimo: True
+
+Tiempo: 0.00574 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_17843
+Longitud: 91
+
+Nussinov → 32 pares | score 30.75
+DBN → 6 pares
+Error DBN: 26
+ViennaRNA → 28 pares | energía -29.5
+Error ViennaRNA: 4
+
+BruteForce score → 30.75
+BruteForce pares → 32
+Coincide óptimo: True
+
+Tiempo: 0.02144 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_50012
+Longitud: 24
+
+Nussinov → 6 pares | score 6.00
+DBN → 3 pares
+Error DBN: 3
+ViennaRNA → 5 pares | energía -2.0999999046325684
+Error ViennaRNA: 1
+
+BruteForce score → 6.0
+BruteForce pares → 6
+Coincide óptimo: True
+
+Tiempo: 0.00055 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_29775
+Longitud: 76
+
+Nussinov → 28 pares | score 26.25
+DBN → 19 pares
+Error DBN: 9
+ViennaRNA → 22 pares | energía -23.399999618530273
+Error ViennaRNA: 6
+
+BruteForce score → 26.25
+BruteForce pares → 28
+Coincide óptimo: True
+
+Tiempo: 0.01268 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_26184
+Longitud: 76
+
+Nussinov → 26 pares | score 25.00
+DBN → 22 pares
+Error DBN: 4
+ViennaRNA → 22 pares | energía -26.600000381469727
+Error ViennaRNA: 4
+
+BruteForce score → 25.0
+BruteForce pares → 26
+Coincide óptimo: True
+
+Tiempo: 0.01288 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_36655
+Longitud: 87
+
+Nussinov → 29 pares | score 28.75
+DBN → 32 pares
+Error DBN: -3
+ViennaRNA → 31 pares | energía -31.200000762939453
+Error ViennaRNA: -2
+
+BruteForce score → 28.75
+BruteForce pares → 29
+Coincide óptimo: True
+
+Tiempo: 0.01923 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_27980
+Longitud: 54
+
+Nussinov → 17 pares | score 17.00
+DBN → 8 pares
+Error DBN: 9
+ViennaRNA → 15 pares | energía -11.0
+Error ViennaRNA: 2
+
+BruteForce score → 17.0
+BruteForce pares → 17
+Coincide óptimo: True
+
+Tiempo: 0.00499 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_16585
+Longitud: 136
+
+Nussinov → 45 pares | score 43.75
+DBN → 41 pares
+Error DBN: 4
+ViennaRNA → 46 pares | energía -40.5
+Error ViennaRNA: -1
+
+BruteForce score → None
+BruteForce pares → None
+Coincide óptimo: None
+
+Tiempo: 0.06846 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_39566
+Longitud: 142
+
+Nussinov → 51 pares | score 48.50
+DBN → 39 pares
+Error DBN: 12
+ViennaRNA → 47 pares | energía -47.29999923706055
+Error ViennaRNA: 4
+
+BruteForce score → None
+BruteForce pares → None
+Coincide óptimo: None
+
+Tiempo: 0.07787 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_40201
+Longitud: 74
+
+Nussinov → 25 pares | score 24.50
+DBN → 22 pares
+Error DBN: 3
+ViennaRNA → 25 pares | energía -30.399999618530273
+Error ViennaRNA: 0
+
+BruteForce score → 24.5
+BruteForce pares → 25
+Coincide óptimo: True
+
+Tiempo: 0.01180 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_21329
+Longitud: 107
+
+Nussinov → 36 pares | score 35.00
+DBN → 37 pares
+Error DBN: -1
+ViennaRNA → 39 pares | energía -42.599998474121094
+Error ViennaRNA: -3
+
+BruteForce score → 35.0
+BruteForce pares → 36
+Coincide óptimo: True
+
+Tiempo: 0.03495 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_48885
+Longitud: 18
+
+Nussinov → 4 pares | score 4.00
+DBN → 0 pares
+Error DBN: 4
+ViennaRNA → 5 pares | energía -0.8999999761581421
+Error ViennaRNA: -1
+
+BruteForce score → 4.0
+BruteForce pares → 4
+Coincide óptimo: True
+
+Tiempo: 0.00025 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_20037
+Longitud: 73
+
+Nussinov → 25 pares | score 24.75
+DBN → 15 pares
+Error DBN: 10
+ViennaRNA → 22 pares | energía -19.200000762939453
+Error ViennaRNA: 3
+
+BruteForce score → 24.75
+BruteForce pares → 25
+Coincide óptimo: True
+
+Tiempo: 0.01149 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_38678
+Longitud: 148
+
+Nussinov → 52 pares | score 50.75
+DBN → 38 pares
+Error DBN: 14
+ViennaRNA → 47 pares | energía -64.5999984741211
+Error ViennaRNA: 5
+
+BruteForce score → None
+BruteForce pares → None
+Coincide óptimo: None
+
+Tiempo: 0.08700 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_21833
+Longitud: 75
+
+Nussinov → 25 pares | score 24.75
+DBN → 21 pares
+Error DBN: 4
+ViennaRNA → 22 pares | energía -27.799999237060547
+Error ViennaRNA: 3
+
+BruteForce score → 24.75
+BruteForce pares → 25
+Coincide óptimo: True
+
+Tiempo: 0.01232 s
+===================================
+
+===================================
 Secuencia: bpRNA_CRW_46670
 Longitud: 38
 
-Nussinov → 13 pares
+Nussinov → 11 pares | score 10.50
 DBN → 6 pares
-Error DBN: 7
+Error DBN: 5
+ViennaRNA → 9 pares | energía -7.599999904632568
+Error ViennaRNA: 2
 
-BruteForce → 13
+BruteForce score → 10.5
+BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00169 s
+Tiempo: 0.00182 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_37089
 Longitud: 77
 
-Nussinov → 33 pares
+Nussinov → 26 pares | score 25.50
 DBN → 22 pares
-Error DBN: 11
+Error DBN: 4
+ViennaRNA → 27 pares | energía -30.399999618530273
+Error ViennaRNA: -1
 
-BruteForce → 33
+BruteForce score → 25.5
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01245 s
+Tiempo: 0.01321 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_30224
 Longitud: 89
 
-Nussinov → 39 pares
+Nussinov → 30 pares | score 29.25
 DBN → 20 pares
-Error DBN: 19
+Error DBN: 10
+ViennaRNA → 25 pares | energía -25.799999237060547
+Error ViennaRNA: 5
 
-BruteForce → 39
+BruteForce score → 29.25
+BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.01893 s
+Tiempo: 0.02010 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_49543
 Longitud: 21
 
-Nussinov → 7 pares
+Nussinov → 5 pares | score 5.00
 DBN → 1 pares
-Error DBN: 6
+Error DBN: 4
+ViennaRNA → 3 pares | energía -0.800000011920929
+Error ViennaRNA: 2
 
-BruteForce → 7
+BruteForce score → 5.0
+BruteForce pares → 5
 Coincide óptimo: True
 
-Tiempo: 0.00035 s
+Tiempo: 0.00037 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_46116
 Longitud: 40
 
-Nussinov → 14 pares
+Nussinov → 11 pares | score 11.00
 DBN → 6 pares
-Error DBN: 8
+Error DBN: 5
+ViennaRNA → 4 pares | energía -5.400000095367432
+Error ViennaRNA: 7
 
-BruteForce → 14
+BruteForce score → 11.0
+BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00197 s
+Tiempo: 0.00209 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_10692
 Longitud: 78
 
-Nussinov → 30 pares
+Nussinov → 25 pares | score 25.00
 DBN → 23 pares
-Error DBN: 7
+Error DBN: 2
+ViennaRNA → 26 pares | energía -41.599998474121094
+Error ViennaRNA: -1
 
-BruteForce → 30
+BruteForce score → 25.0
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01300 s
+Tiempo: 0.01369 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_49225
 Longitud: 46
 
-Nussinov → 17 pares
+Nussinov → 14 pares | score 14.00
 DBN → 10 pares
-Error DBN: 7
+Error DBN: 4
+ViennaRNA → 9 pares | energía -11.100000381469727
+Error ViennaRNA: 5
 
-BruteForce → 17
+BruteForce score → 14.0
+BruteForce pares → 14
 Coincide óptimo: True
 
-Tiempo: 0.00289 s
+Tiempo: 0.00309 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_8738
 Longitud: 94
 
-Nussinov → 40 pares
+Nussinov → 34 pares | score 31.50
 DBN → 33 pares
-Error DBN: 7
+Error DBN: 1
+ViennaRNA → 33 pares | energía -53.0
+Error ViennaRNA: 1
 
-BruteForce → 40
+BruteForce score → 31.5
+BruteForce pares → 32
 Coincide óptimo: True
 
-Tiempo: 0.02231 s
+Tiempo: 0.02342 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_30542
 Longitud: 101
 
-Nussinov → 44 pares
+Nussinov → 33 pares | score 32.75
 DBN → 13 pares
-Error DBN: 31
+Error DBN: 20
+ViennaRNA → 25 pares | energía -20.100000381469727
+Error ViennaRNA: 8
 
-BruteForce → 44
+BruteForce score → 32.75
+BruteForce pares → 33
 Coincide óptimo: True
 
-Tiempo: 0.02778 s
+Tiempo: 0.02868 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_20751
 Longitud: 78
 
-Nussinov → 36 pares
+Nussinov → 27 pares | score 26.25
 DBN → 25 pares
-Error DBN: 11
+Error DBN: 2
+ViennaRNA → 30 pares | energía -35.099998474121094
+Error ViennaRNA: -3
 
-BruteForce → 36
+BruteForce score → 26.25
+BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01309 s
+Tiempo: 0.01402 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_31884
 Longitud: 76
 
-Nussinov → 30 pares
+Nussinov → 25 pares | score 24.00
 DBN → 10 pares
-Error DBN: 20
+Error DBN: 15
+ViennaRNA → 23 pares | energía -14.300000190734863
+Error ViennaRNA: 2
 
-BruteForce → 30
+BruteForce score → 24.0
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01215 s
+Tiempo: 0.01282 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_41679
 Longitud: 76
 
-Nussinov → 33 pares
+Nussinov → 26 pares | score 25.50
 DBN → 22 pares
-Error DBN: 11
+Error DBN: 4
+ViennaRNA → 24 pares | energía -28.200000762939453
+Error ViennaRNA: 2
 
-BruteForce → 33
+BruteForce score → 25.5
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01207 s
+Tiempo: 0.01303 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_30080
 Longitud: 72
 
-Nussinov → 31 pares
+Nussinov → 26 pares | score 24.00
 DBN → 22 pares
-Error DBN: 9
+Error DBN: 4
+ViennaRNA → 21 pares | energía -26.0
+Error ViennaRNA: 5
 
-BruteForce → 31
+BruteForce score → 24.0
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01051 s
+Tiempo: 0.01106 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_37937
 Longitud: 77
 
-Nussinov → 32 pares
+Nussinov → 26 pares | score 24.50
 DBN → 22 pares
-Error DBN: 10
+Error DBN: 4
+ViennaRNA → 26 pares | energía -30.799999237060547
+Error ViennaRNA: 0
 
-BruteForce → 32
+BruteForce score → 24.5
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01254 s
+Tiempo: 0.01337 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_36133
 Longitud: 104
 
-Nussinov → 45 pares
+Nussinov → 35 pares | score 34.00
 DBN → 28 pares
-Error DBN: 17
+Error DBN: 7
+ViennaRNA → 32 pares | energía -17.399999618530273
+Error ViennaRNA: 3
 
-BruteForce → 45
+BruteForce score → 34.0
+BruteForce pares → 35
 Coincide óptimo: True
 
-Tiempo: 0.02982 s
+Tiempo: 0.03124 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_SPR_280
 Longitud: 76
 
-Nussinov → 34 pares
+Nussinov → 25 pares | score 24.75
 DBN → 21 pares
-Error DBN: 13
+Error DBN: 4
+ViennaRNA → 21 pares | energía -26.600000381469727
+Error ViennaRNA: 4
 
-BruteForce → 34
+BruteForce score → 24.75
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01203 s
+Tiempo: 0.01265 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_40567
 Longitud: 77
 
-Nussinov → 33 pares
+Nussinov → 26 pares | score 25.50
 DBN → 22 pares
-Error DBN: 11
+Error DBN: 4
+ViennaRNA → 27 pares | energía -32.79999923706055
+Error ViennaRNA: -1
 
-BruteForce → 33
+BruteForce score → 25.5
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01254 s
+Tiempo: 0.01321 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_26320
 Longitud: 81
 
-Nussinov → 35 pares
+Nussinov → 30 pares | score 27.75
 DBN → 3 pares
-Error DBN: 32
+Error DBN: 27
+ViennaRNA → 26 pares | energía -22.700000762939453
+Error ViennaRNA: 4
 
-BruteForce → 35
+BruteForce score → 27.75
+BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.01462 s
+Tiempo: 0.01522 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_47208
 Longitud: 57
 
-Nussinov → 22 pares
+Nussinov → 18 pares | score 17.50
 DBN → 10 pares
-Error DBN: 12
+Error DBN: 8
+ViennaRNA → 15 pares | energía -13.899999618530273
+Error ViennaRNA: 3
 
-BruteForce → 22
+BruteForce score → 17.5
+BruteForce pares → 18
 Coincide óptimo: True
 
-Tiempo: 0.00532 s
+Tiempo: 0.00563 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_19412
 Longitud: 122
 
-Nussinov → 54 pares
+Nussinov → 41 pares | score 39.75
 DBN → 29 pares
-Error DBN: 25
+Error DBN: 12
+ViennaRNA → 35 pares | energía -29.299999237060547
+Error ViennaRNA: 6
 
-BruteForce → None
+BruteForce score → None
+BruteForce pares → None
 Coincide óptimo: None
 
-Tiempo: 0.04762 s
+Tiempo: 0.04947 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_28817
 Longitud: 76
 
-Nussinov → 33 pares
+Nussinov → 25 pares | score 25.00
 DBN → 22 pares
-Error DBN: 11
+Error DBN: 3
+ViennaRNA → 22 pares | energía -32.79999923706055
+Error ViennaRNA: 3
 
-BruteForce → 33
+BruteForce score → 25.0
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01210 s
+Tiempo: 0.01267 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_16721
 Longitud: 115
 
-Nussinov → 50 pares
+Nussinov → 39 pares | score 36.50
 DBN → 37 pares
-Error DBN: 13
+Error DBN: 2
+ViennaRNA → 30 pares | energía -32.20000076293945
+Error ViennaRNA: 9
 
-BruteForce → 50
+BruteForce score → 36.5
+BruteForce pares → 39
 Coincide óptimo: True
 
-Tiempo: 0.04003 s
+Tiempo: 0.04158 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_9426
 Longitud: 39
 
-Nussinov → 13 pares
+Nussinov → 12 pares | score 11.50
 DBN → 11 pares
-Error DBN: 2
+Error DBN: 1
+ViennaRNA → 11 pares | energía -13.300000190734863
+Error ViennaRNA: 1
 
-BruteForce → 13
+BruteForce score → 11.5
+BruteForce pares → 12
 Coincide óptimo: True
 
-Tiempo: 0.00181 s
+Tiempo: 0.00196 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_20989
 Longitud: 91
 
-Nussinov → 37 pares
+Nussinov → 31 pares | score 29.75
 DBN → 29 pares
-Error DBN: 8
+Error DBN: 2
+ViennaRNA → 28 pares | energía -34.20000076293945
+Error ViennaRNA: 3
 
-BruteForce → 37
+BruteForce score → 29.75
+BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02023 s
+Tiempo: 0.02127 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_29013
 Longitud: 74
 
-Nussinov → 28 pares
+Nussinov → 24 pares | score 22.00
 DBN → 14 pares
-Error DBN: 14
+Error DBN: 10
+ViennaRNA → 18 pares | energía -23.299999237060547
+Error ViennaRNA: 6
 
-BruteForce → 28
+BruteForce score → 22.0
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01116 s
+Tiempo: 0.01178 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_50774
 Longitud: 76
 
-Nussinov → 32 pares
+Nussinov → 26 pares | score 25.50
 DBN → 22 pares
-Error DBN: 10
+Error DBN: 4
+ViennaRNA → 21 pares | energía -27.700000762939453
+Error ViennaRNA: 5
 
-BruteForce → 32
+BruteForce score → 25.5
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01209 s
+Tiempo: 0.01273 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_22484
 Longitud: 73
 
-Nussinov → 31 pares
+Nussinov → 25 pares | score 24.50
 DBN → 22 pares
-Error DBN: 9
+Error DBN: 3
+ViennaRNA → 25 pares | energía -31.899999618530273
+Error ViennaRNA: 0
 
-BruteForce → 31
+BruteForce score → 24.5
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01084 s
+Tiempo: 0.01136 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_32355
 Longitud: 52
 
-Nussinov → 20 pares
+Nussinov → 16 pares | score 15.75
 DBN → 10 pares
-Error DBN: 10
+Error DBN: 6
+ViennaRNA → 11 pares | energía -9.100000381469727
+Error ViennaRNA: 5
 
-BruteForce → 20
+BruteForce score → 15.75
+BruteForce pares → 16
 Coincide óptimo: True
 
-Tiempo: 0.00419 s
+Tiempo: 0.00435 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_44701
 Longitud: 12
 
-Nussinov → 3 pares
+Nussinov → 1 pares | score 1.00
 DBN → 0 pares
-Error DBN: 3
+Error DBN: 1
+ViennaRNA → 0 pares | energía 0.0
+Error ViennaRNA: 1
 
-BruteForce → 3
+BruteForce score → 1.0
+BruteForce pares → 1
 Coincide óptimo: True
 
-Tiempo: 0.00008 s
+Tiempo: 0.00009 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_12085
 Longitud: 90
 
-Nussinov → 39 pares
+Nussinov → 32 pares | score 29.50
 DBN → 9 pares
-Error DBN: 30
+Error DBN: 23
+ViennaRNA → 28 pares | energía -19.5
+Error ViennaRNA: 4
 
-BruteForce → 39
+BruteForce score → 29.5
+BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.01971 s
+Tiempo: 0.02056 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_25629
 Longitud: 77
 
-Nussinov → 33 pares
+Nussinov → 26 pares | score 25.75
 DBN → 17 pares
-Error DBN: 16
+Error DBN: 9
+ViennaRNA → 17 pares | energía -24.700000762939453
+Error ViennaRNA: 9
 
-BruteForce → 33
+BruteForce score → 25.75
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01254 s
+Tiempo: 0.01320 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_22146
 Longitud: 88
 
-Nussinov → 37 pares
+Nussinov → 29 pares | score 27.75
 DBN → 28 pares
-Error DBN: 9
+Error DBN: 1
+ViennaRNA → 32 pares | energía -36.900001525878906
+Error ViennaRNA: -3
 
-BruteForce → 37
+BruteForce score → 27.75
+BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01844 s
+Tiempo: 0.01925 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_23942
 Longitud: 76
 
-Nussinov → 34 pares
+Nussinov → 26 pares | score 25.25
 DBN → 22 pares
-Error DBN: 12
+Error DBN: 4
+ViennaRNA → 26 pares | energía -31.5
+Error ViennaRNA: 0
 
-BruteForce → 34
+BruteForce score → 25.25
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01216 s
+Tiempo: 0.01273 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_32697
 Longitud: 71
 
-Nussinov → 32 pares
+Nussinov → 25 pares | score 23.25
 DBN → 22 pares
-Error DBN: 10
+Error DBN: 3
+ViennaRNA → 22 pares | energía -24.399999618530273
+Error ViennaRNA: 3
 
-BruteForce → 32
+BruteForce score → 23.25
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01009 s
+Tiempo: 0.01049 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_54512
 Longitud: 77
 
-Nussinov → 33 pares
+Nussinov → 25 pares | score 24.25
 DBN → 22 pares
-Error DBN: 11
+Error DBN: 3
+ViennaRNA → 25 pares | energía -25.700000762939453
+Error ViennaRNA: 0
 
-BruteForce → 33
+BruteForce score → 24.25
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01300 s
+Tiempo: 0.01322 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_33589
 Longitud: 72
 
-Nussinov → 29 pares
+Nussinov → 25 pares | score 23.50
 DBN → 22 pares
-Error DBN: 7
+Error DBN: 3
+ViennaRNA → 21 pares | energía -25.700000762939453
+Error ViennaRNA: 4
 
-BruteForce → 29
+BruteForce score → 23.5
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01500 s
+Tiempo: 0.01089 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_42370
 Longitud: 35
 
-Nussinov → 15 pares
+Nussinov → 10 pares | score 10.00
 DBN → 5 pares
-Error DBN: 10
+Error DBN: 5
+ViennaRNA → 6 pares | energía -9.600000381469727
+Error ViennaRNA: 4
 
-BruteForce → 15
+BruteForce score → 10.0
+BruteForce pares → 10
 Coincide óptimo: True
 
-Tiempo: 0.00136 s
+Tiempo: 0.00145 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_23258
 Longitud: 126
 
-Nussinov → 48 pares
+Nussinov → 41 pares | score 39.50
 DBN → 27 pares
-Error DBN: 21
+Error DBN: 14
+ViennaRNA → 37 pares | energía -28.799999237060547
+Error ViennaRNA: 4
 
-BruteForce → None
+BruteForce score → None
+BruteForce pares → None
 Coincide óptimo: None
 
-Tiempo: 0.05290 s
+Tiempo: 0.05449 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_34724
 Longitud: 68
 
-Nussinov → 29 pares
+Nussinov → 24 pares | score 23.75
 DBN → 21 pares
-Error DBN: 8
+Error DBN: 3
+ViennaRNA → 22 pares | energía -28.799999237060547
+Error ViennaRNA: 2
 
-BruteForce → 29
+BruteForce score → 23.75
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.00874 s
+Tiempo: 0.00935 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_15932
 Longitud: 79
 
-Nussinov → 27 pares
+Nussinov → 24 pares | score 23.50
 DBN → 13 pares
-Error DBN: 14
+Error DBN: 11
+ViennaRNA → 22 pares | energía -33.0
+Error ViennaRNA: 2
 
-BruteForce → 27
+BruteForce score → 23.5
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01349 s
+Tiempo: 0.01421 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_52163
 Longitud: 72
 
-Nussinov → 27 pares
+Nussinov → 25 pares | score 23.25
 DBN → 22 pares
-Error DBN: 5
+Error DBN: 3
+ViennaRNA → 21 pares | energía -25.899999618530273
+Error ViennaRNA: 4
 
-BruteForce → 27
+BruteForce score → 23.25
+BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01031 s
+Tiempo: 0.01104 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_24537
 Longitud: 138
 
-Nussinov → 60 pares
+Nussinov → 49 pares | score 46.00
 DBN → 31 pares
-Error DBN: 29
+Error DBN: 18
+ViennaRNA → 43 pares | energía -55.29999923706055
+Error ViennaRNA: 6
 
-BruteForce → None
+BruteForce score → None
+BruteForce pares → None
 Coincide óptimo: None
 
-Tiempo: 0.06842 s
+Tiempo: 0.07036 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_32341
 Longitud: 51
 
-Nussinov → 20 pares
+Nussinov → 16 pares | score 16.00
 DBN → 10 pares
-Error DBN: 10
+Error DBN: 6
+ViennaRNA → 14 pares | energía -11.899999618530273
+Error ViennaRNA: 2
 
-BruteForce → 20
+BruteForce score → 16.0
+BruteForce pares → 16
 Coincide óptimo: True
 
-Tiempo: 0.00387 s
+Tiempo: 0.00430 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_53269
 Longitud: 77
 
-Nussinov → 32 pares
+Nussinov → 26 pares | score 26.00
 DBN → 22 pares
-Error DBN: 10
+Error DBN: 4
+ViennaRNA → 23 pares | energía -29.799999237060547
+Error ViennaRNA: 3
 
-BruteForce → 32
+BruteForce score → 26.0
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01260 s
+Tiempo: 0.01324 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_22490
 Longitud: 73
 
-Nussinov → 30 pares
+Nussinov → 26 pares | score 23.75
 DBN → 22 pares
-Error DBN: 8
+Error DBN: 4
+ViennaRNA → 23 pares | energía -28.899999618530273
+Error ViennaRNA: 3
 
-BruteForce → 30
+BruteForce score → 23.75
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01085 s
+Tiempo: 0.01133 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_12091
 Longitud: 97
 
-Nussinov → 39 pares
+Nussinov → 33 pares | score 30.75
 DBN → 16 pares
-Error DBN: 23
+Error DBN: 17
+ViennaRNA → 36 pares | energía -23.600000381469727
+Error ViennaRNA: -3
 
-BruteForce → 39
+BruteForce score → 30.75
+BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02454 s
+Tiempo: 0.02588 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_44715
 Longitud: 19
 
-Nussinov → 7 pares
+Nussinov → 4 pares | score 4.00
 DBN → 0 pares
-Error DBN: 7
+Error DBN: 4
+ViennaRNA → 5 pares | energía -1.7000000476837158
+Error ViennaRNA: -1
 
-BruteForce → 7
+BruteForce score → 4.0
+BruteForce pares → 4
 Coincide óptimo: True
 
-Tiempo: 0.00027 s
+Tiempo: 0.00028 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_32683
 Longitud: 72
 
-Nussinov → 31 pares
+Nussinov → 26 pares | score 24.25
 DBN → 22 pares
-Error DBN: 9
+Error DBN: 4
+ViennaRNA → 23 pares | energía -30.299999237060547
+Error ViennaRNA: 3
 
-BruteForce → 31
+BruteForce score → 24.25
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01045 s
+Tiempo: 0.01089 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_23956
 Longitud: 76
 
-Nussinov → 33 pares
+Nussinov → 26 pares | score 25.50
 DBN → 22 pares
-Error DBN: 11
+Error DBN: 4
+ViennaRNA → 25 pares | energía -29.200000762939453
+Error ViennaRNA: 1
 
-BruteForce → 33
+BruteForce score → 25.5
+BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01222 s
+Tiempo: 0.01268 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_22152
 Longitud: 95
 
-Nussinov → 39 pares
+Nussinov → 30 pares | score 28.25
 DBN → 26 pares
-Error DBN: 13
+Error DBN: 4
+ViennaRNA → 27 pares | energía -18.100000381469727
+Error ViennaRNA: 3
 
-BruteForce → 39
+BruteForce score → 28.25
+BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.02344 s
+Tiempo: 0.02421 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_54506
 Longitud: 76
 
-Nussinov → 33 pares
+Nussinov → 24 pares | score 23.75
 DBN → 22 pares
-Error DBN: 11
+Error DBN: 2
+ViennaRNA → 21 pares | energía -24.5
+Error ViennaRNA: 3
 
-BruteForce → 33
+BruteForce score → 23.75
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01233 s
+Tiempo: 0.01269 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_42364
 Longitud: 35
 
-Nussinov → 15 pares
+Nussinov → 10 pares | score 10.00
 DBN → 5 pares
-Error DBN: 10
+Error DBN: 5
+ViennaRNA → 6 pares | energía -9.600000381469727
+Error ViennaRNA: 4
 
-BruteForce → 15
+BruteForce score → 10.0
+BruteForce pares → 10
 Coincide óptimo: True
 
-Tiempo: 0.00136 s
+Tiempo: 0.00145 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_3679
 Longitud: 124
 
-Nussinov → 54 pares
+Nussinov → 42 pares | score 40.75
 DBN → 30 pares
-Error DBN: 24
+Error DBN: 12
+ViennaRNA → 43 pares | energía -37.29999923706055
+Error ViennaRNA: -1
 
-BruteForce → None
+BruteForce score → None
+BruteForce pares → None
 Coincide óptimo: None
 
-Tiempo: 0.05046 s
+Tiempo: 0.05164 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_34730
 Longitud: 68
 
-Nussinov → 31 pares
+Nussinov → 24 pares | score 23.50
 DBN → 21 pares
-Error DBN: 10
+Error DBN: 3
+ViennaRNA → 23 pares | energía -26.5
+Error ViennaRNA: 1
 
-BruteForce → 31
+BruteForce score → 23.5
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.00897 s
+Tiempo: 0.00927 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_52177
 Longitud: 72
 
-Nussinov → 26 pares
+Nussinov → 24 pares | score 22.25
 DBN → 22 pares
-Error DBN: 4
+Error DBN: 2
+ViennaRNA → 21 pares | energía -26.0
+Error ViennaRNA: 3
 
-BruteForce → 26
+BruteForce score → 22.25
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01065 s
+Tiempo: 0.01088 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_15926
 Longitud: 71
 
-Nussinov → 27 pares
+Nussinov → 24 pares | score 23.25
 DBN → 11 pares
-Error DBN: 16
+Error DBN: 13
+ViennaRNA → 22 pares | energía -26.799999237060547
+Error ViennaRNA: 2
 
-BruteForce → 27
+BruteForce score → 23.25
+BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01007 s
+Tiempo: 0.01053 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_24523
 Longitud: 135
 
-Nussinov → 59 pares
+Nussinov → 48 pares | score 46.25
 DBN → 28 pares
-Error DBN: 31
+Error DBN: 20
+ViennaRNA → 35 pares | energía -39.900001525878906
+Error ViennaRNA: 13
 
-BruteForce → None
+BruteForce score → None
+BruteForce pares → None
 Coincide óptimo: None
 
-Tiempo: 0.06498 s
+Tiempo: 0.06622 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_10686
 Longitud: 79
 
-Nussinov → 34 pares
+Nussinov → 27 pares | score 26.75
 DBN → 23 pares
-Error DBN: 11
+Error DBN: 4
+ViennaRNA → 25 pares | energía -41.099998474121094
+Error ViennaRNA: 2
 
-BruteForce → 34
+BruteForce score → 26.75
+BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01370 s
+Tiempo: 0.01417 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_46102
 Longitud: 42
 
-Nussinov → 14 pares
+Nussinov → 12 pares | score 11.75
 DBN → 6 pares
-Error DBN: 8
+Error DBN: 6
+ViennaRNA → 8 pares | energía -6.300000190734863
+Error ViennaRNA: 4
 
-BruteForce → 14
+BruteForce score → 11.75
+BruteForce pares → 12
 Coincide óptimo: True
 
-Tiempo: 0.00228 s
+Tiempo: 0.00240 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_18718
 Longitud: 120
 
-Nussinov → 53 pares
+Nussinov → 41 pares | score 38.00
 DBN → 37 pares
-Error DBN: 16
+Error DBN: 4
+ViennaRNA → 36 pares | energía -36.400001525878906
+Error ViennaRNA: 5
 
-BruteForce → 53
+BruteForce score → 38.0
+BruteForce pares → 41
 Coincide óptimo: True
 
-Tiempo: 0.04555 s
+Tiempo: 0.04697 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_30556
 Longitud: 99
 
-Nussinov → 43 pares
+Nussinov → 34 pares | score 32.00
 DBN → 13 pares
-Error DBN: 30
+Error DBN: 21
+ViennaRNA → 26 pares | energía -22.200000762939453
+Error ViennaRNA: 8
 
-BruteForce → 43
+BruteForce score → 32.0
+BruteForce pares → 34
 Coincide óptimo: True
 
-Tiempo: 0.02606 s
+Tiempo: 0.02703 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_CRW_49231
 Longitud: 19
 
-Nussinov → 7 pares
+Nussinov → 4 pares | score 4.00
 DBN → 0 pares
-Error DBN: 7
+Error DBN: 4
+ViennaRNA → 5 pares | energía -1.2999999523162842
+Error ViennaRNA: -1
 
-BruteForce → 7
+BruteForce score → 4.0
+BruteForce pares → 4
 Coincide óptimo: True
 
-Tiempo: 0.00027 s
+Tiempo: 0.00028 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_28319
 Longitud: 86
 
-Nussinov → 37 pares
+Nussinov → 30 pares | score 27.75
 DBN → 26 pares
-Error DBN: 11
+Error DBN: 4
+ViennaRNA → 27 pares | energía -45.900001525878906
+Error ViennaRNA: 3
 
-BruteForce → 37
+BruteForce score → 27.75
+BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.01743 s
+Tiempo: 0.01810 s
 ===================================
 
 ===================================
 Secuencia: bpRNA_RFAM_37239
 Longitud: 112
 
-Nussinov → 50 pares
+Nussinov → 38 pares | score 36.75
 DBN → 21 pares
-Error DBN: 29
+Error DBN: 17
+ViennaRNA → 34 pares | energía -22.100000381469727
+Error ViennaRNA: 4
 
-BruteForce → 50
+BruteForce score → 36.75
+BruteForce pares → 38
 Coincide óptimo: True
 
-Tiempo: 0.03735 s
+Tiempo: 0.03854 s
 ===================================
 
