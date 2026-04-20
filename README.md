@@ -23,6 +23,8 @@ Bioinformatica-proyecto/
 ├── app.py
 ├── requirements.txt
 ├── README.md
+├── LICENSE
+├── pytest.ini
 ├── scripts/
 │   └── filtrar_dbn.py
 ├── src/
@@ -36,72 +38,103 @@ Bioinformatica-proyecto/
 │   └── utils.py
 ├── templates/
 │   └── index.html
+├── static/
+│   └── rna_1.png
 ├── tests/
 │   ├── test_fasta_parser.py
 │   ├── test_nussinov.py
 │   ├── test_scoring.py
 │   ├── test_traceback.py
 │   └── test_utils.py
+├── docs/
+│   └── analysis.ipynb
+├── data/
+│   ├── raw/
+│   │   ├── dataset_download/
+│   │   │   ├── dbnFiles/
+│   │   │   └── fastaFiles/
+│   │   └── web_inputs/
+│   │       ├── examples/
+│   │       └── uploads/
+│   │           └── web/
+│   └── processed/
+│       └── dbnFiles/
+│           ├── dataset.dbn
+│           └── dataset.fasta
 └── results/
+    ├── figures/
+    ├── matrices/
+    ├── metrics/
+    └── resultados.csv
 ```
+
+### Estructura general
+
+- `app.py`  
+  Interfaz web en Flask para introducir secuencias o subir archivos FASTA y visualizar la predicción.
+
+- `src/`  
+  Núcleo del proyecto: implementación del algoritmo de Nussinov, reconstrucción de la estructura, utilidades y experimentos.
+
+- `scripts/`  
+  Scripts auxiliares para preparar el dataset antes de ejecutar los experimentos.
+
+- `tests/`  
+  Pruebas unitarias para comprobar el parser, el algoritmo, el traceback y funciones auxiliares.
+
+- `data/raw/`  
+  Datos en bruto, organizados por origen:
+  - `dataset_download/`: archivos descargados externamente del dataset bpRNA.
+  - `web_inputs/`: ejemplos manuales y archivos FASTA subidos desde la aplicación web.
+
+- `data/processed/`  
+  Datos ya filtrados y preparados para el benchmark experimental.
+
+- `results/`  
+  Resultados generados por los experimentos: métricas, matrices y figuras.
+
+- `docs/`  
+  Material de análisis y apoyo, como el cuaderno `analysis.ipynb`.
+
+- `templates/` y `static/`  
+  Recursos de la interfaz web.
 
 ## Dataset
 
-El dataset **no está subido al repositorio** porque su tamaño es demasiado grande para incluirlo de forma razonable. 
+El dataset **no está subido al repositorio** porque su tamaño es demasiado grande para incluirlo de forma razonable.
 
 Fuente recomendada:
 
 - [bpRNA download](https://bprna.cgrb.oregonstate.edu/download.php)
 
-### Ubicación esperada
+### Qué hay que descargar exactamente
 
-Para que el origen de cada archivo quede claro, la organización recomendada es esta:
+Para reproducir este proyecto correctamente, no basta con descargar un único archivo.  
+Desde la página de bpRNA deben descargarse **dos conjuntos de datos por separado**:
 
-- `data/raw/dataset_download/`: datos descargados externamente de bpRNA
-- `data/raw/web_inputs/`: ejemplos manuales y FASTA subidos desde la app web
+1. **Fasta Files**
+2. **Dot-Bracket Files**
 
-Descarga los archivos `.dbn` y colócalos en:
+En la web de bpRNA aparecen como carpetas o paquetes separados para descarga.  
+Una vez descargados y descomprimidos, deben colocarse **tal cual** dentro de `data/raw/dataset_download/`, manteniendo sus nombres y su organización.
 
-```bash
-data/raw/dataset_download/dbnFiles
+### Estructura esperada tras la descarga
+
+Después de descomprimir ambos paquetes, la carpeta `data/raw/` debe quedar así:
+
+```text
+data/
+└── raw/
+    ├── dataset_download/
+    │   ├── fastaFiles/
+    │   └── dbnFiles/
+    └── web_inputs/
+        ├── examples/
+        └── uploads/
+            └── web/
 ```
 
-Si también conservas FASTA descargados del dataset, guárdalos en:
-
-```bash
-data/raw/dataset_download/fastaFiles
-```
-
-Los FASTA de ejemplo para probar la app o la demo por terminal pueden ir en:
-
-```bash
-data/raw/web_inputs/examples
-```
-
-Los FASTA subidos desde la interfaz web se guardan automáticamente en:
-
-```bash
-data/raw/web_inputs/uploads
-```
-
-Después ejecuta:
-
-```bash
-python3 scripts/filtrar_dbn.py
-```
-
-Ese script:
-
-- filtra secuencias de longitud `<= 120`
-- elimina entradas con pseudonudos simples (`[` y `]`)
-- genera:
-
-```bash
-data/processed/dbnFiles/dataset.dbn
-data/processed/dbnFiles/dataset.fasta
-```
-
-## Instalación
+## Instalación entorno
 
 ```bash
 python3 -m venv .venv
