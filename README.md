@@ -134,14 +134,28 @@ data/
             └── web/
 ```
 
-## Instalación entorno
+## Crear y activar entorno virtual
 
+### 🟢 Mac / Linux
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+### 🟢 Windows (PowerShell)
+```bash
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+### 🟢 Windows (CMD)
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
 Si no quieres usar la comparación con ViennaRNA, el núcleo algorítmico sigue funcionando aunque esa librería no esté disponible. La comparación con `RNA.fold` pasará a mostrarse como no disponible.
 
 ## Ejecución rápida
