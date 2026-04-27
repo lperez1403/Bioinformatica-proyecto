@@ -395,6 +395,12 @@ Para cada secuencia se registran métricas como la longitud, el score obtenido p
 
 También se incluye un pequeño **test de fallo estructural** en `results/metrics/fallo_estructural.txt` para dejar documentado que maximizar pares no equivale necesariamente a modelar la estructura biológicamente o termodinámicamente más plausible.
 
+## Entorno de desarrollo
+
+El proyecto ha sido desarrollado principalmente utilizando **Visual Studio Code**. Sin embargo, no depende de ningún entorno específico y puede ejecutarse en cualquier IDE o editor compatible con Python, como PyCharm o Eclipse.
+
+Los archivos de configuración propios de cada entorno (por ejemplo `.project` de Eclipse) no son necesarios para la ejecución del proyecto.
+
 ## Tests
 
 ```bash
@@ -409,11 +415,11 @@ python3 -m pytest -q
 
 ## Limitaciones
 
-- No se consideran energías termodinámicas en el algoritmo principal (Nussinov)
-- No se permiten pseudonudos
-- La complejidad O(n^3) limita el tamaño de las secuencias
-- El modelo simplifica la realidad biológica
+- No se consideran energías termodinámicas en el algoritmo principal (Nussinov).
+- No se permiten pseudonudos.
+- La complejidad O(n^3) limita el tamaño de las secuencias.
+- El modelo simplifica la realidad biológica, por lo que puede diferir de estructuras reales.
 
 ## Conclusión
 
-El algoritmo de Nussinov es correcto desde el punto de vista algorítmico, pero limitado como modelo biológico. Aun así, permite entender de forma clara el problema y serviría como base para modelos más avanzados.
+El algoritmo de Nussinov es correcto desde el punto de vista algorítmico, pero presenta limitaciones como modelo biológico. Aun así, permite entender de forma clara el problema de predicción de estructura secundaria de RNA y sirve como base para modelos más avanzados.

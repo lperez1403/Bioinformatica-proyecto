@@ -217,4 +217,6 @@ ViennaRNA-2.7.2/
 # data/raw/dataset_download/
 # data/processed/
 data/raw/dataset_download/
-
+.project
+.vscode/
+.idea/
