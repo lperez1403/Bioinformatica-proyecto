@@ -19,3 +19,18 @@ def test_leer_fasta_multilinea(tmp_path):
     resultado = leer_fasta(str(archivo))
 
     assert resultado == [("seq1", "GGGGAAAA")]
+def leer_fasta(ruta):
+    secuencias = []
+    nombre = ""
+    secuencia = ""
+    with open(ruta, "r") as f:
+        for linea in f:
+            linea = linea.strip()
+            if linea.startswith(">"):
+                if nombre: secuencias.append((nombre, secuencia))
+                nombre = linea[1:]
+                secuencia = ""
+            else:
+                secuencia += linea
+        if nombre: secuencias.append((nombre, secuencia))
+    return secuencias
