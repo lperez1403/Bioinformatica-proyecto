@@ -103,9 +103,11 @@ Bioinformatica-proyecto/
 
 El dataset **no está subido al repositorio** porque su tamaño es demasiado grande para incluirlo de forma razonable.
 
-Fuente recomendada:
+Fuente de descarga:
 
 - [bpRNA download](https://bprna.cgrb.oregonstate.edu/download.php)
+
+> Nota: durante la revisión final del proyecto, se observó que el enlace de descarga de bpRNA indicaba que el servidor estaba activo, pero la web no estaba correctamente desplegada (aparecía el mensaje de Apache por defecto). Esto sugiere un problema temporal del servicio. En cualquier caso, el proyecto puede ejecutarse igualmente utilizando los datos ya procesados (tras la ejecucion de scripts/filtrar_dbn.py) incluidos en `data/processed/`.
 
 ### Qué hay que descargar exactamente
 
@@ -116,7 +118,7 @@ Desde la página de bpRNA deben descargarse **dos conjuntos de datos por separad
 2. **Dot-Bracket Files**
 
 En la web de bpRNA aparecen como carpetas o paquetes separados para descarga.  
-Una vez descargados y descomprimidos, deben colocarse **tal cual** dentro de `data/raw/dataset_download/`, manteniendo sus nombres y su organización.
+Una vez descargados y descomprimidos, deben colocarse ambas carpetas **tal cual** dentro de `data/raw/dataset_download/`, manteniendo sus nombres y su organización.
 
 ### Estructura esperada tras la descarga
 
@@ -136,53 +138,112 @@ data/
 
 ## Crear y activar entorno virtual
 
-### 🟢 Mac / Linux
+Ejecutar los comandos desde la raíz del proyecto (`Bioinformatica-proyecto/`).
+
+### Mac / Linux
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 🟢 Windows (PowerShell)
+### Windows (PowerShell)
 ```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-### 🟢 Windows (CMD)
+### Windows (CMD)
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
-Si no quieres usar la comparación con ViennaRNA, el núcleo algorítmico sigue funcionando aunque esa librería no esté disponible. La comparación con `RNA.fold` pasará a mostrarse como no disponible.
+
+En Mac/Linux puede ser necesario usar `python3` en lugar de `python`. Una vez activado el entorno virtual, normalmente puede usarse `python` en todos los comandos.
+
+La comparación con ViennaRNA/RNAfold es opcional. Si no está disponible, el núcleo algorítmico del proyecto sigue funcionando y la comparación con `RNA.fold` pasará a mostrarse como no disponible.
 
 ## Ejecución rápida
 
 ### Demo por terminal
 
 ```bash
+python -m src.main
+```
+
+Si el comando anterior no funciona en Mac/Linux, usar:
+
+```bash
 python3 -m src.main
 ```
 
-Ese script lee por defecto:
+### Interpretación de la salida
 
-```bash
-data/raw/web_inputs/examples/ejemplo.fasta
+Al ejecutar el script principal, se muestra por consola un resumen por cada secuencia analizada. Un ejemplo es:
+
+```
+==============================
+Secuencia: GGGAAAUCCGGAUCGGAUCGGCUAGCGGAUCGGAUCGGCUAGCGGAUCGGAU
+Longitud: 52
+
+Nussinov : .....(((((...))((((.((((((.(((...)))).)))))).)))).))
+Pares Nussinov: 18
+Score Nussinov: 17.00
+BruteForce pares: 17
+BruteForce score: 17.00
+Coincide óptimo: True
+
+ViennaRNA: .((....))..(((.((((.((((((.(((...))).)))))).)))).)))
+Energía ViennaRNA: -24.20
+==============================
 ```
 
+Cada campo representa:
+
+- **Secuencia**: identificador o cadena de RNA analizada.
+- **Longitud**: número de nucleótidos.
+
+- **Nussinov**: estructura predicha en formato *dot-bracket*.
+- **Pares Nussinov**: número total de pares de bases predichos.
+- **Score Nussinov**: valor de la función objetivo del algoritmo.
+
+- **BruteForce pares / score**: resultado óptimo exacto calculado por fuerza bruta (solo para secuencias cortas).
+- **Coincide óptimo**: indica si Nussinov alcanza el óptimo exacto.
+
+- **ViennaRNA**: estructura predicha por RNAfold (modelo termodinámico).
+- **Energía ViennaRNA**: energía libre asociada a esa estructura (más negativa → más estable).
+
+Esto permite comparar directamente la predicción de Nussinov con una referencia exacta (fuerza bruta) y una referencia biológica (ViennaRNA).
+
 ### Interfaz web
+
+```bash
+python app.py
+```
+
+Si el comando anterior no funciona en Mac/Linux, usar:
 
 ```bash
 python3 app.py
 ```
 
-Abre [http://127.0.0.1:5000](http://127.0.0.1:5000).
+Al ejecutar el comando, debería aparecer un mensaje como:
+
+Running on http://127.0.0.1:5000
+
+Abrir esa URL en el navegador. 
+
+> Nota: si el puerto 5000 está ocupado, Flask puede usar otro puerto (por ejemplo 5001). En ese caso, abrir la URL que aparezca en la terminal.
 
 ### Experimentos
 
-Con el dataset procesado ya generado:
+```bash
+python -m src.experiments
+```
+
+Si el comando anterior no funciona en Mac/Linux, usar:
 
 ```bash
 python3 -m src.experiments
@@ -220,26 +281,22 @@ Además, si el loop inducido es demasiado largo, se reduce ligeramente su score.
 
 El proyecto evalúa el algoritmo en tres niveles:
 
-- **correctitud interna**: comparación con un resolvedor exacto alternativo en secuencias cortas
-- **comparación con bpRNA**: número de pares predichos frente a la estructura anotada real
-- **comparación con ViennaRNA / RNAfold**: referencia termodinámica externa
+- **correctitud interna**: comparación con un resolvedor exacto alternativo en secuencias cortas.
+- **comparación con bpRNA**: número de pares predichos frente a la estructura anotada real en formato dot-bracket.
+- **comparación con ViennaRNA / RNAfold**: referencia termodinámica externa para contrastar la predicción de Nussinov.
 
-También se incluye un pequeño **test de fallo estructural** en `results/metrics/fallo_estructural.txt` para dejar documentado que maximizar pares no equivale a modelar bien la estructura biológica real.
+Para cada secuencia se registran métricas como la longitud, el score obtenido por Nussinov, el número de pares predichos, el error respecto a bpRNA, el error respecto a ViennaRNA y el tiempo de ejecución.
+
+También se incluye un pequeño **test de fallo estructural** en `results/metrics/fallo_estructural.txt` para dejar documentado que maximizar pares no equivale necesariamente a modelar la estructura biológicamente o termodinámicamente más plausible.
 
 ## Tests
 
 ```bash
-python3 -m pytest -q
+python -m pytest -q
 ```
 
-## Reproducibilidad
+Si el comando anterior no funciona en Mac/Linux, usar:
 
-Para reproducir el proyecto hace falta:
-
-- clonar el repositorio
-- instalar dependencias
-- descargar bpRNA manualmente
-- ejecutar `scripts/filtrar_dbn.py`
-- lanzar `src.experiments`
-
-La descarga manual del dataset es el único paso externo importante, y se mantiene fuera del repositorio por tamaño.
+```bash
+python3 -m pytest -q
+```
