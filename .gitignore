@@ -207,12 +207,12 @@ marimo/_lsp/
 __marimo__/
 
 ViennaRNA-2.7.2/
-data/
-!data/
-data/raw/
-!data/raw/web_inputs/
-!data/raw/web_inputs/examples/
-!data/raw/web_inputs/examples/*.fasta
-data/raw/web_inputs/uploads/
-data/raw/dataset_download/
-data/processed/
+# data/
+# !data/
+# data/raw/
+# !data/raw/web_inputs/
+# !data/raw/web_inputs/examples/
+# !data/raw/web_inputs/examples/*.fasta
+# data/raw/web_inputs/uploads/
+# data/raw/dataset_download/
+# data/processed/
