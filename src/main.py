@@ -18,16 +18,18 @@ def ejecutar_demo(secuencia):
     print(f"Longitud: {len(secuencia)}")
 
     print(f"\nNussinov : {estructura}")
-    print(f"Pares Nussinov: {len(pares)}")
-    print(f"Score Nussinov: {score:.2f}")
+    print(f"Nussinov Pares : {len(pares)}")
+    print(f"Nussinov Score: {score:.2f}\n")
 
     if len(secuencia) <= 100:
         score_bruto, pares_bruto = max_pares_fuerza_bruta(secuencia)
-        print(f"BruteForce pares: {len(pares_bruto)}")
-        print(f"BruteForce score: {score_bruto:.2f}")
+        print(f"Bruteforce: {pares_a_dot_bracket(len(secuencia), pares_bruto)}")
+        print(f"BruteForce Pares: {len(pares_bruto)}")
+        print(f"BruteForce Score: {score_bruto:.2f}\n")
         print(f"Coincide óptimo: {abs(score_bruto - score) <= 1e-9}")
 
     print(f"\nViennaRNA: {estructura_vienna}")
+    print(f"ViennaRNA Pares: {estructura_vienna.count('(')}")
     if energia is not None:
         print(f"Energía ViennaRNA: {energia:.2f}")
     else:
