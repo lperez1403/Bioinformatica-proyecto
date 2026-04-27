@@ -12,7 +12,7 @@ BruteForce score → 23.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01098 s
+Tiempo: 0.01147 s
 ===================================
 
 ===================================
@@ -29,7 +29,7 @@ BruteForce score → 33.75
 BruteForce pares → 35
 Coincide óptimo: True
 
-Tiempo: 0.02810 s
+Tiempo: 0.02867 s
 ===================================
 
 ===================================
@@ -46,7 +46,7 @@ BruteForce score → 6.0
 BruteForce pares → 6
 Coincide óptimo: True
 
-Tiempo: 0.00065 s
+Tiempo: 0.00066 s
 ===================================
 
 ===================================
@@ -63,7 +63,7 @@ BruteForce score → 30.75
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02426 s
+Tiempo: 0.02448 s
 ===================================
 
 ===================================
@@ -97,7 +97,7 @@ BruteForce score → 35.25
 BruteForce pares → 36
 Coincide óptimo: True
 
-Tiempo: 0.03999 s
+Tiempo: 0.03943 s
 ===================================
 
 ===================================
@@ -114,7 +114,7 @@ BruteForce score → 11.0
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00171 s
+Tiempo: 0.00177 s
 ===================================
 
 ===================================
@@ -131,7 +131,7 @@ BruteForce score → 11.0
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00225 s
+Tiempo: 0.00242 s
 ===================================
 
 ===================================
@@ -148,24 +148,7 @@ BruteForce score → 24.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01160 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_34042
-Longitud: 132
-
-Nussinov → 45 pares | score 43.75
-DBN → 22 pares
-Error DBN: 23
-ViennaRNA → 36 pares | energía -39.900001525878906
-Error ViennaRNA: 9
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.06345 s
+Tiempo: 0.03508 s
 ===================================
 
 ===================================
@@ -182,7 +165,7 @@ BruteForce score → 25.0
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01784 s
+Tiempo: 0.01803 s
 ===================================
 
 ===================================
@@ -199,7 +182,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01247 s
+Tiempo: 0.01901 s
 ===================================
 
 ===================================
@@ -216,7 +199,7 @@ BruteForce score → 25.75
 BruteForce pares → 28
 Coincide óptimo: True
 
-Tiempo: 0.01550 s
+Tiempo: 0.01580 s
 ===================================
 
 ===================================
@@ -233,7 +216,7 @@ BruteForce score → 26.0
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01193 s
+Tiempo: 0.01220 s
 ===================================
 
 ===================================
@@ -250,7 +233,7 @@ BruteForce score → 15.0
 BruteForce pares → 15
 Coincide óptimo: True
 
-Tiempo: 0.00421 s
+Tiempo: 0.00426 s
 ===================================
 
 ===================================
@@ -267,7 +250,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01335 s
+Tiempo: 0.01367 s
 ===================================
 
 ===================================
@@ -284,7 +267,7 @@ BruteForce score → 39.25
 BruteForce pares → 42
 Coincide óptimo: True
 
-Tiempo: 0.04774 s
+Tiempo: 0.04805 s
 ===================================
 
 ===================================
@@ -301,7 +284,7 @@ BruteForce score → 38.25
 BruteForce pares → 40
 Coincide óptimo: True
 
-Tiempo: 0.04763 s
+Tiempo: 0.04865 s
 ===================================
 
 ===================================
@@ -318,7 +301,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01183 s
+Tiempo: 0.01216 s
 ===================================
 
 ===================================
@@ -335,7 +318,7 @@ BruteForce score → 27.25
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01534 s
+Tiempo: 0.01596 s
 ===================================
 
 ===================================
@@ -352,7 +335,7 @@ BruteForce score → 31.5
 BruteForce pares → 32
 Coincide óptimo: True
 
-Tiempo: 0.02726 s
+Tiempo: 0.02779 s
 ===================================
 
 ===================================
@@ -369,7 +352,7 @@ BruteForce score → 17.5
 BruteForce pares → 18
 Coincide óptimo: True
 
-Tiempo: 0.00574 s
+Tiempo: 0.00565 s
 ===================================
 
 ===================================
@@ -386,7 +369,7 @@ BruteForce score → 30.75
 BruteForce pares → 32
 Coincide óptimo: True
 
-Tiempo: 0.02144 s
+Tiempo: 0.02167 s
 ===================================
 
 ===================================
@@ -403,7 +386,7 @@ BruteForce score → 6.0
 BruteForce pares → 6
 Coincide óptimo: True
 
-Tiempo: 0.00055 s
+Tiempo: 0.00057 s
 ===================================
 
 ===================================
@@ -420,7 +403,7 @@ BruteForce score → 26.25
 BruteForce pares → 28
 Coincide óptimo: True
 
-Tiempo: 0.01268 s
+Tiempo: 0.01305 s
 ===================================
 
 ===================================
@@ -454,7 +437,7 @@ BruteForce score → 28.75
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01923 s
+Tiempo: 0.01903 s
 ===================================
 
 ===================================
@@ -471,41 +454,7 @@ BruteForce score → 17.0
 BruteForce pares → 17
 Coincide óptimo: True
 
-Tiempo: 0.00499 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_16585
-Longitud: 136
-
-Nussinov → 45 pares | score 43.75
-DBN → 41 pares
-Error DBN: 4
-ViennaRNA → 46 pares | energía -40.5
-Error ViennaRNA: -1
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.06846 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_39566
-Longitud: 142
-
-Nussinov → 51 pares | score 48.50
-DBN → 39 pares
-Error DBN: 12
-ViennaRNA → 47 pares | energía -47.29999923706055
-Error ViennaRNA: 4
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.07787 s
+Tiempo: 0.00486 s
 ===================================
 
 ===================================
@@ -522,7 +471,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01180 s
+Tiempo: 0.01190 s
 ===================================
 
 ===================================
@@ -539,7 +488,7 @@ BruteForce score → 35.0
 BruteForce pares → 36
 Coincide óptimo: True
 
-Tiempo: 0.03495 s
+Tiempo: 0.03442 s
 ===================================
 
 ===================================
@@ -573,24 +522,7 @@ BruteForce score → 24.75
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01149 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_38678
-Longitud: 148
-
-Nussinov → 52 pares | score 50.75
-DBN → 38 pares
-Error DBN: 14
-ViennaRNA → 47 pares | energía -64.5999984741211
-Error ViennaRNA: 5
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.08700 s
+Tiempo: 0.01143 s
 ===================================
 
 ===================================
@@ -607,7 +539,7 @@ BruteForce score → 24.75
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01232 s
+Tiempo: 0.01265 s
 ===================================
 
 ===================================
@@ -624,7 +556,7 @@ BruteForce score → 10.5
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00182 s
+Tiempo: 0.00186 s
 ===================================
 
 ===================================
@@ -641,7 +573,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01321 s
+Tiempo: 0.01336 s
 ===================================
 
 ===================================
@@ -658,7 +590,7 @@ BruteForce score → 29.25
 BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.02010 s
+Tiempo: 0.02005 s
 ===================================
 
 ===================================
@@ -692,7 +624,7 @@ BruteForce score → 11.0
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00209 s
+Tiempo: 0.00212 s
 ===================================
 
 ===================================
@@ -709,7 +641,7 @@ BruteForce score → 25.0
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01369 s
+Tiempo: 0.01390 s
 ===================================
 
 ===================================
@@ -726,7 +658,7 @@ BruteForce score → 14.0
 BruteForce pares → 14
 Coincide óptimo: True
 
-Tiempo: 0.00309 s
+Tiempo: 0.00314 s
 ===================================
 
 ===================================
@@ -743,7 +675,7 @@ BruteForce score → 31.5
 BruteForce pares → 32
 Coincide óptimo: True
 
-Tiempo: 0.02342 s
+Tiempo: 0.02362 s
 ===================================
 
 ===================================
@@ -760,7 +692,7 @@ BruteForce score → 32.75
 BruteForce pares → 33
 Coincide óptimo: True
 
-Tiempo: 0.02868 s
+Tiempo: 0.02898 s
 ===================================
 
 ===================================
@@ -777,7 +709,7 @@ BruteForce score → 26.25
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01402 s
+Tiempo: 0.01376 s
 ===================================
 
 ===================================
@@ -794,7 +726,7 @@ BruteForce score → 24.0
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01282 s
+Tiempo: 0.01292 s
 ===================================
 
 ===================================
@@ -811,7 +743,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01303 s
+Tiempo: 0.01276 s
 ===================================
 
 ===================================
@@ -828,7 +760,7 @@ BruteForce score → 24.0
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01106 s
+Tiempo: 0.01097 s
 ===================================
 
 ===================================
@@ -845,7 +777,7 @@ BruteForce score → 24.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01337 s
+Tiempo: 0.01324 s
 ===================================
 
 ===================================
@@ -862,7 +794,7 @@ BruteForce score → 34.0
 BruteForce pares → 35
 Coincide óptimo: True
 
-Tiempo: 0.03124 s
+Tiempo: 0.03128 s
 ===================================
 
 ===================================
@@ -879,7 +811,7 @@ BruteForce score → 24.75
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01265 s
+Tiempo: 0.01267 s
 ===================================
 
 ===================================
@@ -896,7 +828,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01321 s
+Tiempo: 0.01341 s
 ===================================
 
 ===================================
@@ -913,7 +845,7 @@ BruteForce score → 27.75
 BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.01522 s
+Tiempo: 0.01529 s
 ===================================
 
 ===================================
@@ -930,24 +862,7 @@ BruteForce score → 17.5
 BruteForce pares → 18
 Coincide óptimo: True
 
-Tiempo: 0.00563 s
-===================================
-
-===================================
-Secuencia: bpRNA_CRW_19412
-Longitud: 122
-
-Nussinov → 41 pares | score 39.75
-DBN → 29 pares
-Error DBN: 12
-ViennaRNA → 35 pares | energía -29.299999237060547
-Error ViennaRNA: 6
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.04947 s
+Tiempo: 0.00566 s
 ===================================
 
 ===================================
@@ -964,7 +879,7 @@ BruteForce score → 25.0
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01267 s
+Tiempo: 0.01280 s
 ===================================
 
 ===================================
@@ -981,7 +896,7 @@ BruteForce score → 36.5
 BruteForce pares → 39
 Coincide óptimo: True
 
-Tiempo: 0.04158 s
+Tiempo: 0.04177 s
 ===================================
 
 ===================================
@@ -998,7 +913,7 @@ BruteForce score → 11.5
 BruteForce pares → 12
 Coincide óptimo: True
 
-Tiempo: 0.00196 s
+Tiempo: 0.00209 s
 ===================================
 
 ===================================
@@ -1015,7 +930,7 @@ BruteForce score → 29.75
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02127 s
+Tiempo: 0.02175 s
 ===================================
 
 ===================================
@@ -1032,7 +947,7 @@ BruteForce score → 22.0
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01178 s
+Tiempo: 0.01210 s
 ===================================
 
 ===================================
@@ -1049,7 +964,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01273 s
+Tiempo: 0.01307 s
 ===================================
 
 ===================================
@@ -1066,7 +981,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01136 s
+Tiempo: 0.01154 s
 ===================================
 
 ===================================
@@ -1083,7 +998,7 @@ BruteForce score → 15.75
 BruteForce pares → 16
 Coincide óptimo: True
 
-Tiempo: 0.00435 s
+Tiempo: 0.00470 s
 ===================================
 
 ===================================
@@ -1117,7 +1032,7 @@ BruteForce score → 29.5
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02056 s
+Tiempo: 0.02153 s
 ===================================
 
 ===================================
@@ -1134,7 +1049,7 @@ BruteForce score → 25.75
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01320 s
+Tiempo: 0.01377 s
 ===================================
 
 ===================================
@@ -1151,7 +1066,7 @@ BruteForce score → 27.75
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01925 s
+Tiempo: 0.01989 s
 ===================================
 
 ===================================
@@ -1168,7 +1083,7 @@ BruteForce score → 25.25
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01273 s
+Tiempo: 0.01356 s
 ===================================
 
 ===================================
@@ -1185,7 +1100,7 @@ BruteForce score → 23.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01049 s
+Tiempo: 0.01079 s
 ===================================
 
 ===================================
@@ -1202,7 +1117,7 @@ BruteForce score → 24.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01322 s
+Tiempo: 0.01345 s
 ===================================
 
 ===================================
@@ -1219,7 +1134,7 @@ BruteForce score → 23.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01089 s
+Tiempo: 0.01130 s
 ===================================
 
 ===================================
@@ -1236,24 +1151,7 @@ BruteForce score → 10.0
 BruteForce pares → 10
 Coincide óptimo: True
 
-Tiempo: 0.00145 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_23258
-Longitud: 126
-
-Nussinov → 41 pares | score 39.50
-DBN → 27 pares
-Error DBN: 14
-ViennaRNA → 37 pares | energía -28.799999237060547
-Error ViennaRNA: 4
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.05449 s
+Tiempo: 0.00151 s
 ===================================
 
 ===================================
@@ -1270,7 +1168,7 @@ BruteForce score → 23.75
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.00935 s
+Tiempo: 0.00944 s
 ===================================
 
 ===================================
@@ -1287,7 +1185,7 @@ BruteForce score → 23.5
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01421 s
+Tiempo: 0.01472 s
 ===================================
 
 ===================================
@@ -1304,24 +1202,7 @@ BruteForce score → 23.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01104 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_24537
-Longitud: 138
-
-Nussinov → 49 pares | score 46.00
-DBN → 31 pares
-Error DBN: 18
-ViennaRNA → 43 pares | energía -55.29999923706055
-Error ViennaRNA: 6
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.07036 s
+Tiempo: 0.01121 s
 ===================================
 
 ===================================
@@ -1338,7 +1219,7 @@ BruteForce score → 16.0
 BruteForce pares → 16
 Coincide óptimo: True
 
-Tiempo: 0.00430 s
+Tiempo: 0.00428 s
 ===================================
 
 ===================================
@@ -1355,7 +1236,7 @@ BruteForce score → 26.0
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01324 s
+Tiempo: 0.01384 s
 ===================================
 
 ===================================
@@ -1372,7 +1253,7 @@ BruteForce score → 23.75
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01133 s
+Tiempo: 0.01167 s
 ===================================
 
 ===================================
@@ -1389,7 +1270,7 @@ BruteForce score → 30.75
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02588 s
+Tiempo: 0.02604 s
 ===================================
 
 ===================================
@@ -1406,7 +1287,7 @@ BruteForce score → 4.0
 BruteForce pares → 4
 Coincide óptimo: True
 
-Tiempo: 0.00028 s
+Tiempo: 0.00029 s
 ===================================
 
 ===================================
@@ -1423,7 +1304,7 @@ BruteForce score → 24.25
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01089 s
+Tiempo: 0.01105 s
 ===================================
 
 ===================================
@@ -1440,7 +1321,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01268 s
+Tiempo: 0.01322 s
 ===================================
 
 ===================================
@@ -1457,7 +1338,7 @@ BruteForce score → 28.25
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.02421 s
+Tiempo: 0.02445 s
 ===================================
 
 ===================================
@@ -1474,7 +1355,7 @@ BruteForce score → 23.75
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01269 s
+Tiempo: 0.01312 s
 ===================================
 
 ===================================
@@ -1491,24 +1372,7 @@ BruteForce score → 10.0
 BruteForce pares → 10
 Coincide óptimo: True
 
-Tiempo: 0.00145 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_3679
-Longitud: 124
-
-Nussinov → 42 pares | score 40.75
-DBN → 30 pares
-Error DBN: 12
-ViennaRNA → 43 pares | energía -37.29999923706055
-Error ViennaRNA: -1
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.05164 s
+Tiempo: 0.00147 s
 ===================================
 
 ===================================
@@ -1525,7 +1389,7 @@ BruteForce score → 23.5
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.00927 s
+Tiempo: 0.00932 s
 ===================================
 
 ===================================
@@ -1542,7 +1406,7 @@ BruteForce score → 22.25
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01088 s
+Tiempo: 0.01128 s
 ===================================
 
 ===================================
@@ -1559,24 +1423,7 @@ BruteForce score → 23.25
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01053 s
-===================================
-
-===================================
-Secuencia: bpRNA_RFAM_24523
-Longitud: 135
-
-Nussinov → 48 pares | score 46.25
-DBN → 28 pares
-Error DBN: 20
-ViennaRNA → 35 pares | energía -39.900001525878906
-Error ViennaRNA: 13
-
-BruteForce score → None
-BruteForce pares → None
-Coincide óptimo: None
-
-Tiempo: 0.06622 s
+Tiempo: 0.01067 s
 ===================================
 
 ===================================
@@ -1593,7 +1440,7 @@ BruteForce score → 26.75
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01417 s
+Tiempo: 0.01448 s
 ===================================
 
 ===================================
@@ -1610,7 +1457,7 @@ BruteForce score → 11.75
 BruteForce pares → 12
 Coincide óptimo: True
 
-Tiempo: 0.00240 s
+Tiempo: 0.00242 s
 ===================================
 
 ===================================
@@ -1627,7 +1474,7 @@ BruteForce score → 38.0
 BruteForce pares → 41
 Coincide óptimo: True
 
-Tiempo: 0.04697 s
+Tiempo: 0.04774 s
 ===================================
 
 ===================================
@@ -1644,7 +1491,7 @@ BruteForce score → 32.0
 BruteForce pares → 34
 Coincide óptimo: True
 
-Tiempo: 0.02703 s
+Tiempo: 0.02779 s
 ===================================
 
 ===================================
@@ -1661,7 +1508,7 @@ BruteForce score → 4.0
 BruteForce pares → 4
 Coincide óptimo: True
 
-Tiempo: 0.00028 s
+Tiempo: 0.00029 s
 ===================================
 
 ===================================
@@ -1678,7 +1525,7 @@ BruteForce score → 27.75
 BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.01810 s
+Tiempo: 0.01862 s
 ===================================
 
 ===================================
@@ -1695,6 +1542,159 @@ BruteForce score → 36.75
 BruteForce pares → 38
 Coincide óptimo: True
 
-Tiempo: 0.03854 s
+Tiempo: 0.03954 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_30094
+Longitud: 73
+
+Nussinov → 23 pares | score 22.75
+DBN → 22 pares
+Error DBN: 1
+ViennaRNA → 25 pares | energía -27.200000762939453
+Error ViennaRNA: -2
+
+BruteForce score → 22.75
+BruteForce pares → 23
+Coincide óptimo: True
+
+Tiempo: 0.01164 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_31890
+Longitud: 63
+
+Nussinov → 20 pares | score 20.00
+DBN → 10 pares
+Error DBN: 10
+ViennaRNA → 17 pares | energía -22.5
+Error ViennaRNA: 3
+
+BruteForce score → 20.0
+BruteForce pares → 20
+Coincide óptimo: True
+
+Tiempo: 0.00765 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_20745
+Longitud: 80
+
+Nussinov → 27 pares | score 25.50
+DBN → 26 pares
+Error DBN: 1
+ViennaRNA → 29 pares | energía -31.5
+Error ViennaRNA: -2
+
+BruteForce score → 25.5
+BruteForce pares → 27
+Coincide óptimo: True
+
+Tiempo: 0.01528 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_36127
+Longitud: 91
+
+Nussinov → 32 pares | score 29.25
+DBN → 29 pares
+Error DBN: 3
+ViennaRNA → 33 pares | energía -45.20000076293945
+Error ViennaRNA: -1
+
+BruteForce score → 29.25
+BruteForce pares → 30
+Coincide óptimo: True
+
+Tiempo: 0.02180 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_37923
+Longitud: 77
+
+Nussinov → 28 pares | score 26.75
+DBN → 22 pares
+Error DBN: 6
+ViennaRNA → 27 pares | energía -32.099998474121094
+Error ViennaRNA: 1
+
+BruteForce score → 26.75
+BruteForce pares → 28
+Coincide óptimo: True
+
+Tiempo: 0.01342 s
+===================================
+
+===================================
+Secuencia: bpRNA_CRW_40573
+Longitud: 74
+
+Nussinov → 28 pares | score 25.75
+DBN → 22 pares
+Error DBN: 6
+ViennaRNA → 21 pares | energía -22.600000381469727
+Error ViennaRNA: 7
+
+BruteForce score → 25.75
+BruteForce pares → 28
+Coincide óptimo: True
+
+Tiempo: 0.01209 s
+===================================
+
+===================================
+Secuencia: bpRNA_SPR_294
+Longitud: 75
+
+Nussinov → 26 pares | score 23.50
+DBN → 21 pares
+Error DBN: 5
+ViennaRNA → 21 pares | energía -26.799999237060547
+Error ViennaRNA: 5
+
+BruteForce score → 23.5
+BruteForce pares → 26
+Coincide óptimo: True
+
+Tiempo: 0.01251 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_11598
+Longitud: 78
+
+Nussinov → 26 pares | score 25.25
+DBN → 4 pares
+Error DBN: 22
+ViennaRNA → 26 pares | energía -26.200000762939453
+Error ViennaRNA: 0
+
+BruteForce score → 25.25
+BruteForce pares → 26
+Coincide óptimo: True
+
+Tiempo: 0.01401 s
+===================================
+
+===================================
+Secuencia: bpRNA_RFAM_26334
+Longitud: 87
+
+Nussinov → 29 pares | score 28.00
+DBN → 3 pares
+Error DBN: 26
+ViennaRNA → 26 pares | energía -26.299999237060547
+Error ViennaRNA: 3
+
+BruteForce score → 28.0
+BruteForce pares → 29
+Coincide óptimo: True
+
+Tiempo: 0.01874 s
 ===================================
 
