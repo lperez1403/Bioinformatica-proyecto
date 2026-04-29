@@ -12,10 +12,13 @@ from src.scoring import evaluar_algoritmo
 from src.traceback_nussinov import traceback
 from src.utils import cargar_dbn_dataset, contar_pares_dotbracket, ejecutar_viennarna
 
-
+# Guarda los resultados finales en un CSV
 def guardar_resultados(resultados):
+    
+    # Crea carpeta si no existe
     os.makedirs("results", exist_ok=True)
 
+    # Cabecera del CSV
     with open("results/resultados.csv", "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(
@@ -37,31 +40,39 @@ def guardar_resultados(resultados):
             ]
         )
 
+        # Escritura de filas
         for fila in resultados:
             writer.writerow(fila)
 
-
+# Construye todas las métricas para una secuencia
 def construir_resultado(nombre, secuencia, dbn_data):
+    # Ejecuta Nussinov y obtiene métricas básicas
     resultado = evaluar_algoritmo(nussinov, secuencia)
+    # Calcula la matriz 
     matriz = nussinov(secuencia)
     pares_nussinov = traceback(matriz, secuencia, 0, len(secuencia) - 1, [])
     num_pares_nussinov = len(pares_nussinov)
 
+    # Ejecuta ViennaRNA
     estructura_vienna, energia_vienna = ejecutar_viennarna(secuencia)
     pares_vienna = contar_pares_dotbracket(estructura_vienna) if estructura_vienna else None
 
+    # Obtiene estructura real del dataset
     estructura_real = dbn_data.get(nombre)
     pares_reales = contar_pares_dotbracket(estructura_real) if estructura_real else None
 
+    # Ejecuta solo para secuencias pequeñas, comentado en clase
     if len(secuencia) <= 120:
         score_bruto, pares_bruto = max_pares_fuerza_bruta(secuencia)
         pares_bruteforce = len(pares_bruto)
+        # Comprueba si coincide con Nussinov
         coincide_bruto = abs(score_bruto - resultado["score"]) <= 1e-9
     else:
         score_bruto = None
         pares_bruteforce = None
         coincide_bruto = None
 
+    # Cálculo de errores respecto a referencia
     error_dbn = None if pares_reales is None else num_pares_nussinov - pares_reales
     error_vienna = None if pares_vienna is None else num_pares_nussinov - pares_vienna
 
@@ -80,10 +91,11 @@ def construir_resultado(nombre, secuencia, dbn_data):
         "Pares_Bruteforce": pares_bruteforce,
         "Coincide_Bruteforce": coincide_bruto,
         "Tiempo": resultado["tiempo"],
-        "Matriz": matriz,
+        "Matriz": matriz,  # Se guarda para análisis posterior
     }
 
 
+# Genera un log detallado en texto
 def escribir_log(resultados):
     os.makedirs("results/metrics", exist_ok=True)
 
@@ -106,10 +118,11 @@ def escribir_log(resultados):
             )
             log_file.write(log_text)
 
-
+# Guarda algunas matrices para inspección
 def guardar_matrices(resultados):
     os.makedirs("results/matrices", exist_ok=True)
 
+    # Solo guardamos las primeras 3 para no generar demasiados archivos
     for r in resultados[:3]:
         np.savetxt(
             f"results/matrices/matriz_{r['Nombre']}.txt",
@@ -117,10 +130,11 @@ def guardar_matrices(resultados):
             fmt="%.2f",
         )
 
-
+# Genera gráficas de análisis
 def generar_figuras(df):
     os.makedirs("results/figures", exist_ok=True)
 
+    # Tiempo vs longitud
     plt.figure()
     plt.scatter(df["Longitud"], df["Tiempo"])
     plt.xlabel("Longitud")
@@ -129,6 +143,7 @@ def generar_figuras(df):
     plt.savefig("results/figures/tiempo_vs_longitud.png")
     plt.close()
 
+    # Error vs longitud
     plt.figure()
     plt.scatter(df["Longitud"], df["Error_Pares_DBN"])
     plt.xlabel("Longitud")
@@ -137,6 +152,7 @@ def generar_figuras(df):
     plt.savefig("results/figures/error_vs_longitud.png")
     plt.close()
 
+    # Comparación Nussinov vs DBN
     plt.figure()
     plt.scatter(df["Pares_DBN"], df["Pares_Nussinov"])
     plt.xlabel("Pares DBN (real)")
@@ -145,6 +161,7 @@ def generar_figuras(df):
     plt.savefig("results/figures/comparacion_pares.png")
     plt.close()
 
+    # Comparación con ViennaRNA (si hay datos)
     if df["Pares_ViennaRNA"].notna().any():
         plt.figure()
         plt.scatter(df["Pares_ViennaRNA"], df["Pares_Nussinov"])
@@ -154,7 +171,7 @@ def generar_figuras(df):
         plt.savefig("results/figures/comparacion_viennarna.png")
         plt.close()
 
-
+# fallo estructural de Nussinov
 def evaluar_fallo_estructural():
     secuencia = "GGGAAAUCC"
     matriz = nussinov(secuencia)
@@ -172,13 +189,17 @@ def evaluar_fallo_estructural():
             "capturar la estructura termodinamicamente mas plausible.\n"
         )
 
-
+# Ejecuta el experimento completo
 def ejecutar_experimento(ruta_fasta):
     dbn_data = cargar_dbn_dataset("data/processed/dbnFiles/dataset.dbn")
+    # Leer secuencias, limit 100
     secuencias = leer_fasta(ruta_fasta)[:100]
 
+     # Procesar cada secuencia
     resultados = [construir_resultado(nombre, secuencia, dbn_data) for nombre, secuencia in secuencias]
 
+    
+    # Guardar outputs
     escribir_log(resultados)
     guardar_matrices(resultados)
     evaluar_fallo_estructural()
@@ -204,6 +225,7 @@ def ejecutar_experimento(ruta_fasta):
     ]
     guardar_resultados(filas_csv)
 
+     # Crear DataFrame para gráficas
     df = pd.DataFrame(
         [
             {
@@ -217,9 +239,13 @@ def ejecutar_experimento(ruta_fasta):
     generar_figuras(df)
 
 
+# Función principal
 def ejecutar_experimentos():
     ejecutar_experimento("data/processed/dbnFiles/dataset.fasta")
 
 
+# Punto de entrada del script
 if __name__ == "__main__":
     ejecutar_experimentos()
+
+##Para cada secuencia, se calculan los pares de bases, el score y el tiempo de ejecución, comparando los resultados con estructuras reales (DBN) y con el modelo ViennaRNA.
