@@ -2,6 +2,8 @@
 
 ## Predicción de estructura secundaria de RNA con Nussinov
 
+Proyecto realizado por **Laura Pérez López**, **Gloria Díaz Jiménez** e **Isabel Roldán Barros**.
+
 El análisis de la estructura secundaria del RNA es un problema fundamental en bioinformática, ya que determina en gran medida su función biológica.
 
 Este proyecto implementa el algoritmo de **Nussinov** para predecir estructura secundaria de RNA mediante programación dinámica. La implementación mantiene el esquema clásico **O(n^3)** y añade dos restricciones sencillas para acercarse algo más al comportamiento estructural real:
