@@ -1,7 +1,10 @@
+"""Medición básica de tiempo y score para un algoritmo de predicción."""
+
 import time
 
 
 def evaluar_algoritmo(funcion, secuencia):
+    """Ejecuta una función de predicción y resume longitud, score y tiempo."""
     inicio = time.time()
     matriz = funcion(secuencia)
     fin = time.time()

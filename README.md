@@ -115,6 +115,8 @@ Bioinformatica-proyecto/
 
 El dataset **no está subido al repositorio** porque su tamaño es demasiado grande para incluirlo de forma razonable.
 
+Sin embargo, sí se proporciona en `data/processed/` una versión ya filtrada y preparada del conjunto de datos, suficiente para ejecutar directamente los experimentos y reproducir los resultados principales del proyecto sin necesidad de repetir toda la descarga y el preprocesado inicial.
+
 Fuente de descarga:
 
 - [bpRNA download](https://bprna.cgrb.oregonstate.edu/download.php)
@@ -175,7 +177,13 @@ pip install -r requirements.txt
 
 En Mac/Linux puede ser necesario usar `python3` en lugar de `python`. Una vez activado el entorno virtual, normalmente puede usarse `python` en todos los comandos.
 
-La comparación con ViennaRNA/RNAfold es opcional. Si no está disponible, el núcleo algorítmico del proyecto sigue funcionando y la comparación con `RNA.fold` pasará a mostrarse como no disponible.
+La comparación con ViennaRNA/RNAfold es opcional. Si la librería no está disponible, el núcleo algorítmico del proyecto sigue funcionando y la comparación con `RNA.fold` pasará a mostrarse como no disponible.
+
+Si `pip install -r requirements.txt` no instala correctamente ViennaRNA en tu sistema, puede intentarse de forma separada:
+
+```bash
+pip install ViennaRNA
+```
 
 ## Ejecución rápida
 
@@ -191,7 +199,7 @@ Si el comando anterior no funciona en Mac/Linux, usar:
 python3 -m src.main
 ```
 
-### Interpretación de la salida
+### Interpretación básica de la salida
 
 Al ejecutar el script principal, se muestra por consola un resumen por cada secuencia analizada. Un ejemplo es:
 
@@ -221,65 +229,22 @@ Cada campo representa:
 
 - **Secuencia**: cadena de RNA analizada.
 - **Longitud**: número de nucleótidos de la secuencia.
-
-#### Nussinov
 - **Nussinov**: estructura secundaria predicha en formato *dot-bracket*.
 - **Nussinov Pares**: número de emparejamientos encontrados.
-- **Nussinov Score**: valor de la función objetivo del algoritmo:
-
-```text
-Nussinov Score = suma de w(i,j) para cada par (i,j)
-```
-
-donde: w(i,j) = 1 si el par es válido y cumple las restricciones estructurales.
-
-Si el loop inducido por el par supera el umbral definido, se aplica una penalización:
-
-```text
-w(i,j) = 1 - long_loop_penalty
-```
-
-En este proyecto:
-
-- long_loop_penalty = 0.25
-- long_loop_threshold = 30
-- min_loop_length = 3
-
-
-> Por tanto, Nussinov no maximiza necesariamente solo el número de pares, sino una puntuación estructural que penaliza ciertos emparejamientos.
-
-#### Brute Force (validación exacta)
+- **Nussinov Score**: valor de la función objetivo del algoritmo, que depende de los emparejamientos válidos y de las restricciones estructurales.
 - **BruteForce**: estructura óptima obtenida mediante resolución exacta alternativa.
-- **BruteForce Pares**: número máximo de pares posible.
-- **BruteForce Score**: valor óptimo según el modelo exacto:
-
-```text
-BruteForce Score = suma de w(i,j) para cada par (i,j)
-```
-
-Es decir, el brute force no se utiliza como modelo biológico, sino como comprobación exacta de que Nussinov alcanza el óptimo definido por la misma función de puntuación.
-
-> Por ello, pueden existir estructuras diferentes con el mismo score óptimo. En esos casos, lo importante no es que el dot-bracket sea idéntico, sino que el valor óptimo coincida.
-
-
+- **BruteForce Pares**: número de pares de esa solución exacta.
+- **BruteForce Score**: valor óptimo de la misma función de puntuación usada por Nussinov.
 - **Coincide óptimo**: indica si Nussinov alcanza el mismo valor óptimo.
-
-> Si el score coincide, Nussinov ha alcanzado el óptimo definido por el modelo. El número de pares o la estructura concreta pueden diferir si existen varias soluciones óptimas equivalentes o si algunos pares reciben penalización.
-
-#### ViennaRNA (referencia biológica)
 - **ViennaRNA**: estructura predicha por RNAfold.
 - **ViennaRNA Pares**: número de emparejamientos en dicha estructura.
-- **Energía ViennaRNA**: energía libre asociada (más negativa implica mayor estabilidad).
+- **Energía ViennaRNA**: energía libre asociada a esa predicción.
 
-> ViennaRNA no maximiza el número de pares, sino que minimiza la energía libre, por lo que no se espera coincidencia exacta con Nussinov.
+> Nussinov y brute force deben coincidir en el **score óptimo**. ViennaRNA no tiene por qué coincidir con ellos, ya que optimiza energía libre y no el mismo criterio combinatorio.
 
 ---
 
-En conjunto, esta salida permite:
-
-- validar la correctitud del algoritmo (comparación con brute force),
-- analizar el comportamiento del modelo frente a datos reales (bpRNA),
-- y contrastar los resultados con un modelo biológicamente más realista (ViennaRNA).
+En conjunto, esta salida permite validar la correctitud algorítmica mediante brute force y contrastar la predicción con una referencia biológicamente más realista como ViennaRNA.
 
 ### Preprocesado del dataset descargado
 
@@ -323,7 +288,7 @@ python3 app.py
 Al ejecutar el comando, debería aparecer un mensaje como:
 
 ```bash
-Running on http://127.0.0.1:5000
+Running on http://127.0.0.1:5001
 ```
 
 Abrir esa URL en el navegador. 
@@ -334,14 +299,14 @@ Una salida esperada al ejecutar el codigo app.py es la siguiente
 * Serving Flask app 'app'
  * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5001
 Press CTRL+C to quit
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 111-221-022
  ```
 
-> Nota: si el puerto 5000 está ocupado, Flask puede usar otro puerto (por ejemplo 5001). En ese caso, abrir la URL que aparezca en la terminal.
+> Nota: en la configuración actual del proyecto, Flask se lanza en el puerto `5001`. Si se modifica `app.py`, debe abrirse la URL que aparezca en la terminal.
 
 ### Experimentos
 
@@ -395,12 +360,6 @@ Para cada secuencia se registran métricas como la longitud, el score obtenido p
 
 También se incluye un pequeño **test de fallo estructural** en `results/metrics/fallo_estructural.txt` para dejar documentado que maximizar pares no equivale necesariamente a modelar la estructura biológicamente o termodinámicamente más plausible.
 
-## Entorno de desarrollo
-
-El proyecto ha sido desarrollado principalmente utilizando **Visual Studio Code**. Sin embargo, no depende de ningún entorno específico y puede ejecutarse en cualquier IDE o editor compatible con Python, como PyCharm o Eclipse.
-
-Los archivos de configuración propios de cada entorno (por ejemplo `.project` de Eclipse) no son necesarios para la ejecución del proyecto.
-
 ## Tests
 
 ```bash
@@ -422,4 +381,4 @@ python3 -m pytest -q
 
 ## Conclusión
 
-El algoritmo de Nussinov es correcto desde el punto de vista algorítmico, pero presenta limitaciones como modelo biológico. Aun así, permite entender de forma clara el problema de predicción de estructura secundaria de RNA y sirve como base para modelos más avanzados.
+El algoritmo de Nussinov implementado en este proyecto es correcto desde el punto de vista algorítmico y útil como aproximación didáctica al problema. Sin embargo, al compararlo con estructuras reales y con modelos termodinámicos como ViennaRNA, se observan limitaciones claras derivadas de la simplicidad del criterio de optimización. Precisamente por ello, el proyecto resulta útil tanto para estudiar programación dinámica como para entender las diferencias entre modelos combinatorios y modelos biofísicos más realistas.
