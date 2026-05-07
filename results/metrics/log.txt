@@ -12,7 +12,7 @@ BruteForce score → 23.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01147 s
+Tiempo: 0.01096 s
 ===================================
 
 ===================================
@@ -29,7 +29,7 @@ BruteForce score → 33.75
 BruteForce pares → 35
 Coincide óptimo: True
 
-Tiempo: 0.02867 s
+Tiempo: 0.02780 s
 ===================================
 
 ===================================
@@ -46,7 +46,7 @@ BruteForce score → 6.0
 BruteForce pares → 6
 Coincide óptimo: True
 
-Tiempo: 0.00066 s
+Tiempo: 0.00067 s
 ===================================
 
 ===================================
@@ -63,7 +63,7 @@ BruteForce score → 30.75
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02448 s
+Tiempo: 0.02452 s
 ===================================
 
 ===================================
@@ -80,7 +80,7 @@ BruteForce score → 9.0
 BruteForce pares → 9
 Coincide óptimo: True
 
-Tiempo: 0.00152 s
+Tiempo: 0.00149 s
 ===================================
 
 ===================================
@@ -97,7 +97,7 @@ BruteForce score → 35.25
 BruteForce pares → 36
 Coincide óptimo: True
 
-Tiempo: 0.03943 s
+Tiempo: 0.03852 s
 ===================================
 
 ===================================
@@ -114,7 +114,7 @@ BruteForce score → 11.0
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00177 s
+Tiempo: 0.00170 s
 ===================================
 
 ===================================
@@ -131,7 +131,7 @@ BruteForce score → 11.0
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00242 s
+Tiempo: 0.00225 s
 ===================================
 
 ===================================
@@ -148,7 +148,7 @@ BruteForce score → 24.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.03508 s
+Tiempo: 0.01134 s
 ===================================
 
 ===================================
@@ -165,7 +165,7 @@ BruteForce score → 25.0
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01803 s
+Tiempo: 0.01750 s
 ===================================
 
 ===================================
@@ -182,7 +182,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01901 s
+Tiempo: 0.01224 s
 ===================================
 
 ===================================
@@ -199,7 +199,7 @@ BruteForce score → 25.75
 BruteForce pares → 28
 Coincide óptimo: True
 
-Tiempo: 0.01580 s
+Tiempo: 0.01526 s
 ===================================
 
 ===================================
@@ -216,7 +216,7 @@ BruteForce score → 26.0
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01220 s
+Tiempo: 0.01177 s
 ===================================
 
 ===================================
@@ -233,7 +233,7 @@ BruteForce score → 15.0
 BruteForce pares → 15
 Coincide óptimo: True
 
-Tiempo: 0.00426 s
+Tiempo: 0.00411 s
 ===================================
 
 ===================================
@@ -250,7 +250,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01367 s
+Tiempo: 0.01321 s
 ===================================
 
 ===================================
@@ -267,7 +267,7 @@ BruteForce score → 39.25
 BruteForce pares → 42
 Coincide óptimo: True
 
-Tiempo: 0.04805 s
+Tiempo: 0.04691 s
 ===================================
 
 ===================================
@@ -284,7 +284,7 @@ BruteForce score → 38.25
 BruteForce pares → 40
 Coincide óptimo: True
 
-Tiempo: 0.04865 s
+Tiempo: 0.04678 s
 ===================================
 
 ===================================
@@ -301,7 +301,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01216 s
+Tiempo: 0.01181 s
 ===================================
 
 ===================================
@@ -318,7 +318,7 @@ BruteForce score → 27.25
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01596 s
+Tiempo: 0.01521 s
 ===================================
 
 ===================================
@@ -335,7 +335,7 @@ BruteForce score → 31.5
 BruteForce pares → 32
 Coincide óptimo: True
 
-Tiempo: 0.02779 s
+Tiempo: 0.02694 s
 ===================================
 
 ===================================
@@ -352,7 +352,7 @@ BruteForce score → 17.5
 BruteForce pares → 18
 Coincide óptimo: True
 
-Tiempo: 0.00565 s
+Tiempo: 0.00563 s
 ===================================
 
 ===================================
@@ -369,7 +369,7 @@ BruteForce score → 30.75
 BruteForce pares → 32
 Coincide óptimo: True
 
-Tiempo: 0.02167 s
+Tiempo: 0.02119 s
 ===================================
 
 ===================================
@@ -386,7 +386,7 @@ BruteForce score → 6.0
 BruteForce pares → 6
 Coincide óptimo: True
 
-Tiempo: 0.00057 s
+Tiempo: 0.00053 s
 ===================================
 
 ===================================
@@ -403,7 +403,7 @@ BruteForce score → 26.25
 BruteForce pares → 28
 Coincide óptimo: True
 
-Tiempo: 0.01305 s
+Tiempo: 0.01267 s
 ===================================
 
 ===================================
@@ -420,7 +420,7 @@ BruteForce score → 25.0
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01288 s
+Tiempo: 0.01270 s
 ===================================
 
 ===================================
@@ -437,7 +437,7 @@ BruteForce score → 28.75
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01903 s
+Tiempo: 0.01867 s
 ===================================
 
 ===================================
@@ -454,7 +454,7 @@ BruteForce score → 17.0
 BruteForce pares → 17
 Coincide óptimo: True
 
-Tiempo: 0.00486 s
+Tiempo: 0.00483 s
 ===================================
 
 ===================================
@@ -471,7 +471,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01190 s
+Tiempo: 0.01175 s
 ===================================
 
 ===================================
@@ -488,7 +488,7 @@ BruteForce score → 35.0
 BruteForce pares → 36
 Coincide óptimo: True
 
-Tiempo: 0.03442 s
+Tiempo: 0.03373 s
 ===================================
 
 ===================================
@@ -522,7 +522,7 @@ BruteForce score → 24.75
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01143 s
+Tiempo: 0.01130 s
 ===================================
 
 ===================================
@@ -539,7 +539,7 @@ BruteForce score → 24.75
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01265 s
+Tiempo: 0.01220 s
 ===================================
 
 ===================================
@@ -556,7 +556,7 @@ BruteForce score → 10.5
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00186 s
+Tiempo: 0.00182 s
 ===================================
 
 ===================================
@@ -573,7 +573,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01336 s
+Tiempo: 0.01314 s
 ===================================
 
 ===================================
@@ -590,7 +590,7 @@ BruteForce score → 29.25
 BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.02005 s
+Tiempo: 0.01985 s
 ===================================
 
 ===================================
@@ -607,7 +607,7 @@ BruteForce score → 5.0
 BruteForce pares → 5
 Coincide óptimo: True
 
-Tiempo: 0.00037 s
+Tiempo: 0.00040 s
 ===================================
 
 ===================================
@@ -624,7 +624,7 @@ BruteForce score → 11.0
 BruteForce pares → 11
 Coincide óptimo: True
 
-Tiempo: 0.00212 s
+Tiempo: 0.00213 s
 ===================================
 
 ===================================
@@ -641,7 +641,7 @@ BruteForce score → 25.0
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01390 s
+Tiempo: 0.01367 s
 ===================================
 
 ===================================
@@ -675,7 +675,7 @@ BruteForce score → 31.5
 BruteForce pares → 32
 Coincide óptimo: True
 
-Tiempo: 0.02362 s
+Tiempo: 0.02354 s
 ===================================
 
 ===================================
@@ -692,7 +692,7 @@ BruteForce score → 32.75
 BruteForce pares → 33
 Coincide óptimo: True
 
-Tiempo: 0.02898 s
+Tiempo: 0.02854 s
 ===================================
 
 ===================================
@@ -709,7 +709,7 @@ BruteForce score → 26.25
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01376 s
+Tiempo: 0.01363 s
 ===================================
 
 ===================================
@@ -726,7 +726,7 @@ BruteForce score → 24.0
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01292 s
+Tiempo: 0.01274 s
 ===================================
 
 ===================================
@@ -743,7 +743,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01276 s
+Tiempo: 0.01266 s
 ===================================
 
 ===================================
@@ -760,7 +760,7 @@ BruteForce score → 24.0
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01097 s
+Tiempo: 0.01089 s
 ===================================
 
 ===================================
@@ -777,7 +777,7 @@ BruteForce score → 24.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01324 s
+Tiempo: 0.01313 s
 ===================================
 
 ===================================
@@ -794,7 +794,7 @@ BruteForce score → 34.0
 BruteForce pares → 35
 Coincide óptimo: True
 
-Tiempo: 0.03128 s
+Tiempo: 0.03106 s
 ===================================
 
 ===================================
@@ -811,7 +811,7 @@ BruteForce score → 24.75
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01267 s
+Tiempo: 0.01270 s
 ===================================
 
 ===================================
@@ -828,7 +828,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01341 s
+Tiempo: 0.01323 s
 ===================================
 
 ===================================
@@ -845,7 +845,7 @@ BruteForce score → 27.75
 BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.01529 s
+Tiempo: 0.01521 s
 ===================================
 
 ===================================
@@ -862,7 +862,7 @@ BruteForce score → 17.5
 BruteForce pares → 18
 Coincide óptimo: True
 
-Tiempo: 0.00566 s
+Tiempo: 0.00563 s
 ===================================
 
 ===================================
@@ -879,7 +879,7 @@ BruteForce score → 25.0
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01280 s
+Tiempo: 0.01303 s
 ===================================
 
 ===================================
@@ -896,7 +896,7 @@ BruteForce score → 36.5
 BruteForce pares → 39
 Coincide óptimo: True
 
-Tiempo: 0.04177 s
+Tiempo: 0.04156 s
 ===================================
 
 ===================================
@@ -913,7 +913,7 @@ BruteForce score → 11.5
 BruteForce pares → 12
 Coincide óptimo: True
 
-Tiempo: 0.00209 s
+Tiempo: 0.00195 s
 ===================================
 
 ===================================
@@ -930,7 +930,7 @@ BruteForce score → 29.75
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02175 s
+Tiempo: 0.02125 s
 ===================================
 
 ===================================
@@ -947,7 +947,7 @@ BruteForce score → 22.0
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01210 s
+Tiempo: 0.01177 s
 ===================================
 
 ===================================
@@ -964,7 +964,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01307 s
+Tiempo: 0.01272 s
 ===================================
 
 ===================================
@@ -981,7 +981,7 @@ BruteForce score → 24.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01154 s
+Tiempo: 0.01135 s
 ===================================
 
 ===================================
@@ -998,7 +998,7 @@ BruteForce score → 15.75
 BruteForce pares → 16
 Coincide óptimo: True
 
-Tiempo: 0.00470 s
+Tiempo: 0.00436 s
 ===================================
 
 ===================================
@@ -1032,7 +1032,7 @@ BruteForce score → 29.5
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02153 s
+Tiempo: 0.02066 s
 ===================================
 
 ===================================
@@ -1049,7 +1049,7 @@ BruteForce score → 25.75
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01377 s
+Tiempo: 0.01319 s
 ===================================
 
 ===================================
@@ -1066,7 +1066,7 @@ BruteForce score → 27.75
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01989 s
+Tiempo: 0.01926 s
 ===================================
 
 ===================================
@@ -1083,7 +1083,7 @@ BruteForce score → 25.25
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01356 s
+Tiempo: 0.01275 s
 ===================================
 
 ===================================
@@ -1100,7 +1100,7 @@ BruteForce score → 23.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01079 s
+Tiempo: 0.01057 s
 ===================================
 
 ===================================
@@ -1117,7 +1117,7 @@ BruteForce score → 24.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01345 s
+Tiempo: 0.01325 s
 ===================================
 
 ===================================
@@ -1134,7 +1134,7 @@ BruteForce score → 23.5
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01130 s
+Tiempo: 0.01092 s
 ===================================
 
 ===================================
@@ -1151,7 +1151,7 @@ BruteForce score → 10.0
 BruteForce pares → 10
 Coincide óptimo: True
 
-Tiempo: 0.00151 s
+Tiempo: 0.00145 s
 ===================================
 
 ===================================
@@ -1168,7 +1168,7 @@ BruteForce score → 23.75
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.00944 s
+Tiempo: 0.00926 s
 ===================================
 
 ===================================
@@ -1185,7 +1185,7 @@ BruteForce score → 23.5
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01472 s
+Tiempo: 0.01423 s
 ===================================
 
 ===================================
@@ -1202,7 +1202,7 @@ BruteForce score → 23.25
 BruteForce pares → 25
 Coincide óptimo: True
 
-Tiempo: 0.01121 s
+Tiempo: 0.01089 s
 ===================================
 
 ===================================
@@ -1219,7 +1219,7 @@ BruteForce score → 16.0
 BruteForce pares → 16
 Coincide óptimo: True
 
-Tiempo: 0.00428 s
+Tiempo: 0.00412 s
 ===================================
 
 ===================================
@@ -1236,7 +1236,7 @@ BruteForce score → 26.0
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01384 s
+Tiempo: 0.01315 s
 ===================================
 
 ===================================
@@ -1253,7 +1253,7 @@ BruteForce score → 23.75
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01167 s
+Tiempo: 0.01135 s
 ===================================
 
 ===================================
@@ -1270,7 +1270,7 @@ BruteForce score → 30.75
 BruteForce pares → 31
 Coincide óptimo: True
 
-Tiempo: 0.02604 s
+Tiempo: 0.02541 s
 ===================================
 
 ===================================
@@ -1287,7 +1287,7 @@ BruteForce score → 4.0
 BruteForce pares → 4
 Coincide óptimo: True
 
-Tiempo: 0.00029 s
+Tiempo: 0.00028 s
 ===================================
 
 ===================================
@@ -1304,7 +1304,7 @@ BruteForce score → 24.25
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01105 s
+Tiempo: 0.01090 s
 ===================================
 
 ===================================
@@ -1321,7 +1321,7 @@ BruteForce score → 25.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01322 s
+Tiempo: 0.01265 s
 ===================================
 
 ===================================
@@ -1338,7 +1338,7 @@ BruteForce score → 28.25
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.02445 s
+Tiempo: 0.02399 s
 ===================================
 
 ===================================
@@ -1355,7 +1355,7 @@ BruteForce score → 23.75
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01312 s
+Tiempo: 0.01278 s
 ===================================
 
 ===================================
@@ -1389,7 +1389,7 @@ BruteForce score → 23.5
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.00932 s
+Tiempo: 0.00931 s
 ===================================
 
 ===================================
@@ -1406,7 +1406,7 @@ BruteForce score → 22.25
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01128 s
+Tiempo: 0.01090 s
 ===================================
 
 ===================================
@@ -1423,7 +1423,7 @@ BruteForce score → 23.25
 BruteForce pares → 24
 Coincide óptimo: True
 
-Tiempo: 0.01067 s
+Tiempo: 0.01058 s
 ===================================
 
 ===================================
@@ -1440,7 +1440,7 @@ BruteForce score → 26.75
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01448 s
+Tiempo: 0.01416 s
 ===================================
 
 ===================================
@@ -1457,7 +1457,7 @@ BruteForce score → 11.75
 BruteForce pares → 12
 Coincide óptimo: True
 
-Tiempo: 0.00242 s
+Tiempo: 0.00240 s
 ===================================
 
 ===================================
@@ -1474,7 +1474,7 @@ BruteForce score → 38.0
 BruteForce pares → 41
 Coincide óptimo: True
 
-Tiempo: 0.04774 s
+Tiempo: 0.04693 s
 ===================================
 
 ===================================
@@ -1491,7 +1491,7 @@ BruteForce score → 32.0
 BruteForce pares → 34
 Coincide óptimo: True
 
-Tiempo: 0.02779 s
+Tiempo: 0.02702 s
 ===================================
 
 ===================================
@@ -1508,7 +1508,7 @@ BruteForce score → 4.0
 BruteForce pares → 4
 Coincide óptimo: True
 
-Tiempo: 0.00029 s
+Tiempo: 0.00028 s
 ===================================
 
 ===================================
@@ -1525,7 +1525,7 @@ BruteForce score → 27.75
 BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.01862 s
+Tiempo: 0.01820 s
 ===================================
 
 ===================================
@@ -1542,7 +1542,7 @@ BruteForce score → 36.75
 BruteForce pares → 38
 Coincide óptimo: True
 
-Tiempo: 0.03954 s
+Tiempo: 0.03856 s
 ===================================
 
 ===================================
@@ -1559,7 +1559,7 @@ BruteForce score → 22.75
 BruteForce pares → 23
 Coincide óptimo: True
 
-Tiempo: 0.01164 s
+Tiempo: 0.01131 s
 ===================================
 
 ===================================
@@ -1576,7 +1576,7 @@ BruteForce score → 20.0
 BruteForce pares → 20
 Coincide óptimo: True
 
-Tiempo: 0.00765 s
+Tiempo: 0.00749 s
 ===================================
 
 ===================================
@@ -1593,7 +1593,7 @@ BruteForce score → 25.5
 BruteForce pares → 27
 Coincide óptimo: True
 
-Tiempo: 0.01528 s
+Tiempo: 0.01469 s
 ===================================
 
 ===================================
@@ -1610,7 +1610,7 @@ BruteForce score → 29.25
 BruteForce pares → 30
 Coincide óptimo: True
 
-Tiempo: 0.02180 s
+Tiempo: 0.02131 s
 ===================================
 
 ===================================
@@ -1627,7 +1627,7 @@ BruteForce score → 26.75
 BruteForce pares → 28
 Coincide óptimo: True
 
-Tiempo: 0.01342 s
+Tiempo: 0.01324 s
 ===================================
 
 ===================================
@@ -1644,7 +1644,7 @@ BruteForce score → 25.75
 BruteForce pares → 28
 Coincide óptimo: True
 
-Tiempo: 0.01209 s
+Tiempo: 0.01186 s
 ===================================
 
 ===================================
@@ -1661,7 +1661,7 @@ BruteForce score → 23.5
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01251 s
+Tiempo: 0.01228 s
 ===================================
 
 ===================================
@@ -1678,7 +1678,7 @@ BruteForce score → 25.25
 BruteForce pares → 26
 Coincide óptimo: True
 
-Tiempo: 0.01401 s
+Tiempo: 0.01367 s
 ===================================
 
 ===================================
@@ -1695,6 +1695,6 @@ BruteForce score → 28.0
 BruteForce pares → 29
 Coincide óptimo: True
 
-Tiempo: 0.01874 s
+Tiempo: 0.01867 s
 ===================================
 
